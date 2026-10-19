@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "lossrunrefresh": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/lossrunrefresh",
+      "auth": {
+        "CLIENT_ID": "106ed390-3b75-4ffe-9602-a8f0de6d3869",
+        "CLIENT_SECRET": "",
+        "scopes": [
+          "lossrunrefresh:evaluate"
+        ]
+      }
+    }
+  }
+}

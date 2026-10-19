@@ -4,10 +4,19 @@
   "plannedResource": "https://api.klisten.co.kr/mcp/entityresolver",
   "plannedScope": "entityresolver:evaluate",
   "endpointProductionVerified": false,
-  "publicOAuthClientId": null,
-  "oauthClientRegistered": false,
+  "publicOAuthClientId": "cd60de33-e197-4d00-bf69-abe8d66e61f8",
+  "oauthClientRegistered": true,
   "resourceBindingEnabled": false,
-  "activeMcpConfigurationIncluded": false,
+  "activeMcpConfigurationIncluded": true,
   "syntheticClientIdsUsed": false,
-  "instructions": "Do not manufacture a client ID, copy another product client, paste real API keys/passwords or activate a connection. Obtain authorized real endpoint/client evidence before creating host configuration."
+  "instructions": "Registered public client/URL config included for review. No native install, account change, grant activation or real OAuth consent is performed. Runtime endpoints and registered bindings must pass actual acceptance before claiming install readiness.",
+  "registeredResource": "https://api.klisten.co.kr/mcp/entityresolver",
+  "registeredScope": "entityresolver:evaluate",
+  "actualHostInstallVerified": false,
+  "productionEndpointVerified": false,
+  "hostRegisteredRedirectUris": [
+    "https://www.cursor.com/agents/mcp/oauth/callback",
+    "http://localhost:8787/callback"
+  ],
+  "tokenEndpointAuthMethod": "none"
 }

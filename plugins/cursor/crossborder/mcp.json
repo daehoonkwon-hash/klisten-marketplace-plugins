@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "crossborder": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/crossborder",
+      "auth": {
+        "CLIENT_ID": "e9655095-665b-4f9d-9b04-0246493cc896",
+        "CLIENT_SECRET": "",
+        "scopes": [
+          "crossborder:evaluate"
+        ]
+      }
+    }
+  }
+}

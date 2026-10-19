@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "spendrecovery": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/spendrecovery",
+      "auth": {
+        "CLIENT_ID": "5f93c8f4-0a33-4f01-82ae-ab87faab2387",
+        "CLIENT_SECRET": "",
+        "scopes": [
+          "spendrecovery:evaluate"
+        ]
+      }
+    }
+  }
+}

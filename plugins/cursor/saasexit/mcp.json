@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "saasexit": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/saasexit",
+      "auth": {
+        "CLIENT_ID": "0063b335-3072-4996-a28f-f2b1d7dabfed",
+        "CLIENT_SECRET": "",
+        "scopes": [
+          "saasexit:evaluate"
+        ]
+      }
+    }
+  }
+}

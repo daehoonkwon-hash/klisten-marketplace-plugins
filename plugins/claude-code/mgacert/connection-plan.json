@@ -8,11 +8,20 @@
   "productionEndpointVerified": false,
   "productionScopeGranted": false,
   "productionScope": null,
-  "publicOAuthClientId": null,
-  "oauthClientRegistered": false,
+  "publicOAuthClientId": "d0f48fdb-e73a-4998-91ca-200c2040d713",
+  "oauthClientRegistered": true,
   "resourceBindingEnabled": false,
-  "activeMcpConfigurationIncluded": false,
+  "activeMcpConfigurationIncluded": true,
   "syntheticClientIdsUsed": false,
   "actualHostInstallVerified": false,
-  "transportEnvelopeVerified": false
+  "transportEnvelopeVerified": false,
+  "registeredResource": "https://api.klisten.co.kr/mcp/mgacert",
+  "registeredScope": "mgacert:evaluate",
+  "endpointProductionVerified": false,
+  "hostRegisteredRedirectUris": [
+    "https://claude.ai/api/mcp/auth_callback",
+    "http://localhost:8080/callback"
+  ],
+  "tokenEndpointAuthMethod": "none",
+  "instructions": "Registered public client/URL config included for review. No native install, account change, grant activation or real OAuth consent is performed. Runtime endpoints and registered bindings must pass actual acceptance before claiming install readiness."
 }

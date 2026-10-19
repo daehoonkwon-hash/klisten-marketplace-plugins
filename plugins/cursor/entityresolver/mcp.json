@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "entityresolver": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/entityresolver",
+      "auth": {
+        "CLIENT_ID": "cd60de33-e197-4d00-bf69-abe8d66e61f8",
+        "CLIENT_SECRET": "",
+        "scopes": [
+          "entityresolver:evaluate"
+        ]
+      }
+    }
+  }
+}

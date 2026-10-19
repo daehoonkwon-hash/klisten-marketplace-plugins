@@ -8,11 +8,20 @@
   "productionEndpointVerified": false,
   "productionScopeGranted": false,
   "productionScope": null,
-  "publicOAuthClientId": null,
-  "oauthClientRegistered": false,
+  "publicOAuthClientId": "106ed390-3b75-4ffe-9602-a8f0de6d3869",
+  "oauthClientRegistered": true,
   "resourceBindingEnabled": false,
-  "activeMcpConfigurationIncluded": false,
+  "activeMcpConfigurationIncluded": true,
   "syntheticClientIdsUsed": false,
   "actualHostInstallVerified": false,
-  "transportEnvelopeVerified": false
+  "transportEnvelopeVerified": false,
+  "registeredResource": "https://api.klisten.co.kr/mcp/lossrunrefresh",
+  "registeredScope": "lossrunrefresh:evaluate",
+  "endpointProductionVerified": false,
+  "hostRegisteredRedirectUris": [
+    "https://www.cursor.com/agents/mcp/oauth/callback",
+    "http://localhost:8787/callback"
+  ],
+  "tokenEndpointAuthMethod": "none",
+  "instructions": "Registered public client/URL config included for review. No native install, account change, grant activation or real OAuth consent is performed. Runtime endpoints and registered bindings must pass actual acceptance before claiming install readiness."
 }

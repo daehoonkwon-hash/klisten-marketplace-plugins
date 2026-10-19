@@ -8,11 +8,20 @@
   "productionEndpointVerified": false,
   "productionScopeGranted": false,
   "productionScope": null,
-  "publicOAuthClientId": null,
-  "oauthClientRegistered": false,
+  "publicOAuthClientId": "64049949-ade8-41e8-a647-703158bebd39",
+  "oauthClientRegistered": true,
   "resourceBindingEnabled": false,
-  "activeMcpConfigurationIncluded": false,
+  "activeMcpConfigurationIncluded": true,
   "syntheticClientIdsUsed": false,
   "actualHostInstallVerified": false,
-  "transportEnvelopeVerified": false
+  "transportEnvelopeVerified": false,
+  "registeredResource": "https://api.klisten.co.kr/mcp/adupermit",
+  "registeredScope": "adupermit:evaluate",
+  "endpointProductionVerified": false,
+  "hostRegisteredRedirectUris": [
+    "https://claude.ai/api/mcp/auth_callback",
+    "http://localhost:8080/callback"
+  ],
+  "tokenEndpointAuthMethod": "none",
+  "instructions": "Registered public client/URL config included for review. No native install, account change, grant activation or real OAuth consent is performed. Runtime endpoints and registered bindings must pass actual acceptance before claiming install readiness."
 }

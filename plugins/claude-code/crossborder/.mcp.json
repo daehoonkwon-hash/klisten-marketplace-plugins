@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "crossborder": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/crossborder",
+      "oauth": {
+        "clientId": "4f1cc68f-0c14-44f5-985f-93f96250f8ac",
+        "callbackPort": 8080,
+        "scopes": "crossborder:evaluate"
+      }
+    }
+  }
+}

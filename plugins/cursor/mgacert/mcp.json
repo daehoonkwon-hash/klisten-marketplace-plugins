@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "mgacert": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/mgacert",
+      "auth": {
+        "CLIENT_ID": "d5909c22-82f5-48e6-b368-a422e950a365",
+        "CLIENT_SECRET": "",
+        "scopes": [
+          "mgacert:evaluate"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "contextcondense": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/contextcondense",
+      "auth": {
+        "CLIENT_ID": "e7946b62-a99d-4eee-8a95-a57ac8f4a623",
+        "CLIENT_SECRET": "",
+        "scopes": [
+          "contextcondense:evaluate"
+        ]
+      }
+    }
+  }
+}

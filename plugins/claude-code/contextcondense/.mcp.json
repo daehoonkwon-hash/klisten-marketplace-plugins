@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "contextcondense": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/contextcondense",
+      "oauth": {
+        "clientId": "8d792994-143f-4b45-8c4a-a48fe78b6057",
+        "callbackPort": 8080,
+        "scopes": "contextcondense:evaluate"
+      }
+    }
+  }
+}

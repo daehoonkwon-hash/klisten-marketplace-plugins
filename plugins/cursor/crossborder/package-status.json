@@ -1,5 +1,5 @@
 {
-  "status": "draft_notinstallready_MIT",
+  "status": "registered-public-oauth-local-candidate-not-native-verified",
   "canonicalProductKey": "sku3_crossborder",
   "publicResourceSlug": "crossborder",
   "host": "cursor",
@@ -11,18 +11,25 @@
   "publicUploadPerformed": false,
   "marketplaceSubmitted": false,
   "published": false,
-  "oauthClientId": null,
+  "oauthClientId": "e9655095-665b-4f9d-9b04-0246493cc896",
   "productionEndpointRegistered": false,
-  "activeMcpConfigurationIncluded": false,
+  "activeMcpConfigurationIncluded": true,
   "safeOperationCount": 7,
   "excludedInsuranceOperations": [
     "releaseApproval",
     "issueCertificate"
   ],
   "blockers": [
-    "Explicit license/public upload approval absent; prior approval for different four products does not apply",
-    "Real product endpoint/resource/scope and product-specific public OAuth client not registered or verified",
-    "Final authenticated public transport envelope/idempotency/requestId contract and host manifest/install flow unverified",
-    "Production tenant/ledger/revocation mapping and SKU-specific durability/legal/source/financial gates remain unverified"
-  ]
+    "Current production rollout/registry enable and actual host parser/install/OAuth/discovery/tool execution are not verified by this local package build.",
+    "Source publication is separately approved but this local candidate has not been pushed; no marketplace submission or legal acceptance performed.",
+    "Keep product-specific supplied-data and legal/financial capability limits; no scope beyond crossborder:evaluate."
+  ],
+  "oauthClientRegistered": true,
+  "nativeInstallationVerified": false,
+  "actualHostInstallVerified": false,
+  "productionEndpointVerified": false,
+  "resourceBindingEnabled": false,
+  "externalUploadPerformed": false,
+  "sourceCandidateOnly": true,
+  "publicOAuthConfigurationOnly": true
 }

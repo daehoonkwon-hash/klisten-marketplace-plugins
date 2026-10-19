@@ -4,10 +4,19 @@
   "plannedResource": "https://api.klisten.co.kr/mcp/saasexit",
   "plannedScope": "saasexit:evaluate",
   "endpointProductionVerified": false,
-  "publicOAuthClientId": null,
-  "oauthClientRegistered": false,
+  "publicOAuthClientId": "f61f7c95-59c5-43d2-9c04-3eda9f637883",
+  "oauthClientRegistered": true,
   "resourceBindingEnabled": false,
-  "activeMcpConfigurationIncluded": false,
+  "activeMcpConfigurationIncluded": true,
   "syntheticClientIdsUsed": false,
-  "instructions": "Do not manufacture a client ID, copy another product client, paste real API keys/passwords or activate a connection. Obtain authorized real endpoint/client evidence before creating host configuration."
+  "instructions": "Registered public client/URL config included for review. No native install, account change, grant activation or real OAuth consent is performed. Runtime endpoints and registered bindings must pass actual acceptance before claiming install readiness.",
+  "registeredResource": "https://api.klisten.co.kr/mcp/saasexit",
+  "registeredScope": "saasexit:evaluate",
+  "actualHostInstallVerified": false,
+  "productionEndpointVerified": false,
+  "hostRegisteredRedirectUris": [
+    "https://claude.ai/api/mcp/auth_callback",
+    "http://localhost:8080/callback"
+  ],
+  "tokenEndpointAuthMethod": "none"
 }

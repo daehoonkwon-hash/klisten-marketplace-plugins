@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "adupermit": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/adupermit",
+      "auth": {
+        "CLIENT_ID": "17edeead-cfa6-4649-b1d4-62813f11cdc7",
+        "CLIENT_SECRET": "",
+        "scopes": [
+          "adupermit:evaluate"
+        ]
+      }
+    }
+  }
+}

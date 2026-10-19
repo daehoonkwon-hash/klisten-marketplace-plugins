@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "mrocompat": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/mrocompat",
+      "auth": {
+        "CLIENT_ID": "f30e8d8f-761d-443b-be98-e2369e5df29f",
+        "CLIENT_SECRET": "",
+        "scopes": [
+          "mrocompat:evaluate"
+        ]
+      }
+    }
+  }
+}

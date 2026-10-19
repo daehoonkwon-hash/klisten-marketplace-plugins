@@ -12,12 +12,18 @@
   "marketplaceSubmitted": false,
   "published": false,
   "productionEndpointVerified": false,
-  "oauthClientId": null,
-  "activeMcpConfigurationIncluded": false,
+  "oauthClientId": "e7946b62-a99d-4eee-8a95-a57ac8f4a623",
+  "activeMcpConfigurationIncluded": true,
   "blockers": [
-    "No new product-specific public OAuth client ID has been provisioned/verified",
-    "No actual production endpoint/resource/scope/host connection evidence for these four candidates",
-    "Host manifests/schema, actual installation and tool discovery/execution not validated",
-    "Publisher metadata/icons/review materials and market submission requirements not completed"
-  ]
+    "Current production rollout/registry enable and actual host parser/install/OAuth/discovery/tool execution are not verified by this local package build.",
+    "Source publication is separately approved but this local candidate has not been pushed; no marketplace submission or legal acceptance performed.",
+    "Keep product-specific supplied-data and legal/financial capability limits; no scope beyond contextcondense:evaluate."
+  ],
+  "status": "registered-public-oauth-local-candidate-not-native-verified",
+  "oauthClientRegistered": true,
+  "actualHostInstallVerified": false,
+  "resourceBindingEnabled": false,
+  "publicUploadPerformed": false,
+  "sourceCandidateOnly": true,
+  "publicOAuthConfigurationOnly": true
 }
