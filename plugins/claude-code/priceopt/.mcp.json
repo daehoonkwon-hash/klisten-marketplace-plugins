@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "priceopt": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/priceopt",
+      "oauth": {
+        "clientId": "4fb911cd-cd83-4a41-97fe-31a389b1dad8",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

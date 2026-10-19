@@ -1,0 +1,6 @@
+{
+  "name": "klisten-priceopt",
+  "version": "0.1.0",
+  "description": "PriceOpt tools and setup workflow.",
+  "mcpServers": "./mcp.json"
+}

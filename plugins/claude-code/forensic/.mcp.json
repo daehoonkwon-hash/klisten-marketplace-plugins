@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "forensic": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/forensic",
+      "oauth": {
+        "clientId": "d73d2e6b-c4aa-46e3-9650-558757891451",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

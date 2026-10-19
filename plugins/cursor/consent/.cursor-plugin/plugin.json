@@ -1,0 +1,6 @@
+{
+  "name": "klisten-consent",
+  "version": "0.1.0",
+  "description": "ConsentLedger tools and setup workflow.",
+  "mcpServers": "./mcp.json"
+}

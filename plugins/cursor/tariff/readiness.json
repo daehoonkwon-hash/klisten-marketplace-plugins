@@ -1,0 +1,12 @@
+{
+  "product": "tariff",
+  "displayName": "TariffOracle",
+  "origin": "new",
+  "submissionReady": false,
+  "configuration": "new-public-oauth-candidate",
+  "marketplaceIdentityVerifiedByThisBuild": false,
+  "actualHostInstallationVerified": false,
+  "licenseApprovedForPublicDistribution": false,
+  "published": false,
+  "submittedByThisBuild": false
+}

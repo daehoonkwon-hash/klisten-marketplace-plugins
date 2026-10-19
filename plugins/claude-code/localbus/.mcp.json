@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "localbus": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/localbus",
+      "oauth": {
+        "clientId": "bc9755a5-0ea2-492e-ae43-7b93535d5e84",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

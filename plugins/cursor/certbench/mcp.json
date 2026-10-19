@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "certbench": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/certbench",
+      "auth": {
+        "CLIENT_ID": "2278034a-9175-4a2f-9c94-3e41d5201b83",
+        "scopes": [
+          "certbench:evaluate"
+        ]
+      }
+    }
+  }
+}

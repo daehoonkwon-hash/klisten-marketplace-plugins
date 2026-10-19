@@ -1,0 +1,6 @@
+{
+  "name": "klisten-voice",
+  "version": "0.1.0",
+  "description": "VoiceCompliance tools and setup workflow.",
+  "mcpServers": "./mcp.json"
+}

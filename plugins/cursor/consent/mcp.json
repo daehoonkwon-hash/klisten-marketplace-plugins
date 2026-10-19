@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "consent": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/consent",
+      "auth": {
+        "CLIENT_ID": "15171563-535c-431c-bc5f-77ee7e4ba0b6",
+        "scopes": [
+          "consent:evaluate"
+        ]
+      }
+    }
+  }
+}

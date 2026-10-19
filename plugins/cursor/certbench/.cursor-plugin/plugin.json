@@ -1,0 +1,6 @@
+{
+  "name": "klisten-certbench",
+  "version": "0.1.0",
+  "description": "CertBench tools and setup workflow.",
+  "mcpServers": "./mcp.json"
+}

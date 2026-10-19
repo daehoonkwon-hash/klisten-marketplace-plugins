@@ -1,0 +1,6 @@
+{
+  "name": "klisten-sop",
+  "version": "0.1.0",
+  "description": "SOPCompiler tools and setup workflow.",
+  "mcpServers": "./mcp.json"
+}

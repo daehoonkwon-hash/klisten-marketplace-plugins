@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "forensic": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/forensic",
+      "auth": {
+        "CLIENT_ID": "6be93669-3c22-4d86-9726-5fedc03fa760",
+        "scopes": [
+          "forensic:evaluate"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "product": "voice",
+  "displayName": "VoiceCompliance",
+  "origin": "new",
+  "submissionReady": false,
+  "configuration": "new-public-oauth-candidate",
+  "marketplaceIdentityVerifiedByThisBuild": false,
+  "actualHostInstallationVerified": false,
+  "licenseApprovedForPublicDistribution": false,
+  "published": false,
+  "submittedByThisBuild": false
+}

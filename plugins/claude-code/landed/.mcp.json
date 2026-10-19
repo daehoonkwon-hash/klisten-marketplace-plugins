@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "landed": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/landed",
+      "oauth": {
+        "clientId": "411dbe90-8eb1-4b15-b8e0-199a3fd0e5ae",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "asOf": "2026-10-19",
+  "products": [
+    {
+      "product": "toolguard",
+      "displayName": "ToolGuard",
+      "origin": "legacy",
+      "submissionReady": false,
+      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "patchproof",
+      "displayName": "PatchProof",
+      "origin": "legacy",
+      "submissionReady": false,
+      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "toolrank",
+      "displayName": "ToolRank",
+      "origin": "legacy",
+      "submissionReady": false,
+      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "modelroute",
+      "displayName": "ModelRoute",
+      "origin": "legacy",
+      "submissionReady": false,
+      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "agentscore",
+      "displayName": "AgentScore",
+      "origin": "legacy",
+      "submissionReady": false,
+      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "metermcp",
+      "displayName": "MeterMCP",
+      "origin": "legacy",
+      "submissionReady": false,
+      "configuration": "parent-extension-staged-disabled",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "agentescrow",
+      "displayName": "AgentEscrow",
+      "origin": "legacy",
+      "submissionReady": false,
+      "configuration": "parent-extension-staged-disabled",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "cleargate",
+      "displayName": "ClearGate",
+      "origin": "legacy",
+      "submissionReady": false,
+      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "actioncheck",
+      "displayName": "ActionCheck",
+      "origin": "legacy",
+      "submissionReady": false,
+      "configuration": "parent-extension-staged-disabled",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "schemashield",
+      "displayName": "SchemaShield",
+      "origin": "legacy",
+      "submissionReady": false,
+      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "deadlineengine",
+      "displayName": "DeadlineEngine",
+      "origin": "legacy",
+      "submissionReady": false,
+      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "agentsafe",
+      "displayName": "AgentSafe",
+      "origin": "legacy",
+      "submissionReady": false,
+      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "failbox",
+      "displayName": "FailBox",
+      "origin": "legacy",
+      "submissionReady": false,
+      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "dealgate",
+      "displayName": "DealGate",
+      "origin": "legacy",
+      "submissionReady": false,
+      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "tariff",
+      "displayName": "TariffOracle",
+      "origin": "new",
+      "submissionReady": false,
+      "configuration": "new-public-oauth-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "darkdata",
+      "displayName": "DarkDataGateway",
+      "origin": "new",
+      "submissionReady": false,
+      "configuration": "new-public-oauth-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "forensic",
+      "displayName": "Forensic",
+      "origin": "new",
+      "submissionReady": false,
+      "configuration": "new-public-oauth-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "priceopt",
+      "displayName": "PriceOpt",
+      "origin": "new",
+      "submissionReady": false,
+      "configuration": "new-public-oauth-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "consent",
+      "displayName": "ConsentLedger",
+      "origin": "new",
+      "submissionReady": false,
+      "configuration": "new-public-oauth-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "certbench",
+      "displayName": "CertBench",
+      "origin": "new",
+      "submissionReady": false,
+      "configuration": "new-public-oauth-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "voice",
+      "displayName": "VoiceCompliance",
+      "origin": "new",
+      "submissionReady": false,
+      "configuration": "new-public-oauth-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "sop",
+      "displayName": "SOPCompiler",
+      "origin": "new",
+      "submissionReady": false,
+      "configuration": "new-public-oauth-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "regfeed",
+      "displayName": "RegFeed",
+      "origin": "new",
+      "submissionReady": false,
+      "configuration": "new-public-oauth-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "tokenisle",
+      "displayName": "TokenIsolate",
+      "origin": "new",
+      "submissionReady": false,
+      "configuration": "new-public-oauth-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "landed",
+      "displayName": "LandedCost",
+      "origin": "new",
+      "submissionReady": false,
+      "configuration": "new-public-oauth-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "datadel",
+      "displayName": "DataDeletion",
+      "origin": "new",
+      "submissionReady": false,
+      "configuration": "new-public-oauth-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "localbus",
+      "displayName": "LocalBusinessLayer",
+      "origin": "new",
+      "submissionReady": false,
+      "configuration": "new-public-oauth-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    }
+  ],
+  "productCount": 27,
+  "absorbedExtensionsAreSeparateProducts": false,
+  "allProductsWorking": false,
+  "submissionReady": false,
+  "licenseApprovedForPublicDistribution": false
+}

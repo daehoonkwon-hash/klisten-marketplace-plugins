@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "landed": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/landed",
+      "auth": {
+        "CLIENT_ID": "2c86cd83-1e62-4187-85c4-928c8c978659",
+        "scopes": [
+          "landed:evaluate"
+        ]
+      }
+    }
+  }
+}

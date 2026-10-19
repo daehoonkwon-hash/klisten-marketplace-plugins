@@ -1,0 +1,6 @@
+{
+  "name": "klisten-forensic",
+  "version": "0.1.0",
+  "description": "Forensic tools and setup workflow.",
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "actioncheck": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/actioncheck",
+      "auth": {
+        "CLIENT_ID": "0f5357d5-0107-4420-80ec-9e370d549abc",
+        "scopes": [
+          "actions:check",
+          "actioncheck:extensions"
+        ]
+      }
+    }
+  }
+}

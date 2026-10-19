@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "consent": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/consent",
+      "oauth": {
+        "clientId": "7e73035f-d8d2-4fea-8cc8-f8b2e95b5648",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "sop": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/sop",
+      "auth": {
+        "CLIENT_ID": "ff887c15-8e12-45dd-8374-bc85270df9fd",
+        "scopes": [
+          "sop:evaluate"
+        ]
+      }
+    }
+  }
+}

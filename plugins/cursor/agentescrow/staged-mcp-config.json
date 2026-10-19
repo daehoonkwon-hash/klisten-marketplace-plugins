@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "agentescrow": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/agentescrow",
+      "auth": {
+        "CLIENT_ID": "ebe57537-dad4-45ff-805a-bbb5ecd1a15f",
+        "scopes": [
+          "escrow:read",
+          "agentescrow:extensions"
+        ]
+      }
+    }
+  }
+}

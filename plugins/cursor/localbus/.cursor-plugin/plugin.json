@@ -1,0 +1,6 @@
+{
+  "name": "klisten-localbus",
+  "version": "0.1.0",
+  "description": "LocalBusinessLayer tools and setup workflow.",
+  "mcpServers": "./mcp.json"
+}

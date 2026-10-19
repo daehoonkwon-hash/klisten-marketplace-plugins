@@ -1,0 +1,13 @@
+{
+  "product": "metermcp",
+  "displayName": "MeterMCP",
+  "origin": "legacy",
+  "submissionReady": false,
+  "configuration": "parent-extension-staged-disabled",
+  "marketplaceIdentityVerifiedByThisBuild": false,
+  "actualHostInstallationVerified": false,
+  "licenseApprovedForPublicDistribution": false,
+  "published": false,
+  "submittedByThisBuild": false,
+  "reason": "Extension OAuth scopes are staged; active legacy parent contract must be preserved until separately verified cutover. No active MCP config is installed here."
+}

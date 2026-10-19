@@ -1,0 +1,143 @@
+{
+  "name": "klisten-public-client-candidates",
+  "owner": {
+    "name": "Klisten Inc"
+  },
+  "plugins": [
+    {
+      "name": "klisten-toolguard",
+      "source": "./plugins/claude-code/toolguard",
+      "description": "ToolGuard tools and setup workflow."
+    },
+    {
+      "name": "klisten-patchproof",
+      "source": "./plugins/claude-code/patchproof",
+      "description": "PatchProof tools and setup workflow."
+    },
+    {
+      "name": "klisten-toolrank",
+      "source": "./plugins/claude-code/toolrank",
+      "description": "ToolRank tools and setup workflow."
+    },
+    {
+      "name": "klisten-modelroute",
+      "source": "./plugins/claude-code/modelroute",
+      "description": "ModelRoute tools and setup workflow."
+    },
+    {
+      "name": "klisten-agentscore",
+      "source": "./plugins/claude-code/agentscore",
+      "description": "AgentScore tools and setup workflow."
+    },
+    {
+      "name": "klisten-metermcp",
+      "source": "./plugins/claude-code/metermcp",
+      "description": "MeterMCP tools and setup workflow."
+    },
+    {
+      "name": "klisten-agentescrow",
+      "source": "./plugins/claude-code/agentescrow",
+      "description": "AgentEscrow tools and setup workflow."
+    },
+    {
+      "name": "klisten-cleargate",
+      "source": "./plugins/claude-code/cleargate",
+      "description": "ClearGate tools and setup workflow."
+    },
+    {
+      "name": "klisten-actioncheck",
+      "source": "./plugins/claude-code/actioncheck",
+      "description": "ActionCheck tools and setup workflow."
+    },
+    {
+      "name": "klisten-schemashield",
+      "source": "./plugins/claude-code/schemashield",
+      "description": "SchemaShield tools and setup workflow."
+    },
+    {
+      "name": "klisten-deadlineengine",
+      "source": "./plugins/claude-code/deadlineengine",
+      "description": "DeadlineEngine tools and setup workflow."
+    },
+    {
+      "name": "klisten-agentsafe",
+      "source": "./plugins/claude-code/agentsafe",
+      "description": "AgentSafe tools and setup workflow."
+    },
+    {
+      "name": "klisten-failbox",
+      "source": "./plugins/claude-code/failbox",
+      "description": "FailBox tools and setup workflow."
+    },
+    {
+      "name": "klisten-dealgate",
+      "source": "./plugins/claude-code/dealgate",
+      "description": "DealGate tools and setup workflow."
+    },
+    {
+      "name": "klisten-tariff",
+      "source": "./plugins/claude-code/tariff",
+      "description": "TariffOracle tools and setup workflow."
+    },
+    {
+      "name": "klisten-darkdata",
+      "source": "./plugins/claude-code/darkdata",
+      "description": "DarkDataGateway tools and setup workflow."
+    },
+    {
+      "name": "klisten-forensic",
+      "source": "./plugins/claude-code/forensic",
+      "description": "Forensic tools and setup workflow."
+    },
+    {
+      "name": "klisten-priceopt",
+      "source": "./plugins/claude-code/priceopt",
+      "description": "PriceOpt tools and setup workflow."
+    },
+    {
+      "name": "klisten-consent",
+      "source": "./plugins/claude-code/consent",
+      "description": "ConsentLedger tools and setup workflow."
+    },
+    {
+      "name": "klisten-certbench",
+      "source": "./plugins/claude-code/certbench",
+      "description": "CertBench tools and setup workflow."
+    },
+    {
+      "name": "klisten-voice",
+      "source": "./plugins/claude-code/voice",
+      "description": "VoiceCompliance tools and setup workflow."
+    },
+    {
+      "name": "klisten-sop",
+      "source": "./plugins/claude-code/sop",
+      "description": "SOPCompiler tools and setup workflow."
+    },
+    {
+      "name": "klisten-regfeed",
+      "source": "./plugins/claude-code/regfeed",
+      "description": "RegFeed tools and setup workflow."
+    },
+    {
+      "name": "klisten-tokenisle",
+      "source": "./plugins/claude-code/tokenisle",
+      "description": "TokenIsolate tools and setup workflow."
+    },
+    {
+      "name": "klisten-landed",
+      "source": "./plugins/claude-code/landed",
+      "description": "LandedCost tools and setup workflow."
+    },
+    {
+      "name": "klisten-datadel",
+      "source": "./plugins/claude-code/datadel",
+      "description": "DataDeletion tools and setup workflow."
+    },
+    {
+      "name": "klisten-localbus",
+      "source": "./plugins/claude-code/localbus",
+      "description": "LocalBusinessLayer tools and setup workflow."
+    }
+  ]
+}

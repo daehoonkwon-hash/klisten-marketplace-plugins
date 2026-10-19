@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "voice": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/voice",
+      "oauth": {
+        "clientId": "473877b1-13c6-4a6b-b4dd-528390afe89c",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

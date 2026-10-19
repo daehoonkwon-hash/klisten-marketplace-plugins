@@ -1,0 +1,6 @@
+{
+  "name": "klisten-tokenisle",
+  "version": "0.1.0",
+  "description": "TokenIsolate tools and setup workflow.",
+  "mcpServers": "./.mcp.json"
+}

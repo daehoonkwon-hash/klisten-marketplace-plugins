@@ -1,0 +1,6 @@
+{
+  "name": "klisten-darkdata",
+  "version": "0.1.0",
+  "description": "DarkDataGateway tools and setup workflow.",
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "regfeed": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/regfeed",
+      "auth": {
+        "CLIENT_ID": "4d8328df-0e92-4768-93c1-2f433285103a",
+        "scopes": [
+          "regfeed:evaluate"
+        ]
+      }
+    }
+  }
+}

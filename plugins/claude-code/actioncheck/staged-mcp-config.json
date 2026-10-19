@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "actioncheck": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/actioncheck",
+      "oauth": {
+        "clientId": "13822e3c-25a5-411a-b274-615145621737",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

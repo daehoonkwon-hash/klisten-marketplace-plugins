@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "metermcp": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/metermcp",
+      "oauth": {
+        "clientId": "1dac9542-0d31-446e-bf14-dc2ba358e3cc",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

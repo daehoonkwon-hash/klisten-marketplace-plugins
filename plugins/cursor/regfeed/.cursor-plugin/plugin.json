@@ -1,0 +1,6 @@
+{
+  "name": "klisten-regfeed",
+  "version": "0.1.0",
+  "description": "RegFeed tools and setup workflow.",
+  "mcpServers": "./mcp.json"
+}

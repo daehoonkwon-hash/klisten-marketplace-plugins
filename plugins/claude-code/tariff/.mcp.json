@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "tariff": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/tariff",
+      "oauth": {
+        "clientId": "cfe3040d-f960-426d-b355-b766f13fd341",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "datadel": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/datadel",
+      "auth": {
+        "CLIENT_ID": "655bb2a7-604e-4497-be82-116b04d6410d",
+        "scopes": [
+          "datadel:evaluate"
+        ]
+      }
+    }
+  }
+}

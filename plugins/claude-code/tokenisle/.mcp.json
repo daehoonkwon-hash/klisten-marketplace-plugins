@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "tokenisle": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/tokenisle",
+      "oauth": {
+        "clientId": "a9500b66-661b-421c-b1bd-f2c5456c949a",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

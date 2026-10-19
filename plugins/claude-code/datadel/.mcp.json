@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "datadel": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/datadel",
+      "oauth": {
+        "clientId": "399589f7-5d4f-415d-9a43-be9a7b54dd6b",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

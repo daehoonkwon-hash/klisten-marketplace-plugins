@@ -1,0 +1,143 @@
+{
+  "name": "klisten-public-client-candidates",
+  "owner": {
+    "name": "Klisten Inc"
+  },
+  "plugins": [
+    {
+      "name": "klisten-toolguard",
+      "source": "plugins/cursor/toolguard",
+      "description": "ToolGuard tools and setup workflow."
+    },
+    {
+      "name": "klisten-patchproof",
+      "source": "plugins/cursor/patchproof",
+      "description": "PatchProof tools and setup workflow."
+    },
+    {
+      "name": "klisten-toolrank",
+      "source": "plugins/cursor/toolrank",
+      "description": "ToolRank tools and setup workflow."
+    },
+    {
+      "name": "klisten-modelroute",
+      "source": "plugins/cursor/modelroute",
+      "description": "ModelRoute tools and setup workflow."
+    },
+    {
+      "name": "klisten-agentscore",
+      "source": "plugins/cursor/agentscore",
+      "description": "AgentScore tools and setup workflow."
+    },
+    {
+      "name": "klisten-metermcp",
+      "source": "plugins/cursor/metermcp",
+      "description": "MeterMCP tools and setup workflow."
+    },
+    {
+      "name": "klisten-agentescrow",
+      "source": "plugins/cursor/agentescrow",
+      "description": "AgentEscrow tools and setup workflow."
+    },
+    {
+      "name": "klisten-cleargate",
+      "source": "plugins/cursor/cleargate",
+      "description": "ClearGate tools and setup workflow."
+    },
+    {
+      "name": "klisten-actioncheck",
+      "source": "plugins/cursor/actioncheck",
+      "description": "ActionCheck tools and setup workflow."
+    },
+    {
+      "name": "klisten-schemashield",
+      "source": "plugins/cursor/schemashield",
+      "description": "SchemaShield tools and setup workflow."
+    },
+    {
+      "name": "klisten-deadlineengine",
+      "source": "plugins/cursor/deadlineengine",
+      "description": "DeadlineEngine tools and setup workflow."
+    },
+    {
+      "name": "klisten-agentsafe",
+      "source": "plugins/cursor/agentsafe",
+      "description": "AgentSafe tools and setup workflow."
+    },
+    {
+      "name": "klisten-failbox",
+      "source": "plugins/cursor/failbox",
+      "description": "FailBox tools and setup workflow."
+    },
+    {
+      "name": "klisten-dealgate",
+      "source": "plugins/cursor/dealgate",
+      "description": "DealGate tools and setup workflow."
+    },
+    {
+      "name": "klisten-tariff",
+      "source": "plugins/cursor/tariff",
+      "description": "TariffOracle tools and setup workflow."
+    },
+    {
+      "name": "klisten-darkdata",
+      "source": "plugins/cursor/darkdata",
+      "description": "DarkDataGateway tools and setup workflow."
+    },
+    {
+      "name": "klisten-forensic",
+      "source": "plugins/cursor/forensic",
+      "description": "Forensic tools and setup workflow."
+    },
+    {
+      "name": "klisten-priceopt",
+      "source": "plugins/cursor/priceopt",
+      "description": "PriceOpt tools and setup workflow."
+    },
+    {
+      "name": "klisten-consent",
+      "source": "plugins/cursor/consent",
+      "description": "ConsentLedger tools and setup workflow."
+    },
+    {
+      "name": "klisten-certbench",
+      "source": "plugins/cursor/certbench",
+      "description": "CertBench tools and setup workflow."
+    },
+    {
+      "name": "klisten-voice",
+      "source": "plugins/cursor/voice",
+      "description": "VoiceCompliance tools and setup workflow."
+    },
+    {
+      "name": "klisten-sop",
+      "source": "plugins/cursor/sop",
+      "description": "SOPCompiler tools and setup workflow."
+    },
+    {
+      "name": "klisten-regfeed",
+      "source": "plugins/cursor/regfeed",
+      "description": "RegFeed tools and setup workflow."
+    },
+    {
+      "name": "klisten-tokenisle",
+      "source": "plugins/cursor/tokenisle",
+      "description": "TokenIsolate tools and setup workflow."
+    },
+    {
+      "name": "klisten-landed",
+      "source": "plugins/cursor/landed",
+      "description": "LandedCost tools and setup workflow."
+    },
+    {
+      "name": "klisten-datadel",
+      "source": "plugins/cursor/datadel",
+      "description": "DataDeletion tools and setup workflow."
+    },
+    {
+      "name": "klisten-localbus",
+      "source": "plugins/cursor/localbus",
+      "description": "LocalBusinessLayer tools and setup workflow."
+    }
+  ]
+}

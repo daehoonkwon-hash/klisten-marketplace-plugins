@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "darkdata": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/darkdata",
+      "oauth": {
+        "clientId": "970862c1-59bd-4577-bc8a-e1d7b83c0834",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

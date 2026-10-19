@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "sop": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/sop",
+      "oauth": {
+        "clientId": "ab253bb8-8630-43cb-973f-eff59eda2234",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

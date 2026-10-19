@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "voice": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/voice",
+      "auth": {
+        "CLIENT_ID": "68fca19c-0f3f-4a1d-8154-0bb48be22d84",
+        "scopes": [
+          "voice:evaluate"
+        ]
+      }
+    }
+  }
+}

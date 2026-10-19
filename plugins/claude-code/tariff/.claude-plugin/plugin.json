@@ -1,0 +1,6 @@
+{
+  "name": "klisten-tariff",
+  "version": "0.1.0",
+  "description": "TariffOracle tools and setup workflow.",
+  "mcpServers": "./.mcp.json"
+}

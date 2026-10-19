@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "metermcp": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/metermcp",
+      "auth": {
+        "CLIENT_ID": "fadef75e-bbfd-46c0-9872-c838596e1063",
+        "scopes": [
+          "meter:read",
+          "metermcp:extensions"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "tariff": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/tariff",
+      "auth": {
+        "CLIENT_ID": "fcddbd55-cafd-4428-8456-7a36c7e484ff",
+        "scopes": [
+          "tariff:evaluate"
+        ]
+      }
+    }
+  }
+}

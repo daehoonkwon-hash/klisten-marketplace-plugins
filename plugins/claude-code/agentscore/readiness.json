@@ -1,0 +1,13 @@
+{
+  "product": "agentscore",
+  "displayName": "AgentScore",
+  "origin": "legacy",
+  "submissionReady": false,
+  "configuration": "unset-no-adoptable-host-oauth-evidence",
+  "marketplaceIdentityVerifiedByThisBuild": false,
+  "actualHostInstallationVerified": false,
+  "licenseApprovedForPublicDistribution": false,
+  "published": false,
+  "submittedByThisBuild": false,
+  "reason": "No supported per-host public OAuth client config adopted from inspected legacy sources. This setup-only placeholder does not connect a server."
+}

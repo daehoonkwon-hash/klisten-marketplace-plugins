@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "tokenisle": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/tokenisle",
+      "auth": {
+        "CLIENT_ID": "319e2a83-c8dd-41c1-81ca-e6e878831f95",
+        "scopes": [
+          "tokenisle:evaluate"
+        ]
+      }
+    }
+  }
+}

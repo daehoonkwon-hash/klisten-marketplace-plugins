@@ -1,0 +1,6 @@
+{
+  "name": "klisten-landed",
+  "version": "0.1.0",
+  "description": "LandedCost tools and setup workflow.",
+  "mcpServers": "./.mcp.json"
+}
