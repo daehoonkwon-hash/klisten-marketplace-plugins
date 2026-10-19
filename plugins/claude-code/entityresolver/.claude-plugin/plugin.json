@@ -1,5 +1,10 @@
 {
   "name": "klisten-entityresolver",
   "version": "0.1.0",
-  "description": "EntityResolver local-only setup source; public connection and installation readiness are not established."
+  "description": "EntityResolver local-only setup source; public connection and installation readiness are not established.",
+  "author": {
+    "name": "Klisten Inc",
+    "email": "klisteninc@gmail.com",
+    "url": "https://klisten.co.kr/products"
+  }
 }

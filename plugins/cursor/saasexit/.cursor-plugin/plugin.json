@@ -1,5 +1,10 @@
 {
   "name": "klisten-saasexit",
   "version": "0.1.0",
-  "description": "SaaSExit local-only setup source; public connection and installation readiness are not established."
+  "description": "SaaSExit local-only setup source; public connection and installation readiness are not established.",
+  "author": {
+    "name": "Klisten Inc",
+    "email": "klisteninc@gmail.com",
+    "url": "https://klisten.co.kr/products"
+  }
 }
