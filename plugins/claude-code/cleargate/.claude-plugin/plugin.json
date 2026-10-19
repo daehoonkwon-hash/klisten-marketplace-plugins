@@ -17,7 +17,7 @@
     "client-config"
   ],
   "displayName": "ClearGate",
-  "icon": "./assets/icon.svg",
+  "icon": "./assets/icon.png",
   "documentationUrl": "https://klisten.co.kr/docs.html",
   "supportUrl": "https://klisten.co.kr/customer-guide.html",
   "privacyPolicyUrl": "https://klisten.co.kr/privacy.html",
