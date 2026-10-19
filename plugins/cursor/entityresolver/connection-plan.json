@@ -1,0 +1,13 @@
+{
+  "product": "entityresolver",
+  "host": "cursor",
+  "plannedResource": "https://api.klisten.co.kr/mcp/entityresolver",
+  "plannedScope": "entityresolver:evaluate",
+  "endpointProductionVerified": false,
+  "publicOAuthClientId": null,
+  "oauthClientRegistered": false,
+  "resourceBindingEnabled": false,
+  "activeMcpConfigurationIncluded": false,
+  "syntheticClientIdsUsed": false,
+  "instructions": "Do not manufacture a client ID, copy another product client, paste real API keys/passwords or activate a connection. Obtain authorized real endpoint/client evidence before creating host configuration."
+}

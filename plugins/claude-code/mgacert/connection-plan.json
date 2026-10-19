@@ -1,0 +1,18 @@
+{
+  "canonicalProductKey": "sku1_mga_cert",
+  "publicResourceSlug": "mgacert",
+  "host": "claude-code",
+  "plannedResource": "https://api.klisten.co.kr/mcp/mgacert",
+  "localAdapterRequiredScope": "mgacert:evaluate",
+  "productionResourceRegistered": false,
+  "productionEndpointVerified": false,
+  "productionScopeGranted": false,
+  "productionScope": null,
+  "publicOAuthClientId": null,
+  "oauthClientRegistered": false,
+  "resourceBindingEnabled": false,
+  "activeMcpConfigurationIncluded": false,
+  "syntheticClientIdsUsed": false,
+  "actualHostInstallVerified": false,
+  "transportEnvelopeVerified": false
+}

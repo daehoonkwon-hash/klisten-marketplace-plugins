@@ -1,0 +1,796 @@
+{
+  "source": "actual local candidate manifest+typed adapter public-domain input contracts",
+  "productionDiscoveryVerified": false,
+  "transportEnvelopeVerified": false,
+  "operations": [
+    {
+      "name": "mgacert_ingestTelemetry",
+      "operation": "ingestTelemetry",
+      "sourceInputContract": "IngestTelemetryInput",
+      "sourceOutputContract": "TelemetryRecord",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "agentId": {
+            "type": "string",
+            "pattern": "^agt_[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "agentName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "at": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T"
+          },
+          "autonomyLevel": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4
+          },
+          "toolActionCount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "sensitiveScope": {
+            "type": "boolean"
+          },
+          "errorRate": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "negativeIncidents": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "humanOverrideRate": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "jurisdictions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "paymentAmountUsd": {
+            "type": "number",
+            "minimum": 0
+          },
+          "balanceUsd": {
+            "type": "number",
+            "minimum": 0
+          },
+          "channel": {
+            "type": "string",
+            "enum": [
+              "card",
+              "ach",
+              "wallet",
+              "token",
+              "internal"
+            ]
+          },
+          "velocityCountLimit": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "velocityAmountLimit": {
+            "type": "number",
+            "minimum": 0
+          },
+          "maxAmountRatio": {
+            "type": "number",
+            "minimum": 0.01,
+            "maximum": 1
+          },
+          "recentTransactions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "eventId": {
+                  "type": "string",
+                  "pattern": "^evt_[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+                },
+                "amountUsd": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "at": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}T"
+                },
+                "channel": {
+                  "type": "string",
+                  "enum": [
+                    "card",
+                    "ach",
+                    "wallet",
+                    "token",
+                    "internal"
+                  ]
+                },
+                "refunded": {
+                  "type": "boolean",
+                  "default": false
+                }
+              },
+              "required": [
+                "eventId",
+                "amountUsd",
+                "at",
+                "channel"
+              ],
+              "additionalProperties": false
+            },
+            "default": []
+          }
+        },
+        "required": [
+          "agentId",
+          "agentName",
+          "at",
+          "autonomyLevel",
+          "toolActionCount",
+          "sensitiveScope",
+          "errorRate",
+          "negativeIncidents",
+          "humanOverrideRate",
+          "jurisdictions"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    },
+    {
+      "name": "mgacert_scoreRisk",
+      "operation": "scoreRisk",
+      "sourceInputContract": "ADAPTER_OBJECT: {telemetryId:string,source:IngestTelemetryInput}",
+      "sourceOutputContract": "RiskScore",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "telemetryId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "agentId": {
+                "type": "string",
+                "pattern": "^agt_[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+              },
+              "agentName": {
+                "type": "string",
+                "minLength": 1
+              },
+              "at": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T"
+              },
+              "autonomyLevel": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 4
+              },
+              "toolActionCount": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "sensitiveScope": {
+                "type": "boolean"
+              },
+              "errorRate": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "negativeIncidents": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "humanOverrideRate": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "jurisdictions": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "paymentAmountUsd": {
+                "type": "number",
+                "minimum": 0
+              },
+              "balanceUsd": {
+                "type": "number",
+                "minimum": 0
+              },
+              "channel": {
+                "type": "string",
+                "enum": [
+                  "card",
+                  "ach",
+                  "wallet",
+                  "token",
+                  "internal"
+                ]
+              },
+              "velocityCountLimit": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "velocityAmountLimit": {
+                "type": "number",
+                "minimum": 0
+              },
+              "maxAmountRatio": {
+                "type": "number",
+                "minimum": 0.01,
+                "maximum": 1
+              },
+              "recentTransactions": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "eventId": {
+                      "type": "string",
+                      "pattern": "^evt_[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+                    },
+                    "amountUsd": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "at": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T"
+                    },
+                    "channel": {
+                      "type": "string",
+                      "enum": [
+                        "card",
+                        "ach",
+                        "wallet",
+                        "token",
+                        "internal"
+                      ]
+                    },
+                    "refunded": {
+                      "type": "boolean",
+                      "default": false
+                    }
+                  },
+                  "required": [
+                    "eventId",
+                    "amountUsd",
+                    "at",
+                    "channel"
+                  ],
+                  "additionalProperties": false
+                },
+                "default": []
+              }
+            },
+            "required": [
+              "agentId",
+              "agentName",
+              "at",
+              "autonomyLevel",
+              "toolActionCount",
+              "sensitiveScope",
+              "errorRate",
+              "negativeIncidents",
+              "humanOverrideRate",
+              "jurisdictions"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "telemetryId",
+          "source"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    },
+    {
+      "name": "mgacert_buildSubmission",
+      "operation": "buildSubmission",
+      "sourceInputContract": "ADAPTER_OBJECT: {riskId:string,source:IngestTelemetryInput,opts:BuildSubmissionInput minus orgId/agentId/riskId/at}",
+      "sourceOutputContract": "SubmissionPacket",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "riskId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "agentId": {
+                "type": "string",
+                "pattern": "^agt_[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+              },
+              "agentName": {
+                "type": "string",
+                "minLength": 1
+              },
+              "at": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T"
+              },
+              "autonomyLevel": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 4
+              },
+              "toolActionCount": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "sensitiveScope": {
+                "type": "boolean"
+              },
+              "errorRate": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "negativeIncidents": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "humanOverrideRate": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "jurisdictions": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "paymentAmountUsd": {
+                "type": "number",
+                "minimum": 0
+              },
+              "balanceUsd": {
+                "type": "number",
+                "minimum": 0
+              },
+              "channel": {
+                "type": "string",
+                "enum": [
+                  "card",
+                  "ach",
+                  "wallet",
+                  "token",
+                  "internal"
+                ]
+              },
+              "velocityCountLimit": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "velocityAmountLimit": {
+                "type": "number",
+                "minimum": 0
+              },
+              "maxAmountRatio": {
+                "type": "number",
+                "minimum": 0.01,
+                "maximum": 1
+              },
+              "recentTransactions": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "eventId": {
+                      "type": "string",
+                      "pattern": "^evt_[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+                    },
+                    "amountUsd": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "at": {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}T"
+                    },
+                    "channel": {
+                      "type": "string",
+                      "enum": [
+                        "card",
+                        "ach",
+                        "wallet",
+                        "token",
+                        "internal"
+                      ]
+                    },
+                    "refunded": {
+                      "type": "boolean",
+                      "default": false
+                    }
+                  },
+                  "required": [
+                    "eventId",
+                    "amountUsd",
+                    "at",
+                    "channel"
+                  ],
+                  "additionalProperties": false
+                },
+                "default": []
+              }
+            },
+            "required": [
+              "agentId",
+              "agentName",
+              "at",
+              "autonomyLevel",
+              "toolActionCount",
+              "sensitiveScope",
+              "errorRate",
+              "negativeIncidents",
+              "humanOverrideRate",
+              "jurisdictions"
+            ],
+            "additionalProperties": false
+          },
+          "opts": {
+            "type": "object",
+            "properties": {
+              "jurisdictions": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "sensitiveScope": {
+                "type": "boolean"
+              },
+              "autonomyLevel": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 4
+              },
+              "negativeIncidents": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "humanOverrideRate": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "jobName": {
+                "type": "string",
+                "minLength": 1
+              },
+              "claims": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "sourceRef": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "claimedAmountRaw": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "currencyRaw": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "dateRaw": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "paidAmountRaw": {
+                      "type": "string"
+                    },
+                    "reserveRaw": {
+                      "type": "string"
+                    },
+                    "note": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "sourceRef",
+                    "claimedAmountRaw",
+                    "currencyRaw",
+                    "dateRaw"
+                  ],
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "earnedPremiumUsd": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "confidence": {
+                "type": "string",
+                "enum": [
+                  "high",
+                  "medium",
+                  "low"
+                ],
+                "default": "medium"
+              },
+              "riskTags": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              }
+            },
+            "required": [
+              "jurisdictions",
+              "sensitiveScope",
+              "autonomyLevel",
+              "negativeIncidents",
+              "humanOverrideRate",
+              "jobName"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "riskId",
+          "source",
+          "opts"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    },
+    {
+      "name": "mgacert_renewCheck",
+      "operation": "renewCheck",
+      "sourceInputContract": "RenewCheckInput",
+      "sourceOutputContract": "RenewalCheck",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "agentId": {
+            "type": "string",
+            "pattern": "^agt_[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "certificate": {
+            "type": "object",
+            "properties": {
+              "certificateId": {
+                "type": "string",
+                "pattern": "^cert_[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+              },
+              "agentId": {
+                "type": "string",
+                "pattern": "^agt_[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+              },
+              "agentName": {
+                "type": "string",
+                "minLength": 1
+              },
+              "submissionId": {
+                "type": "string",
+                "pattern": "^sub_[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+              },
+              "status": {
+                "type": "string",
+                "const": "DRAFT_ONLY"
+              },
+              "artifactKind": {
+                "type": "string",
+                "const": "TECHNICAL_REVIEW_DRAFT"
+              },
+              "insuranceIssued": {
+                "type": "boolean",
+                "const": false
+              },
+              "carrierRelease": {
+                "type": "string",
+                "const": "BLOCKED"
+              },
+              "legalNotice": {
+                "type": "string",
+                "minLength": 1
+              },
+              "effectiveFrom": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T"
+              },
+              "effectiveUntil": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T"
+              },
+              "premiumUsd": {
+                "type": "number",
+                "minimum": 0
+              },
+              "limitUsd": {
+                "type": "number",
+                "minimum": 0
+              },
+              "deductibleUsd": {
+                "type": "number",
+                "minimum": 0
+              },
+              "riskTier": {
+                "type": "string",
+                "enum": [
+                  "LOW",
+                  "MEDIUM",
+                  "HIGH",
+                  "CRITICAL"
+                ]
+              },
+              "coverageScope": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "endorsements": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "agentCertScore": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "agentCertStatus": {
+                "type": "string",
+                "enum": [
+                  "ACTIVE",
+                  "EXPIRED",
+                  "REVOKED"
+                ]
+              },
+              "renewalDueAt": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T"
+              },
+              "issuedBy": {
+                "type": "string",
+                "minLength": 1
+              },
+              "issuedAt": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}T"
+              }
+            },
+            "required": [
+              "certificateId",
+              "agentId",
+              "agentName",
+              "submissionId",
+              "status",
+              "artifactKind",
+              "insuranceIssued",
+              "carrierRelease",
+              "legalNotice",
+              "effectiveFrom",
+              "effectiveUntil",
+              "premiumUsd",
+              "limitUsd",
+              "deductibleUsd",
+              "riskTier",
+              "coverageScope",
+              "agentCertScore",
+              "agentCertStatus",
+              "renewalDueAt",
+              "issuedBy",
+              "issuedAt"
+            ],
+            "additionalProperties": false
+          },
+          "at": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T"
+          },
+          "claims": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "sourceRef": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "claimedAmountRaw": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "currencyRaw": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "dateRaw": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "paidAmountRaw": {
+                  "type": "string"
+                },
+                "reserveRaw": {
+                  "type": "string"
+                },
+                "note": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "sourceRef",
+                "claimedAmountRaw",
+                "currencyRaw",
+                "dateRaw"
+              ],
+              "additionalProperties": false
+            },
+            "default": []
+          },
+          "earnedPremiumUsd": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "required": [
+          "agentId",
+          "certificate",
+          "at"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    },
+    {
+      "name": "mgacert_getCertificate",
+      "operation": "getCertificate",
+      "sourceInputContract": "ADAPTER_OBJECT: {certificateId:string}",
+      "sourceOutputContract": "LiabilityCertificate.optional()",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "certificateId": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "certificateId"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    }
+  ]
+}

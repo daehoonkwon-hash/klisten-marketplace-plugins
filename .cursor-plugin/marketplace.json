@@ -158,6 +158,51 @@
       "name": "klisten-ordermatch",
       "source": "plugins/cursor/ordermatch",
       "description": "OrderMatch hosted MCP client and setup instructions."
+    },
+    {
+      "name": "klisten-entityresolver",
+      "source": "plugins/cursor/entityresolver",
+      "description": "entityresolver MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-mrocompat",
+      "source": "plugins/cursor/mrocompat",
+      "description": "mrocompat MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-saasexit",
+      "source": "plugins/cursor/saasexit",
+      "description": "saasexit MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-contextcondense",
+      "source": "plugins/cursor/contextcondense",
+      "description": "contextcondense MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-mgacert",
+      "source": "plugins/cursor/mgacert",
+      "description": "mgacert MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-spendrecovery",
+      "source": "plugins/cursor/spendrecovery",
+      "description": "spendrecovery MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-crossborder",
+      "source": "plugins/cursor/crossborder",
+      "description": "crossborder MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-lossrunrefresh",
+      "source": "plugins/cursor/lossrunrefresh",
+      "description": "lossrunrefresh MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-adupermit",
+      "source": "plugins/cursor/adupermit",
+      "description": "adupermit MIT client setup source; not install ready, no registered OAuth endpoint/client."
     }
   ]
 }

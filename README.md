@@ -13,3 +13,8 @@ The owner approved the MIT license solely for the client materials distributed i
 Publisher: Klisten Inc, klisteninc@gmail.com. Product information: https://klisten.co.kr/products. Canonical repository: https://github.com/daehoonkwon-hash/klisten-marketplace-plugins.
 
 Host schema references: https://code.claude.com/docs/en/plugins-reference and https://cursor.com/docs/reference/plugins. Documentation: https://klisten.co.kr/docs.html. Support: https://klisten.co.kr/customer-guide.html. Privacy: https://klisten.co.kr/privacy.html. Terms: https://klisten.co.kr/terms.html.
+
+
+## Additional nine client source packages
+
+The portfolio now contains 40 products × 2 hosts = 80 client source packages. The nine additional products are MIT licensed client documentation/schema/example sources only. They have no provisioned product OAuth client ID, verified active endpoint or native installation readiness. No active MCP configuration is included. Public source publication is not marketplace submission, approval, connection or functional product activation. Existing 62 client package files remain byte identical.

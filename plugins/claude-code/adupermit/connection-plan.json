@@ -1,0 +1,18 @@
+{
+  "canonicalProductKey": "sku5_adu_permit",
+  "publicResourceSlug": "adupermit",
+  "host": "claude-code",
+  "plannedResource": "https://api.klisten.co.kr/mcp/adupermit",
+  "localAdapterRequiredScope": "adupermit:evaluate",
+  "productionResourceRegistered": false,
+  "productionEndpointVerified": false,
+  "productionScopeGranted": false,
+  "productionScope": null,
+  "publicOAuthClientId": null,
+  "oauthClientRegistered": false,
+  "resourceBindingEnabled": false,
+  "activeMcpConfigurationIncluded": false,
+  "syntheticClientIdsUsed": false,
+  "actualHostInstallVerified": false,
+  "transportEnvelopeVerified": false
+}

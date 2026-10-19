@@ -1,0 +1,5 @@
+{
+  "name": "klisten-mrocompat",
+  "version": "0.1.0",
+  "description": "MROCompat local-only setup source; public connection and installation readiness are not established."
+}

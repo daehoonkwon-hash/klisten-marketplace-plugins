@@ -158,6 +158,51 @@
       "name": "klisten-ordermatch",
       "source": "plugins/claude-code/ordermatch",
       "description": "OrderMatch hosted MCP client and setup instructions."
+    },
+    {
+      "name": "klisten-entityresolver",
+      "source": "./plugins/claude-code/entityresolver",
+      "description": "entityresolver MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-mrocompat",
+      "source": "./plugins/claude-code/mrocompat",
+      "description": "mrocompat MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-saasexit",
+      "source": "./plugins/claude-code/saasexit",
+      "description": "saasexit MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-contextcondense",
+      "source": "./plugins/claude-code/contextcondense",
+      "description": "contextcondense MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-mgacert",
+      "source": "./plugins/claude-code/mgacert",
+      "description": "mgacert MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-spendrecovery",
+      "source": "./plugins/claude-code/spendrecovery",
+      "description": "spendrecovery MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-crossborder",
+      "source": "./plugins/claude-code/crossborder",
+      "description": "crossborder MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-lossrunrefresh",
+      "source": "./plugins/claude-code/lossrunrefresh",
+      "description": "lossrunrefresh MIT client setup source; not install ready, no registered OAuth endpoint/client."
+    },
+    {
+      "name": "klisten-adupermit",
+      "source": "./plugins/claude-code/adupermit",
+      "description": "adupermit MIT client setup source; not install ready, no registered OAuth endpoint/client."
     }
   ]
 }

@@ -1,0 +1,5 @@
+{
+  "name": "klisten-lossrunrefresh",
+  "version": "0.1.0",
+  "description": "Loss-Run 정리·갱신 제출팩 local-only client setup source. MIT client source draft; no production MCP configuration or install readiness established."
+}

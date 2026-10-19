@@ -1,0 +1,5 @@
+{
+  "name": "klisten-spendrecovery",
+  "version": "0.1.0",
+  "description": "Spend Recovery — 과지급 회수·비용절감 감사 local-only client setup source. MIT client source draft; no production MCP configuration or install readiness established."
+}

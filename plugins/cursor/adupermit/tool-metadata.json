@@ -1,0 +1,424 @@
+{
+  "source": "actual local candidate manifest+typed adapter public-domain input contracts",
+  "productionDiscoveryVerified": false,
+  "transportEnvelopeVerified": false,
+  "operations": [
+    {
+      "name": "adupermit_precheckPlan",
+      "operation": "precheckPlan",
+      "sourceInputContract": "PrecheckPlanInput",
+      "sourceOutputContract": "PrecheckPlanResult",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "planId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "jurisdictionName": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scope": {
+            "type": "string",
+            "enum": [
+              "ADU",
+              "JADU"
+            ],
+            "default": "ADU"
+          },
+          "fields": {
+            "type": "object",
+            "additionalProperties": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "boolean"
+                }
+              ]
+            },
+            "propertyNames": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "planId",
+          "jurisdictionName",
+          "fields"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    },
+    {
+      "name": "adupermit_listCorrectHailangs",
+      "operation": "listCorrectHailangs",
+      "sourceInputContract": "ListCorrectionsInput",
+      "sourceOutputContract": "ListCorrectionsResult",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "planId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "precheck": {
+            "type": "object",
+            "properties": {
+              "technicalOverall": {
+                "type": "string",
+                "enum": [
+                  "PASS",
+                  "WARNING",
+                  "BLOCK"
+                ]
+              },
+              "launchGate": {
+                "type": "object",
+                "properties": {
+                  "status": {
+                    "type": "string",
+                    "const": "BLOCKED"
+                  },
+                  "executionAuthorized": {
+                    "type": "boolean",
+                    "const": false
+                  },
+                  "reviewKind": {
+                    "type": "string",
+                    "const": "AUTOMATED_TECHNICAL_REVIEW"
+                  },
+                  "sourceFingerprint": {
+                    "type": "string"
+                  },
+                  "blockers": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "status",
+                  "executionAuthorized",
+                  "reviewKind",
+                  "sourceFingerprint",
+                  "blockers"
+                ],
+                "additionalProperties": false
+              },
+              "permitDecision": {
+                "type": "string",
+                "const": "BLOCKED"
+              },
+              "planId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "jurisdictionId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "jurisdictionName": {
+                "type": "string",
+                "minLength": 1
+              },
+              "resolution": {
+                "type": "object",
+                "properties": {
+                  "canonicalName": {
+                    "type": "string"
+                  },
+                  "matched": {
+                    "type": "boolean"
+                  },
+                  "confidence": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "canonicalName",
+                  "matched",
+                  "confidence"
+                ],
+                "additionalProperties": false
+              },
+              "overall": {
+                "type": "string",
+                "enum": [
+                  "PASS",
+                  "WARNING",
+                  "BLOCK"
+                ]
+              },
+              "checks": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "ruleId": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string"
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "severity": {
+                      "type": "string",
+                      "enum": [
+                        "critical",
+                        "warning"
+                      ]
+                    },
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "PASS",
+                        "WARNING",
+                        "BLOCK"
+                      ]
+                    },
+                    "field": {
+                      "type": "string"
+                    },
+                    "grounds": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "ruleId",
+                    "code",
+                    "category",
+                    "severity",
+                    "status",
+                    "grounds"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "passed": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "warned": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "blocked": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "regulatoryContext": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "changeId": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "jurisCode": {
+                      "type": "string"
+                    },
+                    "impact": {
+                      "type": "string",
+                      "enum": [
+                        "LOW",
+                        "MEDIUM",
+                        "HIGH",
+                        "CRITICAL"
+                      ]
+                    },
+                    "priority": {
+                      "type": "string",
+                      "enum": [
+                        "LOW",
+                        "MEDIUM",
+                        "HIGH",
+                        "URGENT"
+                      ]
+                    },
+                    "score": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 100
+                    },
+                    "applyFrom": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "changeId",
+                    "title",
+                    "jurisCode",
+                    "impact",
+                    "priority",
+                    "score",
+                    "applyFrom"
+                  ],
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "rulesetHash": {
+                "type": "string"
+              },
+              "coverageRatio": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "dataIntegration": {
+                "type": "string",
+                "enum": [
+                  "SAMPLE",
+                  "LIVE"
+                ]
+              }
+            },
+            "required": [
+              "technicalOverall",
+              "launchGate",
+              "permitDecision",
+              "planId",
+              "jurisdictionId",
+              "jurisdictionName",
+              "resolution",
+              "overall",
+              "checks",
+              "passed",
+              "warned",
+              "blocked",
+              "rulesetHash",
+              "coverageRatio",
+              "dataIntegration"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "planId",
+          "precheck"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    },
+    {
+      "name": "adupermit_checkRightToOperate",
+      "operation": "checkRightToOperate",
+      "sourceInputContract": "RightToOperateInput",
+      "sourceOutputContract": "RightToOperateResult",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "profile": {
+            "type": "object",
+            "properties": {
+              "jurisdiction": {
+                "type": "string",
+                "minLength": 1
+              },
+              "holds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "filings": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "filedAt": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "code",
+                    "filedAt"
+                  ],
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "registered": {
+                "type": "boolean",
+                "default": false
+              }
+            },
+            "required": [
+              "jurisdiction"
+            ],
+            "additionalProperties": false
+          },
+          "precheckOverall": {
+            "type": "string",
+            "enum": [
+              "PASS",
+              "WARNING",
+              "BLOCK"
+            ]
+          }
+        },
+        "required": [
+          "profile"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    },
+    {
+      "name": "adupermit_jurisdictionMatrix",
+      "operation": "jurisdictionMatrix",
+      "sourceInputContract": "JurisdictionMatrixInput",
+      "sourceOutputContract": "JurisdictionMatrixResult",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "jurisdictions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": [
+          "jurisdictions"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    }
+  ]
+}

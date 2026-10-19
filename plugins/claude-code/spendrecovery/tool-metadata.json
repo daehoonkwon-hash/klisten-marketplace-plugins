@@ -1,0 +1,318 @@
+{
+  "source": "actual local candidate manifest+typed adapter public-domain input contracts",
+  "productionDiscoveryVerified": false,
+  "transportEnvelopeVerified": false,
+  "operations": [
+    {
+      "name": "spendrecovery_ingest",
+      "operation": "ingest",
+      "sourceInputContract": "ingestInputSchema",
+      "sourceOutputContract": "ingestResultSchema",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "period": {
+            "type": "string",
+            "minLength": 7,
+            "maxLength": 10
+          },
+          "vendors": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "vendor_code": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100
+                },
+                "vendor_name": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 300
+                },
+                "tax_id": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100
+                },
+                "country": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 10
+                }
+              },
+              "required": [
+                "vendor_code",
+                "vendor_name",
+                "tax_id",
+                "country"
+              ],
+              "additionalProperties": false
+            },
+            "default": []
+          },
+          "approved_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            },
+            "default": []
+          },
+          "auditLines": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "invoice_ref": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 300
+                },
+                "vendor_code": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100
+                },
+                "line_item": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 300
+                },
+                "qty": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100
+                },
+                "amount_micro_usd": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "invoice_ref",
+                "vendor_code",
+                "line_item",
+                "qty",
+                "unit",
+                "amount_micro_usd"
+              ],
+              "additionalProperties": false
+            },
+            "default": []
+          },
+          "poMatch": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "po_ref": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 300
+                },
+                "ack_ref": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 300
+                },
+                "item_code": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 300
+                },
+                "po_qty": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "po_unit_price": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "ack_qty": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "ack_unit_price": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "po_ref",
+                "ack_ref",
+                "item_code",
+                "po_qty",
+                "po_unit_price",
+                "ack_qty",
+                "ack_unit_price"
+              ],
+              "additionalProperties": false
+            },
+            "default": []
+          },
+          "approvals": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "approval_id": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                },
+                "vendor_code": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100
+                },
+                "line_item": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 300
+                },
+                "amount_micro_usd": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "approval_id",
+                "vendor_code",
+                "line_item",
+                "amount_micro_usd"
+              ],
+              "additionalProperties": false
+            },
+            "default": []
+          }
+        },
+        "required": [
+          "period"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    },
+    {
+      "name": "spendrecovery_auditBatch",
+      "operation": "auditBatch",
+      "sourceInputContract": "auditBatchInputSchema",
+      "sourceOutputContract": "auditBatchResultSchema",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "period": {
+            "type": "string",
+            "minLength": 7,
+            "maxLength": 10
+          },
+          "min_claim_micro_usd": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 0
+          }
+        },
+        "required": [
+          "period"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    },
+    {
+      "name": "spendrecovery_approveLine",
+      "operation": "approveLine",
+      "sourceInputContract": "approveLineInputSchema",
+      "sourceOutputContract": "approveLineResultSchema",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "finding_id": {
+            "type": "string",
+            "pattern": "^srf_[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "approve",
+              "reject"
+            ]
+          },
+          "note": {
+            "type": "string",
+            "maxLength": 2000
+          }
+        },
+        "required": [
+          "finding_id",
+          "decision"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    },
+    {
+      "name": "spendrecovery_buildDisputePacket",
+      "operation": "buildDisputePacket",
+      "sourceInputContract": "buildDisputePacketInputSchema",
+      "sourceOutputContract": "buildDisputePacketResultSchema",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "period": {
+            "type": "string",
+            "minLength": 7,
+            "maxLength": 10
+          },
+          "finding_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^srf_[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "period",
+          "finding_ids"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    },
+    {
+      "name": "spendrecovery_monthlySavingReport",
+      "operation": "monthlySavingReport",
+      "sourceInputContract": "monthlySavingReportInputSchema",
+      "sourceOutputContract": "monthlySavingReportResultSchema",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "period": {
+            "type": "string",
+            "minLength": 7,
+            "maxLength": 10
+          }
+        },
+        "required": [
+          "period"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    }
+  ]
+}

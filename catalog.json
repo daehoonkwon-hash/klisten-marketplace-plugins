@@ -264,6 +264,96 @@
       "licenseApprovedForPublicDistribution": true,
       "licenseScope": "client-only",
       "licenseApprovalDate": "2026-10-19"
+    },
+    {
+      "product": "entityresolver",
+      "displayName": "entityresolver",
+      "origin": "portfolio40-additional-MIT-source-only",
+      "submissionReady": false,
+      "nativeInstallable": false,
+      "oauthClientId": null,
+      "configuration": "unset-no-registered-product-oauth-endpoint",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "mrocompat",
+      "displayName": "mrocompat",
+      "origin": "portfolio40-additional-MIT-source-only",
+      "submissionReady": false,
+      "nativeInstallable": false,
+      "oauthClientId": null,
+      "configuration": "unset-no-registered-product-oauth-endpoint",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "saasexit",
+      "displayName": "saasexit",
+      "origin": "portfolio40-additional-MIT-source-only",
+      "submissionReady": false,
+      "nativeInstallable": false,
+      "oauthClientId": null,
+      "configuration": "unset-no-registered-product-oauth-endpoint",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "contextcondense",
+      "displayName": "contextcondense",
+      "origin": "portfolio40-additional-MIT-source-only",
+      "submissionReady": false,
+      "nativeInstallable": false,
+      "oauthClientId": null,
+      "configuration": "unset-no-registered-product-oauth-endpoint",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "mgacert",
+      "displayName": "mgacert",
+      "origin": "portfolio40-additional-MIT-source-only",
+      "submissionReady": false,
+      "nativeInstallable": false,
+      "oauthClientId": null,
+      "configuration": "unset-no-registered-product-oauth-endpoint",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "spendrecovery",
+      "displayName": "spendrecovery",
+      "origin": "portfolio40-additional-MIT-source-only",
+      "submissionReady": false,
+      "nativeInstallable": false,
+      "oauthClientId": null,
+      "configuration": "unset-no-registered-product-oauth-endpoint",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "crossborder",
+      "displayName": "crossborder",
+      "origin": "portfolio40-additional-MIT-source-only",
+      "submissionReady": false,
+      "nativeInstallable": false,
+      "oauthClientId": null,
+      "configuration": "unset-no-registered-product-oauth-endpoint",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "lossrunrefresh",
+      "displayName": "lossrunrefresh",
+      "origin": "portfolio40-additional-MIT-source-only",
+      "submissionReady": false,
+      "nativeInstallable": false,
+      "oauthClientId": null,
+      "configuration": "unset-no-registered-product-oauth-endpoint",
+      "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "adupermit",
+      "displayName": "adupermit",
+      "origin": "portfolio40-additional-MIT-source-only",
+      "submissionReady": false,
+      "nativeInstallable": false,
+      "oauthClientId": null,
+      "configuration": "unset-no-registered-product-oauth-endpoint",
+      "marketplaceIdentityVerifiedByThisBuild": false
     }
   ],
   "productCount": 27,

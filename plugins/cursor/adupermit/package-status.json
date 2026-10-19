@@ -1,0 +1,28 @@
+{
+  "status": "draft_notinstallready_MIT",
+  "canonicalProductKey": "sku5_adu_permit",
+  "publicResourceSlug": "adupermit",
+  "host": "cursor",
+  "license": "MIT",
+  "licenseApprovalForTheseFive": true,
+  "sourceEngineIncluded": false,
+  "nativeInstallable": false,
+  "readyForSubmission": false,
+  "publicUploadPerformed": false,
+  "marketplaceSubmitted": false,
+  "published": false,
+  "oauthClientId": null,
+  "productionEndpointRegistered": false,
+  "activeMcpConfigurationIncluded": false,
+  "safeOperationCount": 4,
+  "excludedInsuranceOperations": [
+    "releaseApproval",
+    "issueCertificate"
+  ],
+  "blockers": [
+    "Explicit license/public upload approval absent; prior approval for different four products does not apply",
+    "Real product endpoint/resource/scope and product-specific public OAuth client not registered or verified",
+    "Final authenticated public transport envelope/idempotency/requestId contract and host manifest/install flow unverified",
+    "Production tenant/ledger/revocation mapping and SKU-specific durability/legal/source/financial gates remain unverified"
+  ]
+}

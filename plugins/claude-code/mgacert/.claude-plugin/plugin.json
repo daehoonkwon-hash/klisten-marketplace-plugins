@@ -1,0 +1,5 @@
+{
+  "name": "klisten-mgacert",
+  "version": "0.1.0",
+  "description": "AI 에이전트 책임보험 MGA 인증팩 local-only client setup source. MIT client source draft; no production MCP configuration or install readiness established."
+}

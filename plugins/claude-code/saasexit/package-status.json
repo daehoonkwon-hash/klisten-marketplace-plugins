@@ -1,0 +1,23 @@
+{
+  "product": "saasexit",
+  "host": "claude-code",
+  "artifactKind": "client-only-local-reusable-source",
+  "license": "MIT",
+  "licenseApprovalForTheseFour": true,
+  "serverEngineIncluded": false,
+  "nativeInstallable": false,
+  "nativeInstallationVerified": false,
+  "readyForSubmission": false,
+  "externalUploadPerformed": false,
+  "marketplaceSubmitted": false,
+  "published": false,
+  "productionEndpointVerified": false,
+  "oauthClientId": null,
+  "activeMcpConfigurationIncluded": false,
+  "blockers": [
+    "No new product-specific public OAuth client ID has been provisioned/verified",
+    "No actual production endpoint/resource/scope/host connection evidence for these four candidates",
+    "Host manifests/schema, actual installation and tool discovery/execution not validated",
+    "Publisher metadata/icons/review materials and market submission requirements not completed"
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "source": "actual local candidate manifest+typed adapter public-domain input contracts",
+  "productionDiscoveryVerified": false,
+  "transportEnvelopeVerified": false,
+  "operations": [
+    {
+      "name": "lossrunrefresh_ingestLossRun",
+      "operation": "ingestLossRun",
+      "sourceInputContract": "insurerMaterialSchema",
+      "sourceOutputContract": "ingestResultSchema",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "sourceKind": {
+            "type": "string",
+            "enum": [
+              "SYNTHETIC",
+              "CUSTOMER_UNVERIFIED"
+            ]
+          },
+          "sourceDocumentHash": {
+            "type": "string",
+            "pattern": "^sha256:[a-f0-9]{64}$"
+          },
+          "sourceVersion": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "carrier": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "policy_ref": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "period_label": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "period_start": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+          },
+          "period_end": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+          },
+          "declared_total_paid_usd": {
+            "type": "number",
+            "minimum": 0
+          },
+          "declared_total_incurred_usd": {
+            "type": "number",
+            "minimum": 0
+          },
+          "claims": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source_loss_id": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 300
+                },
+                "claimedAmountRaw": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100
+                },
+                "currencyRaw": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "dateRaw": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "paidAmountRaw": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "reserveRaw": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "recoveryAmountRaw": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "note": {
+                  "type": "string",
+                  "maxLength": 4000
+                }
+              },
+              "required": [
+                "source_loss_id",
+                "claimedAmountRaw",
+                "currencyRaw",
+                "dateRaw"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "carrier",
+          "policy_ref",
+          "period_label",
+          "claims"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    },
+    {
+      "name": "lossrunrefresh_reconcileTotals",
+      "operation": "reconcileTotals",
+      "sourceInputContract": "reconcileInputSchema",
+      "sourceOutputContract": "reconciliationSchema",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "carrier": {
+            "type": "string",
+            "minLength": 1
+          },
+          "policy_ref": {
+            "type": "string",
+            "minLength": 1
+          },
+          "declared_paid_usd": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "declared_incurred_usd": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "carrier",
+          "policy_ref",
+          "declared_paid_usd",
+          "declared_incurred_usd"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    },
+    {
+      "name": "lossrunrefresh_flagAnomalies",
+      "operation": "flagAnomalies",
+      "sourceInputContract": "ADAPTER_OBJECT: {org_id,carrier,policy_ref}",
+      "sourceOutputContract": "anomalyReportSchema",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "carrier": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "policy_ref": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          }
+        },
+        "required": [
+          "carrier",
+          "policy_ref"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    },
+    {
+      "name": "lossrunrefresh_buildRefreshPack",
+      "operation": "buildRefreshPack",
+      "sourceInputContract": "buildPackInputSchema",
+      "sourceOutputContract": "refreshPackSchema",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "carrier": {
+            "type": "string",
+            "minLength": 1
+          },
+          "policy_ref": {
+            "type": "string",
+            "minLength": 1
+          },
+          "declared_paid_usd": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "declared_incurred_usd": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "prepared_by": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "as_of": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$"
+          }
+        },
+        "required": [
+          "carrier",
+          "policy_ref",
+          "prepared_by",
+          "as_of"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    },
+    {
+      "name": "lossrunrefresh_pageCap",
+      "operation": "pageCap",
+      "sourceInputContract": "pageCapInputSchema",
+      "sourceOutputContract": "pageCapResultSchema",
+      "localPublicDomainInputSchema": {
+        "type": "object",
+        "properties": {
+          "carrier": {
+            "type": "string",
+            "minLength": 1
+          },
+          "policy_ref": {
+            "type": "string",
+            "minLength": 1
+          },
+          "claim_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "page_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "page_limit": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 0
+          },
+          "claim_limit": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 0
+          }
+        },
+        "required": [
+          "carrier",
+          "policy_ref",
+          "claim_count",
+          "page_count"
+        ],
+        "additionalProperties": false
+      },
+      "transportEnvelopeVerified": false,
+      "executionClass": "stateful"
+    }
+  ]
+}

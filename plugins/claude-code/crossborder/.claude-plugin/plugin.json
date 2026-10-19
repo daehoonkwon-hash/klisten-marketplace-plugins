@@ -1,0 +1,5 @@
+{
+  "name": "klisten-crossborder",
+  "version": "0.1.0",
+  "description": "국경 간 컴플라이언스 local-only client setup source. MIT client source draft; no production MCP configuration or install readiness established."
+}

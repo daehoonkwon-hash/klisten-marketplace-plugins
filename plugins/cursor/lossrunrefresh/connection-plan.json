@@ -1,0 +1,18 @@
+{
+  "canonicalProductKey": "sku4_lossrun_refresh",
+  "publicResourceSlug": "lossrunrefresh",
+  "host": "cursor",
+  "plannedResource": "https://api.klisten.co.kr/mcp/lossrunrefresh",
+  "localAdapterRequiredScope": "lossrunrefresh:evaluate",
+  "productionResourceRegistered": false,
+  "productionEndpointVerified": false,
+  "productionScopeGranted": false,
+  "productionScope": null,
+  "publicOAuthClientId": null,
+  "oauthClientRegistered": false,
+  "resourceBindingEnabled": false,
+  "activeMcpConfigurationIncluded": false,
+  "syntheticClientIdsUsed": false,
+  "actualHostInstallVerified": false,
+  "transportEnvelopeVerified": false
+}
