@@ -1,0 +1,11 @@
+{
+  "product": "esgdata",
+  "tools": [
+    "esgdata_defineMetric",
+    "esgdata_ingest",
+    "esgdata_normalize",
+    "esgdata_validate"
+  ],
+  "scope": "esgdata:evaluate",
+  "externalEffects": "none in client package; hosted product access requires authorized OAuth session"
+}

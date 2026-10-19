@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "esgdata": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/esgdata",
+      "oauth": {
+        "clientId": "2884c87c-25b6-4c04-9e17-8742521e069a",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

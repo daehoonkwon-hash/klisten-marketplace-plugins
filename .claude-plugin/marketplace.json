@@ -138,6 +138,26 @@
       "name": "klisten-localbus",
       "source": "./plugins/claude-code/localbus",
       "description": "LocalBusinessLayer tools and setup workflow."
+    },
+    {
+      "name": "klisten-agentcert",
+      "source": "plugins/claude-code/agentcert",
+      "description": "AgentCert hosted MCP client and setup instructions."
+    },
+    {
+      "name": "klisten-esgdata",
+      "source": "plugins/claude-code/esgdata",
+      "description": "ESGData hosted MCP client and setup instructions."
+    },
+    {
+      "name": "klisten-vectorevict",
+      "source": "plugins/claude-code/vectorevict",
+      "description": "VectorEvict hosted MCP client and setup instructions."
+    },
+    {
+      "name": "klisten-ordermatch",
+      "source": "plugins/claude-code/ordermatch",
+      "description": "OrderMatch hosted MCP client and setup instructions."
     }
   ]
 }

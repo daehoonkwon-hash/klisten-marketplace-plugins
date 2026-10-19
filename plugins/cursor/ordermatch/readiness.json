@@ -1,0 +1,22 @@
+{
+  "product": "ordermatch",
+  "host": "cursor",
+  "submissionReady": false,
+  "configuration": "registered-public-oauth-client-local-candidate",
+  "licenseApprovedForPublicDistribution": true,
+  "licenseScope": "client-only",
+  "licenseApprovalDate": "2026-10-19",
+  "publicRepositoryPublicationAuthorized": true,
+  "license": "MIT",
+  "serverCodeIncluded": false,
+  "secretIncluded": false,
+  "actualHostInstallationVerifiedByThisBuild": false,
+  "nativeParserVerified": false,
+  "published": false,
+  "submitted": false,
+  "oauthClientRegistrationSource": "registered-oauth-clients.json",
+  "blockers": [
+    "This package has not passed the actual native host plugin parser/install/OAuth tool-call acceptance.",
+    "Publisher listing, optional brand artwork, account/domain verification and marketplace legal attestations require target-portal review."
+  ]
+}

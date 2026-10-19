@@ -1,0 +1,11 @@
+{
+  "product": "ordermatch",
+  "tools": [
+    "ordermatch_ingestPo",
+    "ordermatch_ingestAck",
+    "ordermatch_match",
+    "ordermatch_discrepancyReport"
+  ],
+  "scope": "ordermatch:evaluate",
+  "externalEffects": "none in client package; hosted product access requires authorized OAuth session"
+}

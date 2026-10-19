@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "esgdata": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/esgdata",
+      "auth": {
+        "CLIENT_ID": "a08807ab-e6f5-43df-a2df-ef0347d41349",
+        "CLIENT_SECRET": "",
+        "scopes": [
+          "esgdata:evaluate"
+        ]
+      }
+    }
+  }
+}

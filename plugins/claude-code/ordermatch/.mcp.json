@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ordermatch": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/ordermatch",
+      "oauth": {
+        "clientId": "32eaedb5-15b0-4978-8f1b-77a5125e62be",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "vectorevict": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/vectorevict",
+      "auth": {
+        "CLIENT_ID": "b60db9d1-5a0e-4e85-9694-23498d0fedef",
+        "CLIENT_SECRET": "",
+        "scopes": [
+          "vectorevict:evaluate"
+        ]
+      }
+    }
+  }
+}

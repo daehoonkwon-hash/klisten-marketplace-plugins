@@ -1,0 +1,10 @@
+{
+  "product": "vectorevict",
+  "tools": [
+    "vectorevict_registerVector",
+    "vectorevict_planEviction",
+    "vectorevict_summary"
+  ],
+  "scope": "vectorevict:evaluate",
+  "externalEffects": "none in client package; hosted product access requires authorized OAuth session"
+}

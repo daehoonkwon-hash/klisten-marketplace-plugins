@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ordermatch": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/ordermatch",
+      "auth": {
+        "CLIENT_ID": "b8c8af7e-4c81-4342-bceb-a23123d912b3",
+        "CLIENT_SECRET": "",
+        "scopes": [
+          "ordermatch:evaluate"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "klisten-esgdata",
+  "version": "0.1.0",
+  "description": "ESGData hosted MCP client and setup instructions.",
+  "author": {
+    "name": "Klisten Inc"
+  },
+  "license": "MIT",
+  "mcpServers": "./mcp.json",
+  "keywords": [
+    "klisten",
+    "esgdata",
+    "mcp",
+    "client-config"
+  ]
+}

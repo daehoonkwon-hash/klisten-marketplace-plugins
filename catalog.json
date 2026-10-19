@@ -216,6 +216,54 @@
       "submissionReady": false,
       "configuration": "new-public-oauth-candidate",
       "marketplaceIdentityVerifiedByThisBuild": false
+    },
+    {
+      "product": "agentcert",
+      "displayName": "AgentCert",
+      "origin": "new4",
+      "submissionReady": false,
+      "configuration": "registered-public-oauth-client-local-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false,
+      "license": "MIT",
+      "licenseApprovedForPublicDistribution": true,
+      "licenseScope": "client-only",
+      "licenseApprovalDate": "2026-10-19"
+    },
+    {
+      "product": "esgdata",
+      "displayName": "ESGData",
+      "origin": "new4",
+      "submissionReady": false,
+      "configuration": "registered-public-oauth-client-local-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false,
+      "license": "MIT",
+      "licenseApprovedForPublicDistribution": true,
+      "licenseScope": "client-only",
+      "licenseApprovalDate": "2026-10-19"
+    },
+    {
+      "product": "vectorevict",
+      "displayName": "VectorEvict",
+      "origin": "new4",
+      "submissionReady": false,
+      "configuration": "registered-public-oauth-client-local-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false,
+      "license": "MIT",
+      "licenseApprovedForPublicDistribution": true,
+      "licenseScope": "client-only",
+      "licenseApprovalDate": "2026-10-19"
+    },
+    {
+      "product": "ordermatch",
+      "displayName": "OrderMatch",
+      "origin": "new4",
+      "submissionReady": false,
+      "configuration": "registered-public-oauth-client-local-candidate",
+      "marketplaceIdentityVerifiedByThisBuild": false,
+      "license": "MIT",
+      "licenseApprovedForPublicDistribution": true,
+      "licenseScope": "client-only",
+      "licenseApprovalDate": "2026-10-19"
     }
   ],
   "productCount": 27,

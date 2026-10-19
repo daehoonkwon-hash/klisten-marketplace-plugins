@@ -138,6 +138,26 @@
       "name": "klisten-localbus",
       "source": "plugins/cursor/localbus",
       "description": "LocalBusinessLayer tools and setup workflow."
+    },
+    {
+      "name": "klisten-agentcert",
+      "source": "plugins/cursor/agentcert",
+      "description": "AgentCert hosted MCP client and setup instructions."
+    },
+    {
+      "name": "klisten-esgdata",
+      "source": "plugins/cursor/esgdata",
+      "description": "ESGData hosted MCP client and setup instructions."
+    },
+    {
+      "name": "klisten-vectorevict",
+      "source": "plugins/cursor/vectorevict",
+      "description": "VectorEvict hosted MCP client and setup instructions."
+    },
+    {
+      "name": "klisten-ordermatch",
+      "source": "plugins/cursor/ordermatch",
+      "description": "OrderMatch hosted MCP client and setup instructions."
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "agentcert": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/agentcert",
+      "oauth": {
+        "clientId": "542e1d87-7023-4752-8d92-a69c9ae902b0",
+        "callbackPort": 8080
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "product": "agentcert",
+  "tools": [
+    "agentcert_issueCert",
+    "agentcert_verifyCert",
+    "agentcert_defineCertSchema"
+  ],
+  "scope": "agentcert:evaluate",
+  "externalEffects": "none in client package; hosted product access requires authorized OAuth session"
+}
