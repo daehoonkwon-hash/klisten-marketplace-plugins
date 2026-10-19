@@ -1,7 +1,7 @@
 {
   "name": "klisten-modelroute",
-  "version": "0.1.1",
-  "description": "ModelRoute tools and setup workflow.",
+  "version": "0.1.2",
+  "description": "Read bounded pages of the public ModelRoute metadata catalog; no model execution or account access.",
   "author": {
     "name": "Klisten Inc",
     "email": "klisteninc@gmail.com",

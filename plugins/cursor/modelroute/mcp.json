@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "modelroute": {
+      "url": "https://api.klisten.co.kr/mcp"
+    }
+  }
+}

@@ -30,7 +30,7 @@
       "displayName": "ModelRoute",
       "origin": "legacy",
       "submissionReady": false,
-      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "configuration": "anonymous-catalog-configured",
       "marketplaceIdentityVerifiedByThisBuild": false
     },
     {

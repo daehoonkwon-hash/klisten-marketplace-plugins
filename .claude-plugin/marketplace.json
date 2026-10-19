@@ -22,7 +22,7 @@
     {
       "name": "klisten-modelroute",
       "source": "./plugins/claude-code/modelroute",
-      "description": "ModelRoute tools and setup workflow."
+      "description": "Read bounded pages of the public ModelRoute metadata catalog; no model execution or account access."
     },
     {
       "name": "klisten-agentscore",
