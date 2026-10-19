@@ -6,7 +6,9 @@
   "configuration": "new-public-oauth-candidate",
   "marketplaceIdentityVerifiedByThisBuild": false,
   "actualHostInstallationVerified": false,
-  "licenseApprovedForPublicDistribution": false,
+  "licenseApprovedForPublicDistribution": true,
   "published": false,
-  "submittedByThisBuild": false
+  "submittedByThisBuild": false,
+  "licenseScope": "client-only",
+  "licenseApprovalDate": "2026-10-19"
 }

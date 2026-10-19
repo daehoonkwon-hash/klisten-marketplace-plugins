@@ -6,8 +6,10 @@
   "configuration": "parent-extension-staged-disabled",
   "marketplaceIdentityVerifiedByThisBuild": false,
   "actualHostInstallationVerified": false,
-  "licenseApprovedForPublicDistribution": false,
+  "licenseApprovedForPublicDistribution": true,
   "published": false,
   "submittedByThisBuild": false,
-  "reason": "Extension OAuth scopes are staged; active legacy parent contract must be preserved until separately verified cutover. No active MCP config is installed here."
+  "reason": "Extension OAuth scopes are staged; active legacy parent contract must be preserved until separately verified cutover. No active MCP config is installed here.",
+  "licenseScope": "client-only",
+  "licenseApprovalDate": "2026-10-19"
 }

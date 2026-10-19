@@ -1,5 +1,25 @@
 {
   "name": "klisten-deadlineengine",
-  "version": "0.1.0",
-  "description": "DeadlineEngine tools and setup workflow."
+  "version": "0.1.1",
+  "description": "DeadlineEngine tools and setup workflow.",
+  "author": {
+    "name": "Klisten Inc",
+    "email": "klisteninc@gmail.com",
+    "url": "https://klisten.co.kr/products"
+  },
+  "homepage": "https://klisten.co.kr/products",
+  "repository": "https://github.com/daehoonkwon-hash/klisten-marketplace-plugins",
+  "license": "MIT",
+  "keywords": [
+    "klisten",
+    "deadlineengine",
+    "mcp",
+    "client-config"
+  ],
+  "displayName": "DeadlineEngine",
+  "icon": "./assets/icon.svg",
+  "documentationUrl": "https://klisten.co.kr/docs.html",
+  "supportUrl": "https://klisten.co.kr/customer-guide.html",
+  "privacyPolicyUrl": "https://klisten.co.kr/privacy.html",
+  "termsOfServiceUrl": "https://klisten.co.kr/terms.html"
 }

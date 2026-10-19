@@ -1,5 +1,20 @@
 {
   "name": "klisten-agentsafe",
-  "version": "0.1.0",
-  "description": "AgentSafe tools and setup workflow."
+  "version": "0.1.1",
+  "description": "AgentSafe tools and setup workflow.",
+  "author": {
+    "name": "Klisten Inc",
+    "email": "klisteninc@gmail.com",
+    "url": "https://klisten.co.kr/products"
+  },
+  "homepage": "https://klisten.co.kr/products",
+  "repository": "https://github.com/daehoonkwon-hash/klisten-marketplace-plugins",
+  "license": "MIT",
+  "keywords": [
+    "klisten",
+    "agentsafe",
+    "mcp",
+    "client-config"
+  ],
+  "logo": "assets/icon.svg"
 }

@@ -1,6 +1,26 @@
 {
   "name": "klisten-landed",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "LandedCost tools and setup workflow.",
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./.mcp.json",
+  "author": {
+    "name": "Klisten Inc",
+    "email": "klisteninc@gmail.com",
+    "url": "https://klisten.co.kr/products"
+  },
+  "homepage": "https://klisten.co.kr/products",
+  "repository": "https://github.com/daehoonkwon-hash/klisten-marketplace-plugins",
+  "license": "MIT",
+  "keywords": [
+    "klisten",
+    "landed",
+    "mcp",
+    "client-config"
+  ],
+  "displayName": "LandedCost",
+  "icon": "./assets/icon.svg",
+  "documentationUrl": "https://klisten.co.kr/docs.html",
+  "supportUrl": "https://klisten.co.kr/customer-guide.html",
+  "privacyPolicyUrl": "https://klisten.co.kr/privacy.html",
+  "termsOfServiceUrl": "https://klisten.co.kr/terms.html"
 }
