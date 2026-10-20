@@ -736,5 +736,35 @@
       "transportEnvelopeVerified": false,
       "executionClass": "stateful"
     }
-  ]
+  ],
+  "nativePluginUiDiscovery": {
+    "verifiedOn": "2026-10-20",
+    "officialCli": "2.1.304",
+    "pluginServerIdentity": "plugin:klisten-crossborder:crossborder",
+    "connected": true,
+    "oauthAuthenticationVerified": true,
+    "toolCount": 7,
+    "observedDisplayTitles": [
+      "defineJurisdiction",
+      "registerNegative",
+      "precheckDeal",
+      "checkRightToOperate",
+      "sanctionScan",
+      "tariffEstimate",
+      "buildComplianceDossier"
+    ],
+    "correspondingReviewedWireNames": [
+      "crossborder_defineJurisdiction",
+      "crossborder_registerNegative",
+      "crossborder_precheckDeal",
+      "crossborder_checkRightToOperate",
+      "crossborder_sanctionScan",
+      "crossborder_tariffEstimate",
+      "crossborder_buildComplianceDossier"
+    ],
+    "rawProtocolNamesCaptured": false,
+    "titleToReviewedMetadataMatch": true,
+    "inputSchemaVerifiedByThisEvidence": false,
+    "businessCalls": 0
+  }
 }

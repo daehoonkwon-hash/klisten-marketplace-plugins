@@ -6,10 +6,10 @@
   "endpointProductionVerified": false,
   "publicOAuthClientId": "f61f7c95-59c5-43d2-9c04-3eda9f637883",
   "oauthClientRegistered": true,
-  "resourceBindingEnabled": false,
+  "resourceBindingEnabled": true,
   "activeMcpConfigurationIncluded": true,
   "syntheticClientIdsUsed": false,
-  "instructions": "Registered public client/URL config included for review. No native install, account change, grant activation or real OAuth consent is performed. Runtime endpoints and registered bindings must pass actual acceptance before claiming install readiness.",
+  "instructions": "Use this exact existing registered public client and product scope. Native plugin-directory OAuth authentication and UI tool-title/count discovery were verified on2026-10-20. Existing grants were not broadened. Persistent installation, business workflows, production schemas and marketplace approval remain unverified. See native-verification.json.",
   "registeredResource": "https://api.klisten.co.kr/mcp/saasexit",
   "registeredScope": "saasexit:evaluate",
   "actualHostInstallVerified": false,
@@ -18,5 +18,13 @@
     "https://claude.ai/api/mcp/auth_callback",
     "http://localhost:8080/callback"
   ],
-  "tokenEndpointAuthMethod": "none"
+  "tokenEndpointAuthMethod": "none",
+  "nativePluginNamespaceOAuthVerified": true,
+  "nativePluginNamespaceConnected": true,
+  "nativePluginDirectoryLoadingVerified": true,
+  "verificationDate": "2026-10-20",
+  "endpointMetadataVerified": true,
+  "endpointVerificationScope": "OAuth/resource discovery metadata and authenticated native plugin namespace connection; business endpoint behavior and production input schemas are not verified by this evidence.",
+  "persistentPluginInstallationVerified": false,
+  "businessWorkflowVerified": false
 }

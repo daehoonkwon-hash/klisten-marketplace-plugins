@@ -223,5 +223,29 @@
         "idempotentHint": false
       }
     }
-  ]
+  ],
+  "nativePluginUiDiscovery": {
+    "verifiedOn": "2026-10-20",
+    "officialCli": "2.1.304",
+    "pluginServerIdentity": "plugin:klisten-entityresolver:entityresolver",
+    "connected": true,
+    "oauthAuthenticationVerified": true,
+    "toolCount": 4,
+    "observedDisplayTitles": [
+      "define Rule",
+      "ingest",
+      "resolve",
+      "deliver"
+    ],
+    "correspondingReviewedWireNames": [
+      "entityresolver_defineRule",
+      "entityresolver_ingest",
+      "entityresolver_resolve",
+      "entityresolver_deliver"
+    ],
+    "rawProtocolNamesCaptured": false,
+    "titleToReviewedMetadataMatch": true,
+    "inputSchemaVerifiedByThisEvidence": false,
+    "businessCalls": 0
+  }
 }

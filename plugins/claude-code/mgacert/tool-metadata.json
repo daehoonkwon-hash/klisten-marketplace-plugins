@@ -792,5 +792,31 @@
       "transportEnvelopeVerified": false,
       "executionClass": "stateful"
     }
-  ]
+  ],
+  "nativePluginUiDiscovery": {
+    "verifiedOn": "2026-10-20",
+    "officialCli": "2.1.304",
+    "pluginServerIdentity": "plugin:klisten-mgacert:mgacert",
+    "connected": true,
+    "oauthAuthenticationVerified": true,
+    "toolCount": 5,
+    "observedDisplayTitles": [
+      "ingestTelemetry",
+      "scoreRisk",
+      "buildSubmission",
+      "renewCheck",
+      "getCertificate"
+    ],
+    "correspondingReviewedWireNames": [
+      "mgacert_ingestTelemetry",
+      "mgacert_scoreRisk",
+      "mgacert_buildSubmission",
+      "mgacert_renewCheck",
+      "mgacert_getCertificate"
+    ],
+    "rawProtocolNamesCaptured": false,
+    "titleToReviewedMetadataMatch": true,
+    "inputSchemaVerifiedByThisEvidence": false,
+    "businessCalls": 0
+  }
 }

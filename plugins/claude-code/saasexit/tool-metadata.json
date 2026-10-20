@@ -343,5 +343,27 @@
         "idempotentHint": true
       }
     }
-  ]
+  ],
+  "nativePluginUiDiscovery": {
+    "verifiedOn": "2026-10-20",
+    "officialCli": "2.1.304",
+    "pluginServerIdentity": "plugin:klisten-saasexit:saasexit",
+    "connected": true,
+    "oauthAuthenticationVerified": true,
+    "toolCount": 3,
+    "observedDisplayTitles": [
+      "define Assessment",
+      "assess",
+      "runaway Plan"
+    ],
+    "correspondingReviewedWireNames": [
+      "saasexit_defineAssessment",
+      "saasexit_assess",
+      "saasexit_runawayPlan"
+    ],
+    "rawProtocolNamesCaptured": false,
+    "titleToReviewedMetadataMatch": true,
+    "inputSchemaVerifiedByThisEvidence": false,
+    "businessCalls": 0
+  }
 }

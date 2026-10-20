@@ -11,14 +11,12 @@ Prepare supplied-data transaction structure, right-to-operate checks, sanctions 
 Read CAPABILITY_LIMITS.md and package-status.json before any work. Examples are plans, not passed host behavior tests. No external action, legal approval, financial recovery or official data validation is enabled.
 
 
-## Registered OAuth client configuration — local review candidate
+## Registered public OAuth client configuration
 
 Host: claude-code. Product resource: https://api.klisten.co.kr/mcp/crossborder. Public client ID: 4f1cc68f-0c14-44f5-985f-93f96250f8ac. Exact requested scope: `crossborder:evaluate`. Public/PKCE client with token-endpoint authentication `none`; no secret is included. Claude Code uses plugin-root .mcp.json, HTTP transport and callbackPort8080; oauth.scopes is the exact space-separated singleton string.
 
 ## Verification scope — 2026-10-20
 
-Official Claude Code 2.1.304 successfully authenticated this product's project `.mcp.json` connection with only `crossborder:evaluate` and displayed its 7 tools in the native MCP menu. Across these nine products the verified inventory totals 39 tools. This verifies project MCP OAuth and discovery only. No business tool, model call or paid usage was performed; the backing key daily limit remained $0.
+Official Claude Code 2.1.304 loaded this plugin through `--plugin-dir`, authenticated namespace `plugin:klisten-crossborder:crossborder` with only `crossborder:evaluate`, and showed 7 tools in that namespace’s native UI. The observed display titles matched the reviewed static metadata names; raw protocol names and production input schemas were not independently captured. See `native-verification.json`. Across these nine Claude Code plugins, the observed UI inventory totals 39 tools.
 
-Packaged plugin installation, business workflow execution and plugin marketplace approval remain unverified. Installation/submission readiness flags remain false. This evidence does not enable actual insurance issuance, payment, government submission or external data verification. MIT covers only these client files. No keys, tokens, reviewer credentials or private account data are included.
-
-The separate Claude MCP directory listing for this product is published. That listing does not establish packaged Claude Code or Cursor plugin approval.
+This is plugin-directory loading, OAuth authentication and UI discovery evidence. It does not verify persistent plugin installation, the five positive and three unsupported conversation workflows, model execution or marketplace approval. No business tool or model call ran, and no paid usage occurred. Existing scopes and configured transport remain unchanged. Input schemas and tool behavior in `tool-metadata.json` remain reviewed contract metadata.

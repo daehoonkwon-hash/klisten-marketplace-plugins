@@ -1,6 +1,6 @@
 {
   "name": "klisten-adupermit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Prepare sample ADU plan prechecks and correction lists from supplied data. Official permits and legal approval remain blocked.",
   "author": {
     "name": "Klisten Inc",

@@ -1,6 +1,6 @@
 {
   "name": "klisten-saasexit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Assess supplied SaaS transition criteria and prepare an exit plan. Does not migrate accounts or data.",
   "author": {
     "name": "Klisten Inc",

@@ -420,5 +420,29 @@
       "transportEnvelopeVerified": false,
       "executionClass": "stateful"
     }
-  ]
+  ],
+  "nativePluginUiDiscovery": {
+    "verifiedOn": "2026-10-20",
+    "officialCli": "2.1.304",
+    "pluginServerIdentity": "plugin:klisten-adupermit:adupermit",
+    "connected": true,
+    "oauthAuthenticationVerified": true,
+    "toolCount": 4,
+    "observedDisplayTitles": [
+      "precheckPlan",
+      "listCorrectHailangs",
+      "checkRightToOperate",
+      "jurisdictionMatrix"
+    ],
+    "correspondingReviewedWireNames": [
+      "adupermit_precheckPlan",
+      "adupermit_listCorrectHailangs",
+      "adupermit_checkRightToOperate",
+      "adupermit_jurisdictionMatrix"
+    ],
+    "rawProtocolNamesCaptured": false,
+    "titleToReviewedMetadataMatch": true,
+    "inputSchemaVerifiedByThisEvidence": false,
+    "businessCalls": 0
+  }
 }

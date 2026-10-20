@@ -304,5 +304,31 @@
       "transportEnvelopeVerified": false,
       "executionClass": "stateful"
     }
-  ]
+  ],
+  "nativePluginUiDiscovery": {
+    "verifiedOn": "2026-10-20",
+    "officialCli": "2.1.304",
+    "pluginServerIdentity": "plugin:klisten-lossrunrefresh:lossrunrefresh",
+    "connected": true,
+    "oauthAuthenticationVerified": true,
+    "toolCount": 5,
+    "observedDisplayTitles": [
+      "ingestLossRun",
+      "reconcileTotals",
+      "flagAnomalies",
+      "buildRefreshPack",
+      "pageCap"
+    ],
+    "correspondingReviewedWireNames": [
+      "lossrunrefresh_ingestLossRun",
+      "lossrunrefresh_reconcileTotals",
+      "lossrunrefresh_flagAnomalies",
+      "lossrunrefresh_buildRefreshPack",
+      "lossrunrefresh_pageCap"
+    ],
+    "rawProtocolNamesCaptured": false,
+    "titleToReviewedMetadataMatch": true,
+    "inputSchemaVerifiedByThisEvidence": false,
+    "businessCalls": 0
+  }
 }

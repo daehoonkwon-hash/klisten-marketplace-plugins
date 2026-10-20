@@ -314,5 +314,31 @@
       "transportEnvelopeVerified": false,
       "executionClass": "stateful"
     }
-  ]
+  ],
+  "nativePluginUiDiscovery": {
+    "verifiedOn": "2026-10-20",
+    "officialCli": "2.1.304",
+    "pluginServerIdentity": "plugin:klisten-spendrecovery:spendrecovery",
+    "connected": true,
+    "oauthAuthenticationVerified": true,
+    "toolCount": 5,
+    "observedDisplayTitles": [
+      "ingest",
+      "auditBatch",
+      "approveLine",
+      "buildDisputePacket",
+      "monthlySavingReport"
+    ],
+    "correspondingReviewedWireNames": [
+      "spendrecovery_ingest",
+      "spendrecovery_auditBatch",
+      "spendrecovery_approveLine",
+      "spendrecovery_buildDisputePacket",
+      "spendrecovery_monthlySavingReport"
+    ],
+    "rawProtocolNamesCaptured": false,
+    "titleToReviewedMetadataMatch": true,
+    "inputSchemaVerifiedByThisEvidence": false,
+    "businessCalls": 0
+  }
 }

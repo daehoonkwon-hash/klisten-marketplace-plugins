@@ -1,6 +1,6 @@
 {
   "name": "klisten-contextcondense",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Condense and recover supplied context through a deterministic workflow. External language-model processing is not provided.",
   "author": {
     "name": "Klisten Inc",

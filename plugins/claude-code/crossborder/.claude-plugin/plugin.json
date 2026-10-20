@@ -1,6 +1,6 @@
 {
   "name": "klisten-crossborder",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Prepare supplied-data cross-border checks and compliance-document drafts. Does not establish legal clearance or verified live sanctions status.",
   "author": {
     "name": "Klisten Inc",

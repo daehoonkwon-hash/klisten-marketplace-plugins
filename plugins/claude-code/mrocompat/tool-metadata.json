@@ -176,5 +176,27 @@
         "idempotentHint": true
       }
     }
-  ]
+  ],
+  "nativePluginUiDiscovery": {
+    "verifiedOn": "2026-10-20",
+    "officialCli": "2.1.304",
+    "pluginServerIdentity": "plugin:klisten-mrocompat:mrocompat",
+    "connected": true,
+    "oauthAuthenticationVerified": true,
+    "toolCount": 3,
+    "observedDisplayTitles": [
+      "define Part",
+      "compatibility Check",
+      "replacement Rank"
+    ],
+    "correspondingReviewedWireNames": [
+      "mrocompat_definePart",
+      "mrocompat_compatibilityCheck",
+      "mrocompat_replacementRank"
+    ],
+    "rawProtocolNamesCaptured": false,
+    "titleToReviewedMetadataMatch": true,
+    "inputSchemaVerifiedByThisEvidence": false,
+    "businessCalls": 0
+  }
 }

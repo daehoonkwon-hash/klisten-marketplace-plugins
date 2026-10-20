@@ -1,0 +1,41 @@
+{
+  "verifiedOn": "2026-10-20",
+  "host": "Claude Code",
+  "officialCli": "2.1.304",
+  "sourceCommitTested": "f0e8874dfe4b2235c809e85f6f198a1ea9bef9b2",
+  "product": "crossborder",
+  "pluginServerIdentity": "plugin:klisten-crossborder:crossborder",
+  "scope": "crossborder:evaluate",
+  "oauthAuthenticationVerified": true,
+  "connectedInNativePluginSession": true,
+  "pluginDirectoryLoadingVerified": true,
+  "observedToolCount": 7,
+  "observedDisplayTitles": [
+    "defineJurisdiction",
+    "registerNegative",
+    "precheckDeal",
+    "checkRightToOperate",
+    "sanctionScan",
+    "tariffEstimate",
+    "buildComplianceDossier"
+  ],
+  "correspondingReviewedWireNames": [
+    "crossborder_defineJurisdiction",
+    "crossborder_registerNegative",
+    "crossborder_precheckDeal",
+    "crossborder_checkRightToOperate",
+    "crossborder_sanctionScan",
+    "crossborder_tariffEstimate",
+    "crossborder_buildComplianceDossier"
+  ],
+  "wireNameEvidence": "Reviewed static metadata matched actual native UI display titles. Raw protocol tool names were not separately captured.",
+  "productionSchemasVerified": false,
+  "persistentPluginInstallationVerified": false,
+  "businessWorkflowCasesExecuted": false,
+  "positive5Negative3HostCasesExecuted": false,
+  "businessToolCalls": 0,
+  "modelPrompts": 0,
+  "paidUsage": false,
+  "marketplaceApprovalVerified": false,
+  "evidenceScope": "OAuth authentication and native plugin namespace connection plus UI tool-title/count discovery only."
+}

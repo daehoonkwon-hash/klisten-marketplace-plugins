@@ -1,6 +1,6 @@
 {
   "name": "klisten-spendrecovery",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Audit supplied payment records and prepare dispute-document drafts. Estimated savings do not establish money recovered.",
   "author": {
     "name": "Klisten Inc",

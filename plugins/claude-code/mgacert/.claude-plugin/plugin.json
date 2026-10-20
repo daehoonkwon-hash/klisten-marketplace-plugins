@@ -1,6 +1,6 @@
 {
   "name": "klisten-mgacert",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Prepare telemetry risk reviews and draft submission packs. Does not issue binding insurance coverage or actual insurance certificates.",
   "author": {
     "name": "Klisten Inc",

@@ -1,0 +1,37 @@
+{
+  "verifiedOn": "2026-10-20",
+  "host": "Claude Code",
+  "officialCli": "2.1.304",
+  "sourceCommitTested": "f0e8874dfe4b2235c809e85f6f198a1ea9bef9b2",
+  "product": "mgacert",
+  "pluginServerIdentity": "plugin:klisten-mgacert:mgacert",
+  "scope": "mgacert:evaluate",
+  "oauthAuthenticationVerified": true,
+  "connectedInNativePluginSession": true,
+  "pluginDirectoryLoadingVerified": true,
+  "observedToolCount": 5,
+  "observedDisplayTitles": [
+    "ingestTelemetry",
+    "scoreRisk",
+    "buildSubmission",
+    "renewCheck",
+    "getCertificate"
+  ],
+  "correspondingReviewedWireNames": [
+    "mgacert_ingestTelemetry",
+    "mgacert_scoreRisk",
+    "mgacert_buildSubmission",
+    "mgacert_renewCheck",
+    "mgacert_getCertificate"
+  ],
+  "wireNameEvidence": "Reviewed static metadata matched actual native UI display titles. Raw protocol tool names were not separately captured.",
+  "productionSchemasVerified": false,
+  "persistentPluginInstallationVerified": false,
+  "businessWorkflowCasesExecuted": false,
+  "positive5Negative3HostCasesExecuted": false,
+  "businessToolCalls": 0,
+  "modelPrompts": 0,
+  "paidUsage": false,
+  "marketplaceApprovalVerified": false,
+  "evidenceScope": "OAuth authentication and native plugin namespace connection plus UI tool-title/count discovery only."
+}

@@ -256,5 +256,27 @@
         "idempotentHint": true
       }
     }
-  ]
+  ],
+  "nativePluginUiDiscovery": {
+    "verifiedOn": "2026-10-20",
+    "officialCli": "2.1.304",
+    "pluginServerIdentity": "plugin:klisten-contextcondense:contextcondense",
+    "connected": true,
+    "oauthAuthenticationVerified": true,
+    "toolCount": 3,
+    "observedDisplayTitles": [
+      "ingest Segment",
+      "condense",
+      "recover"
+    ],
+    "correspondingReviewedWireNames": [
+      "contextcondense_ingestSegment",
+      "contextcondense_condense",
+      "contextcondense_recover"
+    ],
+    "rawProtocolNamesCaptured": false,
+    "titleToReviewedMetadataMatch": true,
+    "inputSchemaVerifiedByThisEvidence": false,
+    "businessCalls": 0
+  }
 }
