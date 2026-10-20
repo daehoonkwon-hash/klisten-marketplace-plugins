@@ -10,7 +10,7 @@ The registered public-client configuration has now been prepared locally under e
 Local workflow to review:
 
 1. precheckPlan evaluates supplied plan fields against the locally supported sample rules and exposes source limitations.
-2. listCorrectHailangs is the exact existing safe operation name for corrections; do not silently invent listCorrections as a transport tool.
+2. Discover the correction-list tool from the connected server tools/list. The legacy deployed name is adupermit_listCorrectHailangs; the reviewed naming update advertises adupermit_listCorrections only after deployment. Do not assume the update is live or use an unadvertised tool name.
 3. checkRightToOperate compares supplied profile prerequisites without proving licenses.
 4. jurisdictionMatrix shows local coverage and keeps readiness/official approval blocked.
 
@@ -22,3 +22,6 @@ Do not expose releaseApproval or issueCertificate, legal/financial execution, ra
 
 
 Registered public OAuth configuration is included in this local candidate for adupermit. Use only its fixed https://api.klisten.co.kr/mcp/adupermit resource and exact adupermit:evaluate scope. Do not request API keys, passwords or secrets in chat, do not create replacement clients, and do not claim this candidate was natively installed or authorized. Keep all existing capability limits above. Operator approval and actual endpoint/host acceptance are still required before live use.
+
+
+Native plugin setup: avoid defining the same MCP URL in both project .mcp.json and this plugin. Claude Code skips the plugin server when a duplicate project server exists; inspect /plugin → Errors and /mcp. Choose one configuration source deliberately, preserve existing project settings, and use normal product-specific OAuth consent. A loaded plugin or authenticated project connection alone does not prove plugin tool discovery or marketplace publication.

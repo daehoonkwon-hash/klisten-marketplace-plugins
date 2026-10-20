@@ -1,7 +1,7 @@
 {
   "name": "klisten-mrocompat",
-  "version": "0.1.0",
-  "description": "MROCompat local-only setup source; public connection and installation readiness are not established.",
+  "version": "0.1.1",
+  "description": "Compare supplied part specifications and rank replacement candidates. Does not establish engineering certification or safety approval.",
   "author": {
     "name": "Klisten Inc",
     "email": "klisteninc@gmail.com",

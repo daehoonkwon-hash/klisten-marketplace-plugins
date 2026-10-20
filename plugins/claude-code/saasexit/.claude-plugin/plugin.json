@@ -1,7 +1,7 @@
 {
   "name": "klisten-saasexit",
-  "version": "0.1.0",
-  "description": "SaaSExit local-only setup source; public connection and installation readiness are not established.",
+  "version": "0.1.1",
+  "description": "Assess supplied SaaS transition criteria and prepare an exit plan. Does not migrate accounts or data.",
   "author": {
     "name": "Klisten Inc",
     "email": "klisteninc@gmail.com",

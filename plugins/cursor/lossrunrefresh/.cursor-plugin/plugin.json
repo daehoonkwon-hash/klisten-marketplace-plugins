@@ -1,7 +1,7 @@
 {
   "name": "klisten-lossrunrefresh",
-  "version": "0.1.0",
-  "description": "Loss-Run 정리·갱신 제출팩 local-only client setup source. MIT client source draft; no production MCP configuration or install readiness established.",
+  "version": "0.1.1",
+  "description": "Normalize supplied loss-run records and prepare renewal-document drafts. Does not submit to insurers or verify external source records.",
   "author": {
     "name": "Klisten Inc",
     "email": "klisteninc@gmail.com",

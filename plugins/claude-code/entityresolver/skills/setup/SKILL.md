@@ -9,3 +9,6 @@ Review the supplied tool-metadata.json against the final deployed product only a
 
 
 Registered public OAuth configuration is included in this local candidate for entityresolver. Use only its fixed https://api.klisten.co.kr/mcp/entityresolver resource and exact entityresolver:evaluate scope. Do not request API keys, passwords or secrets in chat, do not create replacement clients, and do not claim this candidate was natively installed or authorized. Keep all existing capability limits above. Operator approval and actual endpoint/host acceptance are still required before live use.
+
+
+Native plugin setup: avoid defining the same MCP URL in both project .mcp.json and this plugin. Claude Code skips the plugin server when a duplicate project server exists; inspect /plugin → Errors and /mcp. Choose one configuration source deliberately, preserve existing project settings, and use normal product-specific OAuth consent. A loaded plugin or authenticated project connection alone does not prove plugin tool discovery or marketplace publication.

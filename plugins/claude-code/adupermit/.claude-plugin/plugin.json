@@ -1,7 +1,7 @@
 {
   "name": "klisten-adupermit",
-  "version": "0.1.0",
-  "description": "ADU/소형 인허가 사전검사 local-only client setup source. MIT client source draft; no production MCP configuration or install readiness established.",
+  "version": "0.1.1",
+  "description": "Prepare sample ADU plan prechecks and correction lists from supplied data. Official permits and legal approval remain blocked.",
   "author": {
     "name": "Klisten Inc",
     "email": "klisteninc@gmail.com",

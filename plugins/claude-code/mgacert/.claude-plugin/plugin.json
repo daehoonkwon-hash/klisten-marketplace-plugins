@@ -1,7 +1,7 @@
 {
   "name": "klisten-mgacert",
-  "version": "0.1.0",
-  "description": "AI 에이전트 책임보험 MGA 인증팩 local-only client setup source. MIT client source draft; no production MCP configuration or install readiness established.",
+  "version": "0.1.1",
+  "description": "Prepare telemetry risk reviews and draft submission packs. Does not issue binding insurance coverage or actual insurance certificates.",
   "author": {
     "name": "Klisten Inc",
     "email": "klisteninc@gmail.com",

@@ -1,7 +1,7 @@
 {
   "name": "klisten-entityresolver",
-  "version": "0.1.0",
-  "description": "EntityResolver local-only setup source; public connection and installation readiness are not established.",
+  "version": "0.1.1",
+  "description": "Compare supplied records and prepare entity-match candidates. Does not change external customer accounts.",
   "author": {
     "name": "Klisten Inc",
     "email": "klisteninc@gmail.com",

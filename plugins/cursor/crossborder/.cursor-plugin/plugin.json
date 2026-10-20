@@ -1,7 +1,7 @@
 {
   "name": "klisten-crossborder",
-  "version": "0.1.0",
-  "description": "국경 간 컴플라이언스 local-only client setup source. MIT client source draft; no production MCP configuration or install readiness established.",
+  "version": "0.1.1",
+  "description": "Prepare supplied-data cross-border checks and compliance-document drafts. Does not establish legal clearance or verified live sanctions status.",
   "author": {
     "name": "Klisten Inc",
     "email": "klisteninc@gmail.com",

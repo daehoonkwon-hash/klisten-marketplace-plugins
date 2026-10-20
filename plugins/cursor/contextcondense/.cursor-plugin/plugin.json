@@ -1,7 +1,7 @@
 {
   "name": "klisten-contextcondense",
-  "version": "0.1.0",
-  "description": "ContextCondense local-only setup source; public connection and installation readiness are not established.",
+  "version": "0.1.1",
+  "description": "Condense and recover supplied context through a deterministic workflow. External language-model processing is not provided.",
   "author": {
     "name": "Klisten Inc",
     "email": "klisteninc@gmail.com",

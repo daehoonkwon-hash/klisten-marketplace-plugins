@@ -1,7 +1,7 @@
 {
   "name": "klisten-spendrecovery",
-  "version": "0.1.0",
-  "description": "Spend Recovery — 과지급 회수·비용절감 감사 local-only client setup source. MIT client source draft; no production MCP configuration or install readiness established.",
+  "version": "0.1.1",
+  "description": "Audit supplied payment records and prepare dispute-document drafts. Estimated savings do not establish money recovered.",
   "author": {
     "name": "Klisten Inc",
     "email": "klisteninc@gmail.com",
