@@ -6,5 +6,14 @@
     "name": "Klisten Inc",
     "email": "klisteninc@gmail.com",
     "url": "https://klisten.co.kr/products"
-  }
+  },
+  "homepage": "https://klisten.co.kr/products",
+  "repository": "https://github.com/daehoonkwon-hash/klisten-marketplace-plugins",
+  "license": "MIT",
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://klisten.co.kr/docs.html",
+  "supportUrl": "https://klisten.co.kr/customer-guide.html",
+  "privacyPolicyUrl": "https://klisten.co.kr/privacy.html",
+  "termsOfServiceUrl": "https://klisten.co.kr/terms.html",
+  "displayName": "SpendRecovery"
 }
