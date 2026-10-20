@@ -1,10 +1,10 @@
 # Loss-Run 정리·갱신 제출팩 — claude-code
 
-**draft_notinstallready_MIT. MIT client source publication authorized; not install ready and not a live connector.**
+**MIT client source; packaged plugin installation and plugin marketplace approval remain unverified.**
 
-Canonical key: `sku4_lossrun_refresh`. Planned public resource slug: `lossrunrefresh`. The fixed URL, singleton scope and actual registered public OAuth client are included for local review. This is not production endpoint or host acceptance evidence. No fake UUID, alternate-product identity or secret was substituted. Host-native MCP configuration is present in this candidate; no actual connection has been made.
+Canonical key: `sku4_lossrun_refresh`. Planned public resource slug: `lossrunrefresh`. The fixed URL, singleton scope and actual registered public OAuth client are included for local review. The configuration alone is not host verification; the dated native evidence below has a narrower stated scope. No fake UUID, alternate-product identity or secret was substituted. Host-native MCP configuration is present. See the dated verification scope below; packaged installation is still unverified.
 
-This bundle contains only host identity/setup documentation, fixed public OAuth client configuration, local typed domain input JSON schemas and non-executed workflow examples. It includes no engine/server code, DB, private events, raw user material, API key, OAuth token, reviewer password or private deployment state. The final transport wrapper, requestId/idempotency binding and host installation must be validated after authorized real endpoint/client provisioning.
+This bundle contains only host identity/setup documentation, fixed public OAuth client configuration, local typed domain input JSON schemas and non-executed workflow examples. It includes no engine/server code, DB, private events, raw user material, API key, OAuth token, reviewer password or private deployment state. Packaged host installation, business tool execution and requestId/idempotency behavior still require their own validation.
 
 Normalize supplied loss-run material, reconcile declared totals, flag anomalies and prepare a renewal file.
 
@@ -15,4 +15,8 @@ Read CAPABILITY_LIMITS.md and package-status.json before any work. Examples are 
 
 Host: claude-code. Product resource: https://api.klisten.co.kr/mcp/lossrunrefresh. Public client ID: f8b47c3c-46c5-465d-a14e-02482f0a7fab. Exact requested scope: `lossrunrefresh:evaluate`. Public/PKCE client with token-endpoint authentication `none`; no secret is included. Claude Code uses plugin-root .mcp.json, HTTP transport and callbackPort8080; oauth.scopes is the exact space-separated singleton string.
 
-Provider registration and permitted callback metadata have been verified against the approved local registry records; this does not prove current registry enable, production endpoint availability or successful OAuth consent. The operations remain supplied-data technical calculations/preparation under existing capability limits. Native parser/install, host tools/list and real tool calls have not been run for this candidate, so install/readiness flags remain false. No account, key, grant, price, external endpoint, payment or marketplace state is changed by these files. No automatic inference, financial execution or safety/legal guarantee is added. MIT applies only to these client files; hosted engines and databases remain excluded.
+## Verification scope — 2026-10-20
+
+Official Claude Code 2.1.304 successfully authenticated this product's project `.mcp.json` connection with only `lossrunrefresh:evaluate` and displayed its 5 tools in the native MCP menu. Across these nine products the verified inventory totals 39 tools. This verifies project MCP OAuth and discovery only. No business tool, model call or paid usage was performed; the backing key daily limit remained $0.
+
+Packaged plugin installation, business workflow execution and plugin marketplace approval remain unverified. Installation/submission readiness flags remain false. This evidence does not enable actual insurance issuance, payment, government submission or external data verification. MIT covers only these client files. No keys, tokens, reviewer credentials or private account data are included.

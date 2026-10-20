@@ -1,5 +1,5 @@
 {
-  "status": "registered-public-oauth-local-candidate-not-native-verified",
+  "status": "cursor-native-unverified-claude-project-mcp-verified-separately",
   "canonicalProductKey": "sku2_spendrecovery",
   "publicResourceSlug": "spendrecovery",
   "host": "cursor",
@@ -8,11 +8,11 @@
   "sourceEngineIncluded": false,
   "nativeInstallable": false,
   "readyForSubmission": false,
-  "publicUploadPerformed": false,
+  "publicUploadPerformed": true,
   "marketplaceSubmitted": false,
   "published": false,
   "oauthClientId": "5f93c8f4-0a33-4f01-82ae-ab87faab2387",
-  "productionEndpointRegistered": false,
+  "productionEndpointRegistered": true,
   "activeMcpConfigurationIncluded": true,
   "safeOperationCount": 5,
   "excludedInsuranceOperations": [
@@ -20,16 +20,30 @@
     "issueCertificate"
   ],
   "blockers": [
-    "Current production rollout/registry enable and actual host parser/install/OAuth/discovery/tool execution are not verified by this local package build.",
-    "Source publication is separately approved but this local candidate has not been pushed; no marketplace submission or legal acceptance performed.",
-    "Keep product-specific supplied-data and legal/financial capability limits; no scope beyond spendrecovery:evaluate."
+    "Cursor-native OAuth and tool inventory have not been verified; Claude Code evidence is not Cursor evidence.",
+    "cursor packaged plugin installation and business tool execution remain unverified; no plugin marketplace approval inferred.",
+    "Retain existing supplied-data and legal/financial limits; exact singleton evaluate scope only."
   ],
   "oauthClientRegistered": true,
   "nativeInstallationVerified": false,
   "actualHostInstallVerified": false,
   "productionEndpointVerified": false,
-  "resourceBindingEnabled": false,
-  "externalUploadPerformed": false,
-  "sourceCandidateOnly": true,
-  "publicOAuthConfigurationOnly": true
+  "externalUploadPerformed": true,
+  "sourceCandidateOnly": false,
+  "publicOAuthConfigurationOnly": true,
+  "nativeMcpOAuthVerified": false,
+  "nativeMcpToolInventoryUiVerified": false,
+  "nativeMcpToolCount": null,
+  "nativePluginPackageInstallationVerified": false,
+  "businessToolExecutionVerified": false,
+  "businessToolCalls": 0,
+  "pluginMarketplaceApprovalVerified": false,
+  "sourcePublished": true,
+  "sourceCommitBaseline": "339d91920fbb9bffc6e8e59befd1d2114203e774",
+  "packageInstallationCandidateOnly": true,
+  "resourceBindingVerifiedForThisHost": false,
+  "resourceBindingVerificationScope": "Successful project MCP OAuth and native tools inventory for Claude Code; no Cursor inference",
+  "marketplaceStatusScope": "Plugin package only; independent Claude MCP directory listings are separate",
+  "nativeVerificationScope": "Claude Code project MCP verified separately; Cursor native OAuth, discovery and package installation remain unverified",
+  "nativeMcpVerificationDateUtc": null
 }

@@ -1,5 +1,5 @@
 {
-  "status": "registered-public-oauth-local-candidate-not-native-verified",
+  "status": "project-native-mcp-verified-package-install-unverified",
   "canonicalProductKey": "sku1_mga_cert",
   "publicResourceSlug": "mgacert",
   "host": "claude-code",
@@ -8,11 +8,11 @@
   "sourceEngineIncluded": false,
   "nativeInstallable": false,
   "readyForSubmission": false,
-  "publicUploadPerformed": false,
+  "publicUploadPerformed": true,
   "marketplaceSubmitted": false,
   "published": false,
   "oauthClientId": "d0f48fdb-e73a-4998-91ca-200c2040d713",
-  "productionEndpointRegistered": false,
+  "productionEndpointRegistered": true,
   "activeMcpConfigurationIncluded": true,
   "safeOperationCount": 5,
   "excludedInsuranceOperations": [
@@ -20,16 +20,29 @@
     "issueCertificate"
   ],
   "blockers": [
-    "Current production rollout/registry enable and actual host parser/install/OAuth/discovery/tool execution are not verified by this local package build.",
-    "Source publication is separately approved but this local candidate has not been pushed; no marketplace submission or legal acceptance performed.",
-    "Keep product-specific supplied-data and legal/financial capability limits; no scope beyond mgacert:evaluate."
+    "claude-code packaged plugin installation and business tool execution remain unverified; no plugin marketplace approval inferred.",
+    "Retain existing supplied-data and legal/financial limits; exact singleton evaluate scope only."
   ],
   "oauthClientRegistered": true,
   "nativeInstallationVerified": false,
   "actualHostInstallVerified": false,
-  "productionEndpointVerified": false,
-  "resourceBindingEnabled": false,
-  "externalUploadPerformed": false,
-  "sourceCandidateOnly": true,
-  "publicOAuthConfigurationOnly": true
+  "productionEndpointVerified": true,
+  "externalUploadPerformed": true,
+  "sourceCandidateOnly": false,
+  "publicOAuthConfigurationOnly": true,
+  "nativeMcpOAuthVerified": true,
+  "nativeMcpToolInventoryUiVerified": true,
+  "nativeMcpToolCount": 5,
+  "nativePluginPackageInstallationVerified": false,
+  "businessToolExecutionVerified": false,
+  "businessToolCalls": 0,
+  "pluginMarketplaceApprovalVerified": false,
+  "sourcePublished": true,
+  "sourceCommitBaseline": "339d91920fbb9bffc6e8e59befd1d2114203e774",
+  "packageInstallationCandidateOnly": true,
+  "resourceBindingVerifiedForThisHost": true,
+  "resourceBindingVerificationScope": "Successful project MCP OAuth and native tools inventory for Claude Code; no Cursor inference",
+  "marketplaceStatusScope": "Plugin package only; independent Claude MCP directory listings are separate",
+  "nativeVerificationScope": "Project .mcp.json in official Claude Code 2.1.304; no packaged plugin installation or business tool execution",
+  "nativeMcpVerificationDateUtc": "2026-10-20"
 }

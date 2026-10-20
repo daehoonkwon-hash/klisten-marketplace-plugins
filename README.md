@@ -1,25 +1,25 @@
-# Klisten public client plugin candidates
+# Klisten public client plugin sources
 
-This repository preserves the original 27 product identities for each host and adds four explicitly approved products (AgentCert, ESGData, VectorEvict and OrderMatch): 31 identities for Claude Code and the same 31 for Cursor, 62 client packages total. Public source availability is separate from marketplace approval, installation verification, and production readiness. Existing remote listing identities must be reconciled before any further registration to avoid duplicate listings.
+The catalog contains 40 canonical products for Claude Code and the same 40 for Cursor: 80 client source packages. Public source publication, project MCP connection, packaged plugin installation and marketplace approval are separate states. Preserve existing listing identities; do not create duplicate marketplace entries.
 
-The original thirteen new product entries per host contain public OAuth client configurations. Four additional product entries per host now contain their registered public OAuth client configurations; their client-only MIT license and source publication were explicitly owner-approved on 2026-10-19. Three parent products per host retain staged-mcp-config.json with their extensions disabled for active discovery. ModelRoute per host uses the existing anonymous catalog-only MCP endpoint. The other ten legacy products per host are setup-only placeholders without an active MCP configuration. AgentSafe and DealGate remain unfinished. Listing all 31 products does not mean 31 verified native integrations.
+## Verified project MCP connections — 2026-10-20
 
-Every submissionReady and actualHostInstallationVerified flag remains false. This preparation checks local file structure, metadata fields, and configuration boundaries. Neither the Claude Code nor Cursor executable was available, so actual host parser and installation behavior remain unverified until a host or portal test. Do not activate staged parent extensions or submit placeholders as functional integrations. Repository metadata updates do not create or alter remote marketplace registrations.
+Official Claude Code 2.1.304 authenticated the project `.mcp.json` connections for ADUPermit, ContextCondense, CrossBorder, EntityResolver, LossRunRefresh, MGACert, MROCompat, SaaSExit and SpendRecovery. Their native MCP menus displayed 39 tools in total. Each connection used its product-specific singleton evaluate permission. No business tool call, model invocation or paid usage was performed; the backing key daily limit remained $0.
 
-The repository includes only public client configuration, setup skills, documentation, metadata, and deterministic icon assets. It includes no server engine, hosted API implementation, database content, deployment secrets, credentials, or private access instructions. OAuth public client identifiers in configurations are identifiers, not credentials. Never add keys, passwords, tokens, or private account data.
+This result verifies those nine Claude Code project MCP connections only. It does not verify packaged plugin installation, Cursor-native connection or business workflow execution. Package installation and submission readiness flags remain false. CrossBorder and EntityResolver have separately published Claude MCP directory listings; those listings do not imply approval of their Claude Code or Cursor plugin packages. Other marketplace status must be checked against actual provider records.
 
-The owner approved the MIT license solely for the client materials distributed in this repository. The root LICENSE and each package LICENSE apply only to those included contents. This does not license the Klisten server, hosted API implementation, databases, private engine code, or any materials outside this repository. Use of hosted services still requires appropriate account authorization and is subject to service terms. The license-specific approval flags record the fresh client-only MIT authorization dated 2026-10-19. All submission and installation verification flags remain false.
+## Configuration and capability boundaries
 
-Publisher: Klisten Inc, klisteninc@gmail.com. Product information: https://klisten.co.kr/products. Canonical repository: https://github.com/daehoonkwon-hash/klisten-marketplace-plugins.
+The nine additional products include their registered public OAuth client identifiers and host MCP configuration. They are no longer accurately described as lacking provisioned clients or as universally unconnected. Per-package status files distinguish the verified host and evidence scope. AgentSafe and DealGate remain unfinished; source presence is not functional readiness. Parent integrations and legacy packages retain their existing restrictions unless separately verified.
+
+ModelRoute includes the existing anonymous catalog-only HTTPS MCP configuration. Direct catalog retrieval is separate from native package installation and marketplace approval. No model inference or purchase capability is added.
+
+The repository includes only public client configuration, setup skills, documentation, metadata, local input schemas, non-executed examples and icon assets. It excludes server engines, hosted API implementations, database contents, deployment secrets, credentials and private reviewer access instructions. Public OAuth client IDs are identifiers, not credentials. Never add keys, passwords, tokens or private account data.
+
+## License and publisher
+
+MIT applies only to included client materials. It does not license Klisten server engines, hosted services, databases or private code. Hosted services require appropriate account authorization and applicable service terms. Technical supplied-data outputs do not grant insurance coverage, legal permission, payment execution or government approval.
+
+Publisher: Klisten Inc, klisteninc@gmail.com. Products: https://klisten.co.kr/products. Source: https://github.com/daehoonkwon-hash/klisten-marketplace-plugins.
 
 Host schema references: https://code.claude.com/docs/en/plugins-reference and https://cursor.com/docs/reference/plugins. Documentation: https://klisten.co.kr/docs.html. Support: https://klisten.co.kr/customer-guide.html. Privacy: https://klisten.co.kr/privacy.html. Terms: https://klisten.co.kr/terms.html.
-
-
-## Additional nine client source packages
-
-The portfolio now contains 40 products × 2 hosts = 80 client source packages. The nine additional products are MIT licensed client documentation/schema/example sources only. They have no provisioned product OAuth client ID, verified active endpoint or native installation readiness. No active MCP configuration is included. Public source publication is not marketplace submission, approval, connection or functional product activation. The initial nine-product source addition preserved the existing 62 client package files; the subsequent ModelRoute catalog configuration restoration changes only its two host packages.
-
-
-## ModelRoute anonymous catalog configuration
-
-The two ModelRoute packages now include host-native configuration for the existing anonymous https://api.klisten.co.kr/mcp endpoint: Claude Code .mcp.json and Cursor mcp.json. Direct public tools/list and bounded catalog retrieval were verified on2026-10-19. Only modelroute_catalog is exposed; no account, OAuth, model inference or purchase capability. Current native parser/installation/conversation and marketplace approval remain unverified. Existing ToolGuard/ModelRoute applications are preserved; this client-source update submits no marketplace application. The remaining78 package directories are unchanged by this update.
