@@ -1,0 +1,20 @@
+{
+  "product": "agentescrow",
+  "host": "cursor",
+  "resource": "https://api.klisten.co.kr/mcp/agentescrow",
+  "publicClientId": "ebe57537-dad4-45ff-805a-bbb5ecd1a15f",
+  "approvedRedirectUris": [
+    "https://www.cursor.com/agents/mcp/oauth/callback",
+    "http://localhost:8787/callback"
+  ],
+  "allowedScopes": [
+    "escrow:read",
+    "agentescrow:extensions",
+    "agentescrow:human-review"
+  ],
+  "providerPublicNoneActive": true,
+  "bindingEnabledAtRead": true,
+  "nativeInstallationVerified": false,
+  "toolExecutionVerified": false,
+  "source": "Existing local service contract and exact8 read-only registry metadata; no scope/client/DB changes."
+}

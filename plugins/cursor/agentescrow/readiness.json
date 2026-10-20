@@ -1,15 +1,11 @@
 {
   "product": "agentescrow",
-  "displayName": "AgentEscrow",
-  "origin": "legacy",
+  "status": "SOURCE_CONFIGURED_RUNTIME_UNVERIFIED",
+  "configuration": "existing-enabled-binding",
   "submissionReady": false,
-  "configuration": "parent-extension-staged-disabled",
-  "marketplaceIdentityVerifiedByThisBuild": false,
   "actualHostInstallationVerified": false,
-  "licenseApprovedForPublicDistribution": true,
-  "published": false,
-  "submittedByThisBuild": false,
-  "reason": "Extension OAuth scopes are staged; active legacy parent contract must be preserved until separately verified cutover. No active MCP config is installed here.",
-  "licenseScope": "client-only",
-  "licenseApprovalDate": "2026-10-19"
+  "sourceCommitBaseline": "2fa758ce484af1c4fa4ea5ae6f1eafc253dedd46",
+  "scopeChange": false,
+  "newClient": false,
+  "productionMutation": false
 }

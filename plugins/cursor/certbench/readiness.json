@@ -1,14 +1,11 @@
 {
   "product": "certbench",
-  "displayName": "CertBench",
-  "origin": "new",
+  "status": "SOURCE_CONFIGURED_RUNTIME_UNVERIFIED",
+  "configuration": "existing-enabled-binding",
   "submissionReady": false,
-  "configuration": "new-public-oauth-candidate",
-  "marketplaceIdentityVerifiedByThisBuild": false,
   "actualHostInstallationVerified": false,
-  "licenseApprovedForPublicDistribution": true,
-  "published": false,
-  "submittedByThisBuild": false,
-  "licenseScope": "client-only",
-  "licenseApprovalDate": "2026-10-19"
+  "sourceCommitBaseline": "2fa758ce484af1c4fa4ea5ae6f1eafc253dedd46",
+  "scopeChange": false,
+  "newClient": false,
+  "productionMutation": false
 }

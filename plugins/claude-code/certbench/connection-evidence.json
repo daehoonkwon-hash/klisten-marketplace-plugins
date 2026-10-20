@@ -1,0 +1,19 @@
+{
+  "product": "certbench",
+  "host": "claude-code",
+  "resource": "https://api.klisten.co.kr/mcp/certbench",
+  "publicClientId": "616e9d08-851a-4e6c-a737-f8d94f3ad5cc",
+  "approvedRedirectUris": [
+    "https://claude.ai/api/mcp/auth_callback",
+    "http://localhost:8080/callback"
+  ],
+  "allowedScopes": [
+    "certbench:evaluate",
+    "certbench:cross-audit"
+  ],
+  "providerPublicNoneActive": true,
+  "bindingEnabledAtRead": true,
+  "nativeInstallationVerified": false,
+  "toolExecutionVerified": false,
+  "source": "Existing local service contract and exact8 read-only registry metadata; no scope/client/DB changes."
+}

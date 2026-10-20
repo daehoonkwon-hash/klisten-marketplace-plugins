@@ -1,11 +1,5 @@
-# AgentEscrow — claude-code client candidate
+# agentescrow — claude-code client configuration
 
-This identity retains the AgentEscrow parent and its staged ProofOracle extension.
+This client configuration preserves the existing registered public OAuth client, resource and exact allowed scopes. Native installation/execution is unverified. See connection-evidence.json and skills/setup/SKILL.md.
 
-The extension configuration is stored only in staged-mcp-config.json and is disabled for active MCP discovery. It must not replace an existing legacy connection or be advertised as a verified working integration. Existing parent contracts and remote identities require reconciliation before activation.
-
-Readiness remains false in readiness.json. Marketplace approval, actual host installation, and host parser acceptance are not asserted. The Claude Code and Cursor executables were unavailable for this build, so native validation has not been run. Review the included setup skill and readiness notes before configuring a connection. Do not create a duplicate of an existing remote product identity.
-
-This package contains only public client configuration, setup instructions, documentation, and an icon. It does not contain a backend engine or database. The MIT license in LICENSE applies only to the contents distributed in this package. It does not license the Klisten server, hosted API implementation, databases, private code, or other materials outside this package. Access to hosted services remains subject to their applicable terms and authorization.
-
-Publisher: Klisten Inc. Product information: https://klisten.co.kr/products. Documentation: https://klisten.co.kr/docs.html. Support: https://klisten.co.kr/customer-guide.html. Privacy: https://klisten.co.kr/privacy.html. Terms: https://klisten.co.kr/terms.html.
+The client uses the host plugin configuration at `.mcp.json`. Existing grants remain unchanged; use normal explicit OAuth approval before runtime testing.

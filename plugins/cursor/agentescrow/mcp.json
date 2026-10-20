@@ -7,7 +7,8 @@
         "CLIENT_ID": "ebe57537-dad4-45ff-805a-bbb5ecd1a15f",
         "scopes": [
           "escrow:read",
-          "agentescrow:extensions"
+          "agentescrow:extensions",
+          "agentescrow:human-review"
         ]
       }
     }

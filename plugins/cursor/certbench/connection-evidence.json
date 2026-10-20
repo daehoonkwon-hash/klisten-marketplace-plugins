@@ -1,0 +1,19 @@
+{
+  "product": "certbench",
+  "host": "cursor",
+  "resource": "https://api.klisten.co.kr/mcp/certbench",
+  "publicClientId": "2278034a-9175-4a2f-9c94-3e41d5201b83",
+  "approvedRedirectUris": [
+    "https://www.cursor.com/agents/mcp/oauth/callback",
+    "http://localhost:8787/callback"
+  ],
+  "allowedScopes": [
+    "certbench:evaluate",
+    "certbench:cross-audit"
+  ],
+  "providerPublicNoneActive": true,
+  "bindingEnabledAtRead": true,
+  "nativeInstallationVerified": false,
+  "toolExecutionVerified": false,
+  "source": "Existing local service contract and exact8 read-only registry metadata; no scope/client/DB changes."
+}

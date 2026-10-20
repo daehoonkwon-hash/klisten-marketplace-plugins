@@ -1,20 +1,22 @@
 ---
 name: setup
-description: Set up CertBench and inspect its available tools.
+description: Inspect certbench connection and integrated tool inventory.
 ---
 
-Confirm the configured server and authentication with the user. Never request secret values in chat.
-Use tools/list to confirm the inventory below before calling a tool. Explain required organization identifiers and prerequisites from input schemas. Do not invent tenant IDs or claim an unrun operation succeeded.
+This is an unpublished client configuration. Native installation and execution have not been verified. Never request credentials in chat.
 
-Included services: certbench.
+The registered binding is enabled; this configuration carries its exact existing public client and requested scopes. A fresh user-controlled OAuth consent is required to use it. Existing grants are not expanded.
 
-- `certbench_define_benchmark`
-- `certbench_evaluate`
-- `certbench_certify`
-- `certbench_schedule_recert`
-- `certbench_audit`
-- `certbench_audit_log`
+Expected static inventory; confirm tools/list and inspect input schemas before any invocation. Do not invent organization IDs or claim an unrun case succeeded.
 
-Inspect tools/list input schemas for all inputs. Parent extensions are included here once; do not install them as separate products.
+- `certbench_define_benchmark` — `certbench:evaluate`
+- `certbench_evaluate` — `certbench:evaluate`
+- `certbench_certify` — `certbench:evaluate`
+- `certbench_schedule_recert` — `certbench:evaluate`
+- `certbench_audit` — `certbench:evaluate`
+- `certbench_audit_log` — `certbench:evaluate`
+- `multiaudit_submitResult` — `certbench:cross-audit`
+- `multiaudit_reconcile` — `certbench:cross-audit`
+- `multiaudit_resolve` — `certbench:cross-audit`
 
-This is a local configuration candidate. This build has not verified installation or execution in this host. Use the user-controlled OAuth approval flow; never request raw keys or passwords in chat.
+Parent integrations belong to this product; do not create separate duplicate products. No payments or external business actions are authorized by this setup skill.

@@ -1,21 +1,25 @@
 ---
 name: setup
-description: Set up AgentEscrow and inspect its available tools.
+description: Inspect agentescrow connection and integrated tool inventory.
 ---
 
-Confirm the configured server and authentication with the user. Never request secret values in chat.
-Use tools/list to confirm the inventory below before calling a tool. Explain required organization identifiers and prerequisites from input schemas. Do not invent tenant IDs or claim an unrun operation succeeded.
+This is an unpublished client configuration. Native installation and execution have not been verified. Never request credentials in chat.
 
-Included services: agentescrow, proof.
+The registered binding is enabled; this configuration carries its exact existing public client and requested scopes. A fresh user-controlled OAuth consent is required to use it. Existing grants are not expanded.
 
-- `agentescrow_verifyEscrowEvidence`
-- `proof_ingest_claim`
-- `proof_collect_evidence`
-- `proof_verify`
-- `proof_issue_receipt`
-- `proof_verify_receipt`
-- `proof_needs_human_review`
+Expected static inventory; confirm tools/list and inspect input schemas before any invocation. Do not invent organization IDs or claim an unrun case succeeded.
 
-Inspect tools/list input schemas for all inputs. Parent extensions are included here once; do not install them as separate products.
+- `agentescrow_draft_get` — `escrow:read`
+- `agentescrow_verifyEscrowEvidence` — `agentescrow:extensions`
+- `proof_ingest_claim` — `agentescrow:extensions`
+- `proof_collect_evidence` — `agentescrow:extensions`
+- `proof_verify` — `agentescrow:extensions`
+- `proof_issue_receipt` — `agentescrow:extensions`
+- `proof_verify_receipt` — `agentescrow:extensions`
+- `proof_needs_human_review` — `agentescrow:extensions`
+- `humanloop_createEscrow` — `agentescrow:human-review`
+- `humanloop_escalate` — `agentescrow:human-review`
+- `humanloop_resolve` — `agentescrow:human-review`
+- `humanloop_auditTrail` — `agentescrow:human-review`
 
-This candidate has no active MCP connection. Do not claim the listed operations are currently available. Follow readiness.json; do not activate staged parent settings or invent an endpoint.
+Parent integrations belong to this product; do not create separate duplicate products. No payments or external business actions are authorized by this setup skill.

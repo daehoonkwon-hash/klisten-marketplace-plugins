@@ -5,7 +5,8 @@
       "url": "https://api.klisten.co.kr/mcp/agentescrow",
       "oauth": {
         "clientId": "a78cae00-c3fa-46f0-a3c6-0972da1a08bc",
-        "callbackPort": 8080
+        "callbackPort": 8080,
+        "scopes": "escrow:read agentescrow:extensions agentescrow:human-review"
       }
     }
   }

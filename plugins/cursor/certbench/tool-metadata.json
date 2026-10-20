@@ -1,0 +1,50 @@
+{
+  "product": "certbench",
+  "tools": [
+    {
+      "name": "certbench_define_benchmark",
+      "scope": "certbench:evaluate",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "certbench_evaluate",
+      "scope": "certbench:evaluate",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "certbench_certify",
+      "scope": "certbench:evaluate",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "certbench_schedule_recert",
+      "scope": "certbench:evaluate",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "certbench_audit",
+      "scope": "certbench:evaluate",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "certbench_audit_log",
+      "scope": "certbench:evaluate",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "multiaudit_submitResult",
+      "scope": "certbench:cross-audit",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "multiaudit_reconcile",
+      "scope": "certbench:cross-audit",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "multiaudit_resolve",
+      "scope": "certbench:cross-audit",
+      "evidence": "static contract; not runtime tools/list"
+    }
+  ]
+}

@@ -5,7 +5,8 @@
       "url": "https://api.klisten.co.kr/mcp/certbench",
       "oauth": {
         "clientId": "616e9d08-851a-4e6c-a737-f8d94f3ad5cc",
-        "callbackPort": 8080
+        "callbackPort": 8080,
+        "scopes": "certbench:evaluate certbench:cross-audit"
       }
     }
   }
