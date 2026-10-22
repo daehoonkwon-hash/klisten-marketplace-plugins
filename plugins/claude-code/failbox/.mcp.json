@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "failbox": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/failbox",
+      "oauth": {
+        "clientId": "f54a68a8-6693-442d-933e-3e407c5eda72",
+        "callbackPort": 8080,
+        "scopes": "failbox:session failbox:step"
+      }
+    }
+  }
+}

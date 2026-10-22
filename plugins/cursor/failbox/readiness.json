@@ -3,13 +3,20 @@
   "displayName": "FailBox",
   "origin": "legacy",
   "submissionReady": false,
-  "configuration": "unset-no-adoptable-host-oauth-evidence",
+  "configuration": "static-public-oauth-configured-native-validation-pending",
   "marketplaceIdentityVerifiedByThisBuild": false,
   "actualHostInstallationVerified": false,
   "licenseApprovedForPublicDistribution": true,
   "published": false,
   "submittedByThisBuild": false,
-  "reason": "No supported per-host public OAuth client config adopted from inspected legacy sources. This setup-only placeholder does not connect a server.",
+  "reason": "Product-specific public OAuth config is included. Native CLI installation and tools/list have not been tested; marketplace acceptance and publication are not claimed.",
   "licenseScope": "client-only",
-  "licenseApprovalDate": "2026-10-19"
+  "licenseApprovalDate": "2026-10-19",
+  "requestedScopes": [
+    "failbox:session",
+    "failbox:step"
+  ],
+  "clientType": "public",
+  "tokenEndpointAuthMethod": "none",
+  "verificationScope": "offline-format-and-package-validation-only"
 }

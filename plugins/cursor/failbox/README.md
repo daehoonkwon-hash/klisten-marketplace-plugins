@@ -1,11 +1,14 @@
-# FailBox — cursor client candidate
+# FailBox — cursor static OAuth configuration
 
-This package preserves the existing FailBox product identity and a setup skill for future configuration. No supported per-host public OAuth configuration was adopted from the inspected legacy material.
+Klisten Inc client configuration for https://api.klisten.co.kr/mcp/failbox.
+Requests exactly failbox:session and failbox:step with a pre-registered public client ID. No client secret or API key is embedded. Hosted API use follows Klisten authorization and pricing terms.
 
-This is a setup-only placeholder with no active MCP server configuration. It provides no verified connected product workflow. AgentSafe and DealGate remain unfinished where applicable. Source listing coverage is not evidence that this product is functional or installable.
+This package includes product-specific static public OAuth configuration. Native CLI installation, completed native OAuth and tool-list checks have not been verified. Marketplace approval or publication is not implied. Validate through the intended host before use.
 
-Readiness remains false in readiness.json. Marketplace approval, actual host installation, and host parser acceptance are not asserted. The Claude Code and Cursor executables were unavailable for this build, so native validation has not been run. Review the included setup skill and readiness notes before configuring a connection. Do not create a duplicate of an existing remote product identity.
+The MIT license applies to this client package only. Server engines, databases and private code are excluded.
 
-This package contains only public client configuration, setup instructions, documentation, and an icon. It does not contain a backend engine or database. The MIT license in LICENSE applies only to the contents distributed in this package. It does not license the Klisten server, hosted API implementation, databases, private code, or other materials outside this package. Access to hosted services remains subject to their applicable terms and authorization.
-
-Publisher: Klisten Inc. Product information: https://klisten.co.kr/products. Documentation: https://klisten.co.kr/docs.html. Support: https://klisten.co.kr/customer-guide.html. Privacy: https://klisten.co.kr/privacy.html. Terms: https://klisten.co.kr/terms.html.
+Product: https://klisten.co.kr/products
+Docs: https://klisten.co.kr/docs.html
+Support: https://klisten.co.kr/customer-guide.html
+Privacy: https://klisten.co.kr/privacy.html
+Terms: https://klisten.co.kr/terms.html

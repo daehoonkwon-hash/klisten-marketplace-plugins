@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "failbox": {
+      "url": "https://api.klisten.co.kr/mcp/failbox",
+      "auth": {
+        "CLIENT_ID": "4dd47629-cf18-4d5f-bc8d-f12ab61dbd0a",
+        "scopes": [
+          "failbox:session",
+          "failbox:step"
+        ]
+      }
+    }
+  }
+}

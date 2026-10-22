@@ -1,6 +1,6 @@
 {
   "name": "klisten-failbox",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "FailBox tools and setup workflow.",
   "author": {
     "name": "Klisten Inc",
@@ -16,5 +16,6 @@
     "mcp",
     "client-config"
   ],
-  "logo": "assets/icon.png"
+  "logo": "assets/icon.png",
+  "mcpServers": "./mcp.json"
 }

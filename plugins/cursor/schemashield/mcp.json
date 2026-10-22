@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "schemashield": {
+      "url": "https://api.klisten.co.kr/mcp/schemashield",
+      "auth": {
+        "CLIENT_ID": "91842b95-f39c-495c-aa8f-3ba1fc73dd44",
+        "scopes": [
+          "schema:read",
+          "schema:write"
+        ]
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "klisten-failbox",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "FailBox tools and setup workflow.",
   "author": {
     "name": "Klisten Inc",
@@ -21,5 +21,6 @@
   "documentationUrl": "https://klisten.co.kr/docs.html",
   "supportUrl": "https://klisten.co.kr/customer-guide.html",
   "privacyPolicyUrl": "https://klisten.co.kr/privacy.html",
-  "termsOfServiceUrl": "https://klisten.co.kr/terms.html"
+  "termsOfServiceUrl": "https://klisten.co.kr/terms.html",
+  "mcpServers": "./.mcp.json"
 }

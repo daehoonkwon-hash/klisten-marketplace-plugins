@@ -1,15 +1,8 @@
 ---
 name: setup
-description: Set up SchemaShield and inspect its available tools.
+description: Connect SchemaShield with its product-specific public OAuth client.
 ---
 
-Confirm the configured server and authentication with the user. Never request secret values in chat.
-Use tools/list to confirm the inventory below before calling a tool. Explain required organization identifiers and prerequisites from input schemas. Do not invent tenant IDs or claim an unrun operation succeeded.
+Inspect the configured schemashield HTTP MCP server and readiness.json. Authenticate through the host's OAuth flow using the user's own authorized Klisten account; no password, token or API key belongs in chat or package files.
 
-Included services: schemashield.
-
-
-
-Inspect tools/list input schemas for all inputs. Parent extensions are included here once; do not install them as separate products.
-
-This candidate has no active MCP connection. Do not claim the listed operations are currently available. Follow readiness.json; do not activate staged parent settings or invent an endpoint.
+The connection requests only schema:read and schema:write. Verify tools/list and its live schemas before using any tool. Do not invent identifiers or report unrun checks as successful. Explain any tool's effects and obtain the user's authorization before performing their work. Hosted service access and charges follow the applicable Klisten terms.
