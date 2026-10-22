@@ -3,13 +3,13 @@
   "displayName": "ToolGuard",
   "origin": "legacy",
   "submissionReady": false,
-  "configuration": "unset-no-adoptable-host-oauth-evidence",
+  "configuration": "existing-static-public-oauth-adopted-native-validation-pending",
   "marketplaceIdentityVerifiedByThisBuild": false,
   "actualHostInstallationVerified": false,
   "licenseApprovedForPublicDistribution": true,
   "published": false,
   "submittedByThisBuild": false,
-  "reason": "No supported per-host public OAuth client config adopted from inspected legacy sources. This setup-only placeholder does not connect a server.",
+  "reason": "Existing ToolGuard Cursor public client and exact prior scope set are adopted as local client source. Fresh public metadata confirms the existing provider and legacy binding enabled with registered Cursor web and localhost8787 callbacks. Actual native plugin installation and authenticated tools/list remain unverified; this is not marketplace submission or approval.",
   "licenseScope": "client-only",
   "licenseApprovalDate": "2026-10-19"
 }

@@ -1,0 +1,29 @@
+{
+  "product": "toolguard",
+  "host": "cursor",
+  "publicClientId": "6ee86aac-fec9-4427-b84a-751f2a7a0363",
+  "resource": "https://api.klisten.co.kr/mcp/toolguard",
+  "requestedScopesPreservedExactly": [
+    "gate:check",
+    "attestations:read",
+    "toolguard:private-negative"
+  ],
+  "registeredRedirectUris": [
+    "https://www.cursor.com/agents/mcp/oauth/callback",
+    "http://localhost:8787/callback"
+  ],
+  "providerActive": true,
+  "providerType": "public",
+  "tokenEndpointAuthMethod": "none",
+  "registry": "klisten_oauth.clients",
+  "legacyBindingEnabled": true,
+  "registryResourceAndAllowedScopesColumns": "Not exposed by legacy registry projection; scopes preserved from prior reviewed config and exact historical consent, not invented from null fields.",
+  "freshMetadataObservedUTC": "2026-10-22 07:31:51.330053+00",
+  "nativeFormatPattern": "Existing public Cursor root mcp.json: mcpServers/product/type=http/url/auth.CLIENT_ID/auth.scopes, same as current CertBench and other static OAuth packages. This pattern is not product-specific installation proof.",
+  "nativePluginInstalledVerified": false,
+  "authenticatedToolsListVerified": false,
+  "historicalWebConsentOnly": true,
+  "modelOrBusinessCallsMade": 0,
+  "newScopesOrClientsOrCallbacks": 0,
+  "metadataEvidenceProvenance": "Publisher read-only metadata observation on 2026-10-22; private audit files are not distributed."
+}

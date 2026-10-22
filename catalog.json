@@ -6,7 +6,7 @@
       "displayName": "ToolGuard",
       "origin": "legacy",
       "submissionReady": false,
-      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "configuration": "cursor-static-public-oauth-adopted-claude-native-callback-blocked-validation-pending",
       "marketplaceIdentityVerifiedByThisBuild": false
     },
     {

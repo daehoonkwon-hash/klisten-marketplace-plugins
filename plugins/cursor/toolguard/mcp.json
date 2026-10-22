@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "toolguard": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/toolguard",
+      "auth": {
+        "CLIENT_ID": "6ee86aac-fec9-4427-b84a-751f2a7a0363",
+        "scopes": [
+          "gate:check",
+          "attestations:read",
+          "toolguard:private-negative"
+        ]
+      }
+    }
+  }
+}
