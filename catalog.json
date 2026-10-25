@@ -14,7 +14,7 @@
       "displayName": "PatchProof",
       "origin": "legacy",
       "submissionReady": false,
-      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "configuration": "cursor-static-public-oauth-adopted-production-mcp-verified-package-validation-pending",
       "marketplaceIdentityVerifiedByThisBuild": false
     },
     {
@@ -94,7 +94,7 @@
       "displayName": "AgentSafe",
       "origin": "legacy",
       "submissionReady": false,
-      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "configuration": "cursor-static-public-oauth-adopted-production-mcp-verified-package-validation-pending",
       "marketplaceIdentityVerifiedByThisBuild": false
     },
     {
@@ -110,7 +110,7 @@
       "displayName": "DealGate",
       "origin": "legacy",
       "submissionReady": false,
-      "configuration": "unset-no-adoptable-host-oauth-evidence",
+      "configuration": "cursor-static-public-oauth-adopted-production-mcp-verified-package-validation-pending",
       "marketplaceIdentityVerifiedByThisBuild": false
     },
     {

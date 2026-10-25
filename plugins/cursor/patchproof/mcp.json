@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "patchproof": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/patchproof",
+      "auth": {
+        "CLIENT_ID": "8fde51f3-42f6-4d7d-a1f0-9fb613e8f5b6",
+        "scopes": [
+          "verify:read"
+        ]
+      }
+    }
+  }
+}

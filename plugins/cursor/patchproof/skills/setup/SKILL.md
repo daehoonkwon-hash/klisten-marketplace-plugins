@@ -1,15 +1,14 @@
 ---
 name: setup
-description: Set up PatchProof and inspect its available tools.
+description: Connect Klisten patchproof and use its documented bounded tools.
 ---
 
-Confirm the configured server and authentication with the user. Never request secret values in chat.
-Use tools/list to confirm the inventory below before calling a tool. Explain required organization identifiers and prerequisites from input schemas. Do not invent tenant IDs or claim an unrun operation succeeded.
+Use the MCP server declared in this package. Authenticate through the existing Klisten account and approve only verify:read. Never ask for raw API keys, passwords or OAuth tokens in chat.
 
-Included services: patchproof.
+Confirm the inventory patchproof_status and inspect schemas before a call. Do not invent IDs, claim unrun results or broaden scope.
 
+Read-only stored status and authorized summary only. Does not execute verification, create patches, validate signatures or issue a new safety certificate. Review read access expires 2026-10-31T00:00:00Z.
 
+Review proposed writes or executions before use. Reuse exact request keys for idempotency; do not retry uncertain execution with a new key. Stored status is evidence about the stored event only.
 
-Inspect tools/list input schemas for all inputs. Parent extensions are included here once; do not install them as separate products.
-
-This candidate has no active MCP connection. Do not claim the listed operations are currently available. Follow readiness.json; do not activate staged parent settings or invent an endpoint.
+Read https://klisten.co.kr/patchproof for provisioning and supported inputs. This package does not grant broader access than the selected key and does not make a payment.

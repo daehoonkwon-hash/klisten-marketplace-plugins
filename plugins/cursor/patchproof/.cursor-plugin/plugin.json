@@ -1,7 +1,7 @@
 {
   "name": "klisten-patchproof",
-  "version": "0.1.1",
-  "description": "PatchProof tools and setup workflow.",
+  "version": "0.1.2",
+  "description": "Read an organization-authorized historical verification summary.",
   "author": {
     "name": "Klisten Inc",
     "email": "klisteninc@gmail.com",
@@ -16,5 +16,6 @@
     "mcp",
     "client-config"
   ],
-  "logo": "assets/icon.png"
+  "logo": "assets/icon.png",
+  "mcpServers": "./mcp.json"
 }

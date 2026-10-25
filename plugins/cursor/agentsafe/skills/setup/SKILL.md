@@ -1,15 +1,14 @@
 ---
 name: setup
-description: Set up AgentSafe and inspect its available tools.
+description: Connect Klisten agentsafe and use its documented bounded tools.
 ---
 
-Confirm the configured server and authentication with the user. Never request secret values in chat.
-Use tools/list to confirm the inventory below before calling a tool. Explain required organization identifiers and prerequisites from input schemas. Do not invent tenant IDs or claim an unrun operation succeeded.
+Use the MCP server declared in this package. Authenticate through the existing Klisten account and approve only agentsafe:run, agentsafe:health. Never ask for raw API keys, passwords or OAuth tokens in chat.
 
-Included services: agentsafe.
+Confirm the inventory agentsafe_run, agentsafe_health and inspect schemas before a call. Do not invent IDs, claim unrun results or broaden scope.
 
+Runs only an owner-provisioned immutable offline JavaScript workflow under timeout_504, rate_limit, stale_credential and bad_tool_json faults at intensity 1. No arbitrary code, images, live models or general safety certification. Review pilot expires 2026-10-31T00:00:00Z and has 24 total fixed-scenario operations.
 
+Review proposed writes or executions before use. Reuse exact request keys for idempotency; do not retry uncertain execution with a new key. Stored status is evidence about the stored event only.
 
-Inspect tools/list input schemas for all inputs. Parent extensions are included here once; do not install them as separate products.
-
-This candidate has no active MCP connection. Do not claim the listed operations are currently available. Follow readiness.json; do not activate staged parent settings or invent an endpoint.
+Read https://klisten.co.kr/agentsafe for provisioning and supported inputs. This package does not grant broader access than the selected key and does not make a payment.

@@ -1,10 +1,16 @@
-# PatchProof — cursor client candidate
+# patchproof — Cursor client
 
-This package preserves the existing PatchProof product identity and a setup skill for future configuration. No supported per-host public OAuth configuration was adopted from the inspected legacy material.
+Read an organization-authorized historical verification summary.
 
-This is a setup-only placeholder with no active MCP server configuration. It provides no verified connected product workflow. AgentSafe and DealGate remain unfinished where applicable. Source listing coverage is not evidence that this product is functional or installable.
+Read-only stored status and authorized summary only. Does not execute verification, create patches, validate signatures or issue a new safety certificate. Review read access expires 2026-10-31T00:00:00Z.
 
-Readiness remains false in readiness.json. Marketplace approval, actual host installation, and host parser acceptance are not asserted. The Claude Code and Cursor executables were unavailable for this build, so native validation has not been run. Review the included setup skill and readiness notes before configuring a connection. Do not create a duplicate of an existing remote product identity.
+Connect the existing Klisten account using the declared public OAuth client. No client secret is required. Keep the raw API key and review credentials out of chat and this package. Connecting makes no payment and does not change spending limits.
+
+Expected tools: patchproof_status. Inspect the actual tool schemas before use. An account needs the product scope and owner-provisioned prerequisites; unsupported profiles fail closed.
+
+Evidence: Actual Claude status query and official Cursor OAuth/native project MCP inventory verified on 2026-10-24; historical state is not a fresh verification. This is MCP connection/runtime evidence, not evidence that this exact plugin package has been installed or approved by the marketplace. See readiness.json.
+
+Documentation: https://klisten.co.kr/patchproof
 
 This package contains only public client configuration, setup instructions, documentation, and an icon. It does not contain a backend engine or database. The MIT license in LICENSE applies only to the contents distributed in this package. It does not license the Klisten server, hosted API implementation, databases, private code, or other materials outside this package. Access to hosted services remains subject to their applicable terms and authorization.
 
