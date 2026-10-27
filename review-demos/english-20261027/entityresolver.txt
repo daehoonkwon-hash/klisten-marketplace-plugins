@@ -1,0 +1,26 @@
+ENTITYRESOLVER | ENGLISH REVIEW GUIDE
+
+Actual Claude evidence; edited sampled captures.
+Not a continuous recording or an OpenAI saved-version test.
+Original Korean host UI is retained as source evidence.
+This panel explains results; it is not synchronized subtitles.
+
+P1: An isolated supplied-data matching rule was created.
+
+P2: Three synthetic records and fingerprints were accepted.
+
+P3: Records 01/02 clustered together; record 03 remained
+separate.
+
+P4: A fourth record with country CA remained separate from
+US records.
+
+P5: The local vendor JSON contained three entities; no ERP
+write.
+
+N1-N3: External ERP merges, official identity verification,
+and private CRM enrichment were refused.
+
+Evidence dates: October 19-20, 2026.
+Repaired products combine prior cases with focused retests.
+No new calls were made to create this English guide.

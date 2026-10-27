@@ -162,47 +162,47 @@
     {
       "name": "klisten-entityresolver",
       "source": "plugins/cursor/entityresolver",
-      "description": "entityresolver MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "entityresolver hosted MCP OAuth configuration and setup. Project MCP inventory verified; native plugin conversation unverified."
     },
     {
       "name": "klisten-mrocompat",
       "source": "plugins/cursor/mrocompat",
-      "description": "mrocompat MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "mrocompat hosted MCP OAuth configuration and setup. Project MCP inventory verified; native plugin conversation unverified."
     },
     {
       "name": "klisten-saasexit",
       "source": "plugins/cursor/saasexit",
-      "description": "saasexit MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "saasexit hosted MCP OAuth configuration and setup. Project MCP inventory verified; native plugin conversation unverified."
     },
     {
       "name": "klisten-contextcondense",
       "source": "plugins/cursor/contextcondense",
-      "description": "contextcondense MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "contextcondense hosted MCP OAuth configuration and setup. Project MCP inventory verified; native plugin conversation unverified."
     },
     {
       "name": "klisten-mgacert",
       "source": "plugins/cursor/mgacert",
-      "description": "mgacert MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "mgacert hosted MCP OAuth configuration and setup. Project MCP inventory verified; native plugin conversation unverified."
     },
     {
       "name": "klisten-spendrecovery",
       "source": "plugins/cursor/spendrecovery",
-      "description": "spendrecovery MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "spendrecovery hosted MCP OAuth configuration and setup. Project MCP inventory verified; native plugin conversation unverified."
     },
     {
       "name": "klisten-crossborder",
       "source": "plugins/cursor/crossborder",
-      "description": "crossborder MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "crossborder hosted MCP OAuth configuration and setup. Project MCP inventory verified; native plugin conversation unverified."
     },
     {
       "name": "klisten-lossrunrefresh",
       "source": "plugins/cursor/lossrunrefresh",
-      "description": "lossrunrefresh MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "lossrunrefresh hosted MCP OAuth configuration and setup. Project MCP inventory verified; native plugin conversation unverified."
     },
     {
       "name": "klisten-adupermit",
       "source": "plugins/cursor/adupermit",
-      "description": "adupermit MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "adupermit hosted MCP OAuth configuration and setup. Project MCP inventory verified; native plugin conversation unverified."
     }
   ]
 }

@@ -1,0 +1,27 @@
+SPENDRECOVERY | ENGLISH REVIEW GUIDE
+
+Actual Claude evidence; edited sampled captures.
+Not a continuous recording or an OpenAI saved-version test.
+Original Korean host UI is retained as source evidence.
+This panel explains results; it is not synchronized subtitles.
+
+P1: One supplied synthetic audit was prepared.
+
+P2: One unauthorized surcharge was flagged as a candidate
+claim.
+
+P3-P4: Focused post-fix checks preserved the approval note
+and actor-verification disclaimer.
+
+P4: A local dispute packet was prepared; no external claim
+was filed.
+
+P5: Actual recovered funds remained zero; external recovery
+is NOT_INTEGRATED.
+
+Unsupported external recovery/payment claims remain outside
+this supplied-data workflow.
+
+Evidence dates: October 19-20, 2026.
+Repaired products combine prior cases with focused retests.
+No new calls were made to create this English guide.

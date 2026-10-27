@@ -1,0 +1,27 @@
+SAASEXIT | ENGLISH REVIEW GUIDE
+
+Actual Claude evidence; edited sampled captures.
+Not a continuous recording or an OpenAI saved-version test.
+Original Korean host UI is retained as source evidence.
+This panel explains results; it is not synchronized subtitles.
+
+P1: Equal checklist weights were normalized to one third
+each.
+
+P2: All-pass checklist: score 100, LOW risk when no risks
+were supplied.
+
+P3: Partial checklist: score 50, HIGH risk.
+
+P4: Focused post-fix test retained CRITICAL risk despite
+checklist score 100.
+
+P5: Three preparation phases were returned; readiness is
+not proof that risks are resolved.
+
+N1-N3: Account deletion, contract/billing cancellation, and
+actual export/migration were refused.
+
+Evidence dates: October 19-20, 2026.
+Repaired products combine prior cases with focused retests.
+No new calls were made to create this English guide.

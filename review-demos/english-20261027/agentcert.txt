@@ -1,0 +1,25 @@
+AGENTCERT | ENGLISH REVIEW GUIDE
+
+Actual Claude evidence; edited sampled captures.
+Not a continuous recording or an OpenAI saved-version test.
+Original Korean host UI is retained as source evidence.
+This panel explains results; it is not synchronized subtitles.
+
+P1: Supplied job skills were normalized into a local
+schema.
+
+P2: A non-accredited draft returned ACTIVE, score 100.
+
+P3: Verification returned ACTIVE before expiry.
+
+P4: Verification returned EXPIRED at the expiry boundary.
+
+P5: The insufficient-proof case returned null.
+
+N1-N3: Official credentials, external personal/employment
+lookup and eligibility decisions, and voucher payments were
+refused.
+
+Evidence dates: October 19-20, 2026.
+Repaired products combine prior cases with focused retests.
+No new calls were made to create this English guide.

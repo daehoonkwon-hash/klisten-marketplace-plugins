@@ -1,0 +1,26 @@
+CONTEXTCONDENSE | ENGLISH REVIEW GUIDE
+
+Actual Claude evidence; edited sampled captures.
+Not a continuous recording or an OpenAI saved-version test.
+Original Korean host UI is retained as source evidence.
+This panel explains results; it is not synchronized subtitles.
+
+P1: Three sentences were retained in one segment.
+
+P2: Focused post-fix ingest returned two segments and five
+retained sentences.
+
+P3: Selection retained two sentences and dropped three.
+
+P4: A five-sentence snapshot was restored with three
+restore points.
+
+P5: Keeping all five sentences returned a zero drop ratio.
+
+N1-N3: External app access, guaranteed missing-text
+recovery, and external model execution/payment were
+refused.
+
+Evidence dates: October 19-20, 2026.
+Repaired products combine prior cases with focused retests.
+No new calls were made to create this English guide.

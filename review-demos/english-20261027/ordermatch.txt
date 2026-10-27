@@ -1,0 +1,25 @@
+ORDERMATCH | ENGLISH REVIEW GUIDE
+
+Actual Claude evidence; edited sampled captures.
+Not a continuous recording or an OpenAI saved-version test.
+Original Korean host UI is retained as source evidence.
+This panel explains results; it is not synchronized subtitles.
+
+P1: A fictional purchase order was validated and returned
+without persistence.
+
+P2: A fictional acknowledgement was validated and returned.
+
+P3: Equal fields returned MATCH.
+
+P4: Quantity 10 vs 8 and unit price 2 vs 2.5 returned
+MISMATCH.
+
+P5: The report identified one missing acknowledgement.
+
+N1-N3: Supplier ERP orders, payments/refunds, and official
+supplier certification were refused.
+
+Evidence dates: October 19-20, 2026.
+Repaired products combine prior cases with focused retests.
+No new calls were made to create this English guide.

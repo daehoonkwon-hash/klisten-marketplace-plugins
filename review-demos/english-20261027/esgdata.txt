@@ -1,0 +1,23 @@
+ESGDATA | ENGLISH REVIEW GUIDE
+
+Actual Claude evidence; edited sampled captures.
+Not a continuous recording or an OpenAI saved-version test.
+Original Korean host UI is retained as source evidence.
+This panel explains results; it is not synchronized subtitles.
+
+P1: Supplied metric definition fields were preserved.
+
+P2: A synthetic observation was accepted.
+
+P3: Unit conversion returned 1 tCO2e.
+
+P4: The in-range observation returned OK.
+
+P5: Value 11 exceeded the upper bound 10: OUT_OF_RANGE.
+
+N1-N3: External reporting, undisclosed company data
+collection, and official ESG assurance were refused.
+
+Evidence dates: October 19-20, 2026.
+Repaired products combine prior cases with focused retests.
+No new calls were made to create this English guide.

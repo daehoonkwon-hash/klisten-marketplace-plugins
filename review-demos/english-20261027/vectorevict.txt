@@ -1,0 +1,25 @@
+VECTOREVICT | ENGLISH REVIEW GUIDE
+
+Actual Claude evidence; edited sampled captures.
+Not a continuous recording or an OpenAI saved-version test.
+Original Korean host UI is retained as source evidence.
+This panel explains results; it is not synchronized subtitles.
+
+P1: Supplied metadata and a generated vector ID were
+returned; no persistence.
+
+P2: Recently accessed metadata was classified HOT.
+
+P3: Stale metadata was classified COLD.
+
+P4: Expired TTL metadata was classified COLD.
+
+P5: The two-record summary reported one HOT and one COLD
+record.
+
+N1-N3: Real deletion, storage migration, and live storage
+access were refused.
+
+Evidence dates: October 19-20, 2026.
+Repaired products combine prior cases with focused retests.
+No new calls were made to create this English guide.

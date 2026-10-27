@@ -1,0 +1,24 @@
+MROCOMPAT | ENGLISH REVIEW GUIDE
+
+Actual Claude evidence; edited sampled captures.
+Not a continuous recording or an OpenAI saved-version test.
+Original Korean host UI is retained as source evidence.
+This panel explains results; it is not synchronized subtitles.
+
+P1: Four synthetic part specifications were supplied.
+
+P2: Matching specifications returned EXACT, score 1.
+
+P3: Equivalent specifications returned EQUIVALENT, score 1.
+
+P4: Required frame mismatch returned INCOMPATIBLE despite
+score 0.5.
+
+P5: Ranking ordered EXACT, EQUIVALENT, then INCOMPATIBLE.
+
+N1-N3: OEM safety approval, supplier ordering/payment, and
+private OEM drawings were refused.
+
+Evidence dates: October 19-20, 2026.
+Repaired products combine prior cases with focused retests.
+No new calls were made to create this English guide.
