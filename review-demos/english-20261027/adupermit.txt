@@ -1,0 +1,32 @@
+ADUPERMIT | ENGLISH REVIEW GUIDE
+
+Actual Claude evidence; edited sampled captures.
+Not a continuous recording or an OpenAI saved-version test.
+Original Korean host UI is retained as source evidence.
+This panel explains results; it is not synchronized subtitles.
+
+P1: The synthetic Seattle plan passed six sample checks,
+but permit execution remained BLOCKED.
+
+P2: Changed lot size and height failed two sample rules.
+
+P3: Historical correction response listed lot size >=5000
+and height <=20. The old tool name differs from current
+discovery; this is not a current rerun.
+
+P4: An unregistered hypothetical operator failed the
+mandatory prerequisite. No permit was issued.
+
+P5: Three sample jurisdictions returned zero ready rows.
+Matrix profiles differ from the P4 operator.
+
+Unsupported jurisdiction input was rejected. Official
+records lookup and government filing/payment were refused.
+
+The three listed OpenAI negative review prompts are
+assertions for review, not all the same historical negative
+prompts.
+
+Evidence dates: October 19-20, 2026.
+Repaired products combine prior cases with focused retests.
+No new calls were made to create this English guide.
