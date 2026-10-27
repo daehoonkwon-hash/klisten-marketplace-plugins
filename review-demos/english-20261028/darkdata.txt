@@ -1,0 +1,23 @@
+DARKDATA | ENGLISH HISTORICAL EVIDENCE GUIDE
+
+Edited sampled October 19, 2026 Claude response captures.
+
+Reopened for inspection on October 27-28; no new business or model calls.
+
+Not a continuous recording, a new execution, or an OpenAI saved-version test.
+
+Original response UI is retained; sidebar, account area and unrelated chats are excluded.
+
+The three negative capability prompts are NOT RUN and are not shown as passed.
+
+
+
+Scene 1: Historical registration: two supplied synthetic inventory rows were accepted with localOnly true. No private external database was connected.
+
+Scene 2: Historical inventory listing: the synthetic local connector was returned. Prices in this test were zero; this is not a general pricing promise.
+
+Scene 3: Historical first query: SYN-A returned stock 8 with cacheHit false. The source was local submitted rows.
+
+Scene 4: Historical repeat query: the same SYN-A filter returned cacheHit true. No live external inventory lookup occurred.
+
+Scene 5: Historical audit: query outcomes and cache evidence were recorded. The synthetic run total charge was zero; no external write or deletion was performed.

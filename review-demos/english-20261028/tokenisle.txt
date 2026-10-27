@@ -1,0 +1,23 @@
+TOKENISLE | ENGLISH HISTORICAL EVIDENCE GUIDE
+
+Edited sampled October 19, 2026 Claude response captures.
+
+Reopened for inspection on October 27-28; no new business or model calls.
+
+Not a continuous recording, a new execution, or an OpenAI saved-version test.
+
+Original response UI is retained; sidebar, account area and unrelated chats are excluded.
+
+The three negative capability prompts are NOT RUN and are not shown as passed.
+
+
+
+Scene 1: Historical scan: one email pattern was found in synthetic@example.invalid. Pattern detection is not an exhaustive privacy guarantee.
+
+Scene 2: Historical redaction: text became [REDACTED:email], redactedCount 1. The recovery token refers only to the synthetic test value.
+
+Scene 3: Historical route evaluation: DENY and autoRedact true. This evaluates supplied text; it does not intercept or block network traffic.
+
+Scene 4: Historical recovery: the returned test token recovered synthetic@example.invalid. This is reversible tokenization, not irreversible anonymization.
+
+Scene 5: Historical snapshot: vaultSize 1, auditedEvents 1 and scanCalls 1. These are this isolated test state, not expected global account totals.

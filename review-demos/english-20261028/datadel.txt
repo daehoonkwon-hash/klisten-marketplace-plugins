@@ -1,0 +1,23 @@
+DATADEL | ENGLISH HISTORICAL EVIDENCE GUIDE
+
+Edited sampled October 19, 2026 Claude response captures.
+
+Reopened for inspection on October 27-28; no new business or model calls.
+
+Not a continuous recording, a new execution, or an OpenAI saved-version test.
+
+Original response UI is retained; sidebar, account area and unrelated chats are excluded.
+
+The three negative capability prompts are NOT RUN and are not shown as passed.
+
+
+
+Scene 1: Historical retention calculation: creation on October 1 plus ten days returned October 11, 2026. No stored object was inspected.
+
+Scene 2: Historical baseline check: the supplied synthetic object returned ELIGIBLE on October 19. This is a local rule result, not legal permission.
+
+Scene 3: Historical variation: exempt true returned EXEMPT. No deletion was attempted.
+
+Scene 4: Historical variation: retention kind legal_hold returned RETAINED. A held record was not destroyed.
+
+Scene 5: Historical plan: vector precedes blob. The returned hard_delete labels are planned steps only; buildPlan performs no deletion and does not itself establish eligibility.
