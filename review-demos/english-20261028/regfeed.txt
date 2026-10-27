@@ -1,0 +1,23 @@
+REGFEED | ENGLISH HISTORICAL EVIDENCE GUIDE
+
+Edited sampled October 19, 2026 Claude response captures.
+
+Reopened for inspection on October 27-28; no new business or model calls.
+
+Not a continuous recording, a new execution, or an OpenAI saved-version test.
+
+Original response UI is retained; sidebar, account area and unrelated chats are excluded.
+
+The three negative capability prompts are NOT RUN and are not shown as passed.
+
+
+
+Scene 1: Historical source registration returned polling BLOCKED. This scaffold accepts manual supplied change records; it does not poll a regulator website or RSS feed.
+
+Scene 2: Historical ingest accepted the supplied synthetic KR change and returned requirementsVerified true. This checks required input fields; it is not verification of a real regulation.
+
+Scene 3: Historical subscription stored the supplied payments, KR, ANY timing and demo tag scope. The returned record was used by the later match and impact operations.
+
+Scene 4: Historical matching returned one local notification, score 55 and HIGH priority. The test did not send an email or external alert, and the explanatory narrative is not legal advice.
+
+Scene 5: Historical impact assessment returned one target, relevanceScore 55 and HIGH impact. The timing note refers to the October 19 test date; this is not a current legal assessment.

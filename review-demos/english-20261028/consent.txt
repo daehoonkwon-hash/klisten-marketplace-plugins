@@ -1,0 +1,25 @@
+CONSENT | ENGLISH HISTORICAL EVIDENCE GUIDE
+
+Edited sampled October 19, 2026 Claude response captures.
+
+Reopened for inspection on October 27-28; no new business or model calls.
+
+Not a continuous recording, a new execution, or an OpenAI saved-version test.
+
+Original response UI is retained; sidebar, account area and unrelated chats are excluded.
+
+The three negative capability prompts are NOT RUN and are not shown as passed.
+
+
+
+Scene 1: Historical registration stored an invented EU test subject. No real person or external consent record was accessed.
+
+Scene 2: Historical consent record stored the supplied analytics and email scope with 30-day retention. This records supplied information; it does not establish valid legal consent.
+
+Scene 3: Historical check before revocation returned ALLOW for the supplied purpose, data type and test time. This is a local decision, not a compliance certification.
+
+Scene 4: Historical revocation recorded the supplied October 19 revocation for the invented subject. It did not erase external personal data or contact a controller.
+
+Scene 5: Historical post-revocation check returned REVOKED. The older tool description says ALLOW or DENY; this contract mismatch is disclosed. Clients should not treat an unknown outcome as permission.
+
+Scene 6: Historical audit showed five local entries for record, allow check, revocation and revoked check. Original reason text remains unchanged beside this English explanation.

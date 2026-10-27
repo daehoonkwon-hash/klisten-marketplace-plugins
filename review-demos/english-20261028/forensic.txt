@@ -1,0 +1,21 @@
+FORENSIC | ENGLISH HISTORICAL EVIDENCE GUIDE
+
+Edited sampled October 19, 2026 Claude response captures.
+
+Reopened for inspection on October 27-28; no new business or model calls.
+
+Not a continuous recording, a new execution, or an OpenAI saved-version test.
+
+Original response UI is retained; sidebar, account area and unrelated chats are excluded.
+
+The three negative capability prompts are NOT RUN and are not shown as passed.
+
+
+
+Scene 1: Historical ingest accepted the supplied synthetic event. No production incident, host file or external system was inspected.
+
+Scene 2: Historical replay of three supplied events ended FAILED with the failure at sequence 2. This is a local replay of synthetic metadata, not production recovery.
+
+Scene 3: Historical attribution identified sequence 2 as the root cause. The attribution is a local heuristic explanation, not proof of responsibility.
+
+Scene 4: Historical rollback planning returned execution BLOCKED, two reversible actions and one skipped irreversible action. No rollback was executed. The plan lists forward undo order and reports two mutated states despite one STATE_MUTATION; these unresolved interpretation issues are disclosed.
