@@ -1,0 +1,7 @@
+SOP | ENGLISH REPRESENTATIVE EVIDENCE GUIDE
+
+This one retained viewport shows a historical no-gaps response and part of a compile request. Native Korean DSL field labels and the test-clock epoch timestamp are preserved. It does not show all five operations, prove English DSL parsing, or represent an exact OpenAI saved-version test.
+
+This is a 30-second edited still from an already-retained October 19 Claude UI capture. Only one viewport is shown; this is not a continuous recording, a new execution, or proof that all review cases passed. Other historical request/response logs are separate evidence. Revised positive cases, three negative prompts and exact OpenAI company saved-version conversations remain NOT RUN. No new model calls, business tools, private browser reads or runtime changes were used to create this material.
+
+The original data syntax and response text are preserved; English explanation does not claim runtime localization. Account/sidebar content is excluded from the crop.
