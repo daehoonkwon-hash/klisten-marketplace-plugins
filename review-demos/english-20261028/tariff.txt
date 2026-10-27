@@ -1,0 +1,21 @@
+TARIFF | ENGLISH HISTORICAL EVIDENCE GUIDE
+
+Edited sampled October 19, 2026 Claude response captures.
+
+Reopened with specific read-only permission on October 28; no new business or model calls.
+
+Not a continuous recording, a new execution, or an OpenAI saved-version test.
+
+Original response UI is retained; sidebar, account area and unrelated chats are excluded.
+
+The three negative capability prompts are NOT RUN and are not shown as passed.
+
+
+
+Scene 1: Historical service-flow call 1 classified the synthetic steel tower as HS 7308200000. This is an illustrative local classification, not a customs ruling. Only two combined service-flow calls are evidenced here.
+
+Scene 2: The same historical call displayed applied rate 12.5 with an illustrative overlay. This October 17 test value is not a current official duty, CBAM charge, tax quotation or legal advice.
+
+Scene 3: Historical call 1 returned origin PASS for the supplied different material code. Its audit retained the supplied-input digests. This is a local rule result, not a certificate of origin.
+
+Scene 4: Historical call 2 changed only the material HS input to 7308200000 and returned origin FAIL. Classification/rate input digests stayed equal while origin input digest changed. Original wording issues and changing output UUIDs remain; no runtime fix is claimed.

@@ -1,0 +1,21 @@
+PRICEOPT | ENGLISH HISTORICAL EVIDENCE GUIDE
+
+Edited sampled October 19, 2026 Claude response captures.
+
+Reopened with specific read-only permission on October 28; no new business or model calls.
+
+Not a continuous recording, a new execution, or an OpenAI saved-version test.
+
+Original response UI is retained; sidebar, account area and unrelated chats are excluded.
+
+The three negative capability prompts are NOT RUN and are not shown as passed.
+
+
+
+Scene 1: Historical scope creation stored the supplied synthetic bounds and movement cap. This sets local advisory test inputs; it does not change a live commercial price.
+
+Scene 2: Historical demand ingest stored the supplied 8000 impressions, 400 conversions and 360 completions. These are invented telemetry values, not a real experiment.
+
+Scene 3: Historical recommendation returned priceMicro 2380000 with CONSERVATIVE tier and confidence 0.68. The result is a local heuristic; no external model training, experiment or price publication is shown.
+
+Scene 4: Historical nominal validation returned APPROVED and approvedMicro 2380000 with overrideMicro omitted. This was local validation only, not a transaction or a published price. Prior rejected override attempts and prospective cap-rejection cases are not shown as executed.

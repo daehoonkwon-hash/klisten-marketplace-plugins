@@ -1,0 +1,25 @@
+LANDED | ENGLISH HISTORICAL EVIDENCE GUIDE
+
+Edited sampled October 19, 2026 Claude response captures.
+
+Reopened with specific read-only permission on October 28; no new business or model calls.
+
+Not a continuous recording, a new execution, or an OpenAI saved-version test.
+
+Original response UI is retained; sidebar, account area and unrelated chats are excluded.
+
+The three negative capability prompts are NOT RUN and are not shown as passed.
+
+
+
+Scene 1: Historical first synthetic quote: ten EA at USD 10 each returned goods subtotal 100. No supplier was contacted and no purchase was made.
+
+Scene 2: Historical second synthetic quote: ten EA at USD 20 each returned goods subtotal 200. These are supplied test values, not live market quotes.
+
+Scene 3: Historical freight addition stored USD 20 on the first synthetic quote, using TOTAL basis. No payment or real shipment was created.
+
+Scene 4: Historical normalization retained goods value 100 in USD/EA. The example does not demonstrate a live foreign-exchange lookup.
+
+Scene 5: Historical cost calculation returned total landed 120 and unit cost 12 for ten EA, including the supplied freight amount. This is a local estimate from the test inputs.
+
+Scene 6: Historical comparison ranked the first synthetic quote at unit cost 12 before the second at 20. The result does not order goods, negotiate with suppliers or make a purchase.
