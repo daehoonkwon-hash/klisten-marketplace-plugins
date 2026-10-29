@@ -1,0 +1,11 @@
+PATCHPROOF | ENGLISH SUPPLEMENTARY EVIDENCE
+
+October 29, 2026: existing Claude connection refreshed with its existing public client and verify:read; the dedicated $0 reviewer key was reused. Exactly one patchproof_status read of the previously approved shared historical record succeeded. COMPLETED / VERIFIED_PASS and original October 10 timestamps were returned, with report_present, receipt_present and shared_review_fixture true. This does not certify new/current code.
+
+A second English model prompt confirmed all three unsupported boundaries without tools: new arbitrary-code verification, cancellation/restart, and report/receipt download or cryptographic signature validation. No further business calls, new fixtures, payment or production change occurred. The read tool was restored to Blocked.
+
+The 30-second video is an edited representative still of the actual returned table and historical-evidence limitation, not continuous live recording, a fresh verification job or exact OpenAI saved-version testing. The private record UUID, account/sidebar, inputs and credentials are excluded.
+
+One historical completed-pass fixture is established. Four proposed other-state fixtures remain UNAVAILABLE/NOT RUN, not simulated as live evidence. OpenAI existing associated-app API_KEY/OAuth mismatch and required scan remain unresolved. This evidence is supplementary only.
+
+Current shared-fixture access expires October 31, 2026 at 09:00 KST under the existing authorization; no extension is implied.
