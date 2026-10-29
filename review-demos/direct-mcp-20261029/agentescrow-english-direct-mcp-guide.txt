@@ -1,0 +1,9 @@
+Klisten AgentEscrow — English direct-MCP evidence
+
+This 30-second edited still replays one actual read completed October 29, 2026 at 12:36 UTC. It is not a continuous recording, native model-host test, or exact OpenAI company saved-version test.
+
+A dedicated review organization created one synthetic USD 1 test-mode draft through the supported REST API, then read that exact private draft through agentescrow_draft_get. The actual returned values were status UNFUNDED_DRAFT, funds unfunded and release_authorized false. Party IDs, artifact hashes and the nominal verification-job reference are synthetic and unverified. This is not evidence of delivery, a successful verification job, an accepted contract or an enforceable escrow arrangement. No deposit, funding, funds hold, transfer, settlement or release occurred.
+
+The temporary zero-limit key had only escrow:read and escrow:write. It was revoked immediately after the test; the existing review key and its permissions were preserved. The synthetic draft remains stored in the dedicated review organization. Private organization IDs and all key material are excluded.
+
+Only one direct read was run. Remaining input-recovery workflows and all model-host refusal cases are NOT RUN. Exact OpenAI saved-version conversations are NOT RUN. Reviewer API-key configuration and tool scanning remain portal dependencies, and no OpenAI submission or approval is claimed.
