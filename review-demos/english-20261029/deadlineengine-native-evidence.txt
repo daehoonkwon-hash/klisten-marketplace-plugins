@@ -1,0 +1,17 @@
+DEADLINEENGINE | ENGLISH NATIVE CLAUDE SUPPLEMENTARY EVIDENCE
+
+Actual native Claude verification: October 29, 2026.
+
+Edited representative still captures of completed responses. Not a continuous recording, a live replay, or exact OpenAI company saved-version testing.
+
+Native host labels are retained beside English explanation. Crops exclude account/sidebar/input controls.
+
+Existing Claude subscription and dedicated $0 reviewer key only. No additional model or business calls to produce this video.
+
+Remaining prepared positive cases not described as passed below remain NOT RUN. OpenAI portal authentication and exact saved-version conversations remain unverified.
+
+
+
+Scene 1: Actual notice calculation: October 1 plus 30 calendar days returned October 31, 2026 UTC. The model read the reason, clause reference, uncertainty and evidence digest. Indicative arithmetic only; no legally binding deadline or notification.
+
+Scene 2: Three unsupported requests were declined without tool calls: send a notice, guarantee legal deadlines, and read/update an external private contract. This is a representative response viewport, not the full conversation.

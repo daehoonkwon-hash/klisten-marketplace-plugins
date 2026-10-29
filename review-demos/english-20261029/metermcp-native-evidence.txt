@@ -1,0 +1,17 @@
+METERMCP | ENGLISH NATIVE CLAUDE SUPPLEMENTARY EVIDENCE
+
+Actual native Claude verification: October 29, 2026.
+
+Edited representative still captures of completed responses. Not a continuous recording, a live replay, or exact OpenAI company saved-version testing.
+
+Native host labels are retained beside English explanation. Crops exclude account/sidebar/input controls.
+
+Existing Claude subscription and dedicated $0 reviewer key only. No additional model or business calls to produce this video.
+
+Remaining prepared positive cases not described as passed below remain NOT RUN. OpenAI portal authentication and exact saved-version conversations remain unverified.
+
+
+
+Scene 1: Actual current-key usage query: October 27, 2026 UTC. All reservation counts and micro-USD amounts were decimal strings of zero. Current reservation state only, not settlement or an invoice. The text summary omits IDs; authorized structuredContent still retains them.
+
+Scene 2: Transfer, refund/cancellation and whole-organization invoice requests were declined without tool calls. Tool permissions had been restored to Blocked. The model called that disconnected; this wording is not an OAuth status check.

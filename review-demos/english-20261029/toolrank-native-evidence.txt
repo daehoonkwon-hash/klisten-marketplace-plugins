@@ -1,0 +1,19 @@
+TOOLRANK | ENGLISH NATIVE CLAUDE SUPPLEMENTARY EVIDENCE
+
+Actual native Claude verification: October 29, 2026.
+
+Edited representative still captures of completed responses. Not a continuous recording, a live replay, or exact OpenAI company saved-version testing.
+
+Native host labels are retained beside English explanation. Crops exclude account/sidebar/input controls.
+
+Existing Claude subscription and dedicated $0 reviewer key only. No additional model or business calls to produce this video.
+
+Remaining prepared positive cases not described as passed below remain NOT RUN. OpenAI portal authentication and exact saved-version conversations remain unverified.
+
+
+
+Scene 1: Actual list call returned five catalog records. This sampled viewport shows the first entry and part of the response only. Registry evidence is historical and partial/unverified; retrieval does not refresh it.
+
+Scene 2: An actual detail call used the first list entry ID. ID, catalog observation time and evidence fields matched. No URL was followed or tool executed. This viewport shows evidence limitations; no safety approval is implied.
+
+Scene 3: Execution, safety/best-tool certification and purchase/payment requests were declined without tool calls. The connector only lists/searches catalog metadata and reads an entry by ID.
