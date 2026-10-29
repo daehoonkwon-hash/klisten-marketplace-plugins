@@ -1,0 +1,9 @@
+Klisten ActionCheck — English direct-MCP evidence
+
+The 30-second video is an edited still showing three actual MCP responses from October29,2026 at12:06UTC. It is a post-run response replay, not continuous live video, a native model-host test, or exact OpenAI company saved-version testing.
+
+Actual calls: permitted zero-cost read ALLOW/POLICY_SATISFIED; different exact resource DENY/RESOURCE_NOT_ALLOWED; write DENY/ACTION_NOT_ALLOWED. All executed:false. The owner-created source policy expires November5,2026 at10:50UTC. ALLOW is an advisory budget/policy snapshot, not execution authority, reservation, a price guarantee or a reusable capability.
+
+A temporary same-organization key with only actions:check/content:check and a zero daily limit was used and revoked after testing. No model calls, payment, content fetch or actual action execution occurred. Private organization/key identifiers and secret credentials are excluded from this public material.
+
+The package contains five supported workflow/input-recovery cases and three unsupported prompts. Only the first three supported cases were run through direct MCP. Two remaining supported cases and all model-host negative prompts are NOT RUN. No OpenAI saved-version conversation is claimed. Existing portal scan failure remains unresolved.
