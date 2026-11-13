@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "dealgate": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/dealgate",
+      "oauth": {
+        "clientId": "ab25477c-2f29-4b8f-ab49-1a8d826dc926",
+        "callbackPort": 8080,
+        "scopes": "dealrate:price"
+      }
+    }
+  }
+}

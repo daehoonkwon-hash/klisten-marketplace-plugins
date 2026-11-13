@@ -62,7 +62,7 @@
     {
       "name": "klisten-agentsafe",
       "source": "./plugins/claude-code/agentsafe",
-      "description": "AgentSafe tools and setup workflow."
+      "description": "Run registered offline recovery contract tests and read stored results. No live models or safety certification."
     },
     {
       "name": "klisten-failbox",
@@ -72,7 +72,7 @@
     {
       "name": "klisten-dealgate",
       "source": "./plugins/claude-code/dealgate",
-      "description": "DealGate tools and setup workflow."
+      "description": "Calculate indicative quotes from supplied deal inputs. No negotiation, checkout or money movement."
     },
     {
       "name": "klisten-tariff",
@@ -162,47 +162,47 @@
     {
       "name": "klisten-entityresolver",
       "source": "./plugins/claude-code/entityresolver",
-      "description": "entityresolver MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "Compare supplied records and prepare entity-match candidates. Does not change external customer accounts."
     },
     {
       "name": "klisten-mrocompat",
       "source": "./plugins/claude-code/mrocompat",
-      "description": "mrocompat MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "Compare supplied part specifications and rank replacement candidates. Does not establish engineering certification or safety approval."
     },
     {
       "name": "klisten-saasexit",
       "source": "./plugins/claude-code/saasexit",
-      "description": "saasexit MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "Assess supplied SaaS transition criteria and prepare an exit plan. Does not migrate accounts or data."
     },
     {
       "name": "klisten-contextcondense",
       "source": "./plugins/claude-code/contextcondense",
-      "description": "contextcondense MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "Condense and recover supplied context through a deterministic workflow. External language-model processing is not provided."
     },
     {
       "name": "klisten-mgacert",
       "source": "./plugins/claude-code/mgacert",
-      "description": "mgacert MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "Prepare telemetry risk reviews and draft submission packs. Does not issue binding insurance coverage or actual insurance certificates."
     },
     {
       "name": "klisten-spendrecovery",
       "source": "./plugins/claude-code/spendrecovery",
-      "description": "spendrecovery MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "Audit supplied payment records and prepare dispute-document drafts. Estimated savings do not establish money recovered."
     },
     {
       "name": "klisten-crossborder",
       "source": "./plugins/claude-code/crossborder",
-      "description": "crossborder MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "Prepare supplied-data cross-border checks and compliance-document drafts. Does not establish legal clearance or verified live sanctions status."
     },
     {
       "name": "klisten-lossrunrefresh",
       "source": "./plugins/claude-code/lossrunrefresh",
-      "description": "lossrunrefresh MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "Normalize supplied loss-run records and prepare renewal-document drafts. Does not submit to insurers or verify external source records."
     },
     {
       "name": "klisten-adupermit",
       "source": "./plugins/claude-code/adupermit",
-      "description": "adupermit MIT client setup source; not install ready, no registered OAuth endpoint/client."
+      "description": "Prepare sample ADU plan prechecks and correction lists from supplied data. Official permits and legal approval remain blocked."
     }
   ]
 }

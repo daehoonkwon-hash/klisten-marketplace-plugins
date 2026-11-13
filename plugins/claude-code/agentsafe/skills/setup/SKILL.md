@@ -1,15 +1,16 @@
 ---
 name: setup
-description: Set up AgentSafe and inspect its available tools.
+description: Connect Klisten agentsafe and use its documented bounded tools.
 ---
 
-Confirm the configured server and authentication with the user. Never request secret values in chat.
-Use tools/list to confirm the inventory below before calling a tool. Explain required organization identifiers and prerequisites from input schemas. Do not invent tenant IDs or claim an unrun operation succeeded.
+Use the MCP server declared in this package. Sign in to the existing Klisten account and approve only agentsafe:run agentsafe:health. Never ask for raw API keys, passwords or OAuth tokens in chat.
 
-Included services: agentsafe.
+Use tools/list to confirm agentsafe_run, agentsafe_health and inspect current schemas before a call. Do not invent tenant IDs or report an operation that was not run.
 
+Run registered offline recovery contract tests and read stored results. No live models or safety certification.
 
+Only owner-provisioned immutable offline JavaScript workflows are supported. Check the current enabled period and quota before a run. An expired access window must be renewed by the owner; reconnecting does not renew it.
 
-Inspect tools/list input schemas for all inputs. Parent extensions are included here once; do not install them as separate products.
+Review proposed writes or executions before use. Reuse exact request keys for retries. Stored results describe only the recorded test, not a live operational guarantee.
 
-This candidate has no active MCP connection. Do not claim the listed operations are currently available. Follow readiness.json; do not activate staged parent settings or invent an endpoint.
+This package uses the existing public OAuth client. It does not create clients, extend permissions, make payments or certify marketplace approval. See readiness.json for host verification limits.

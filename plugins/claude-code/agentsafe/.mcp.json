@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "agentsafe": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/agentsafe",
+      "oauth": {
+        "clientId": "e7bf5d1d-aea9-44f5-8c95-faa4181b0c22",
+        "callbackPort": 8080,
+        "scopes": "agentsafe:run agentsafe:health"
+      }
+    }
+  }
+}
