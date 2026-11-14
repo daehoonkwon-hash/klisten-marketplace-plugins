@@ -1,10 +1,14 @@
-# MeterMCP — cursor client candidate
+# MeterMCP — Cursor client
 
-This identity retains the MeterMCP parent and its staged InvoiceAudit and SLAudit extensions.
+Read usage for the authenticated key. An empty or zero usage response is valid; no charging or funding.
 
-The extension configuration is stored only in staged-mcp-config.json and is disabled for active MCP discovery. It must not replace an existing legacy connection or be advertised as a verified working integration. Existing parent contracts and remote identities require reconciliation before activation.
+This package uses Cursor's supported plugin variable schema and bearer header. In Plugins → Configure, set `KLISTEN_API_KEY` to your own existing key with only `meter:read`. The secret is not stored in this package and is sent only to `https://api.klisten.co.kr/mcp/metermcp`. A 0 USD capped key is recommended for free checks. Never paste secrets in chat.
 
-Readiness remains false in readiness.json. Marketplace approval, actual host installation, and host parser acceptance are not asserted. The Claude Code and Cursor executables were unavailable for this build, so native validation has not been run. Review the included setup skill and readiness notes before configuring a connection. Do not create a duplicate of an existing remote product identity.
+The server enforces the key's organization, permissions and service prerequisites. Installation does not grant permissions, buy a scan, issue a content license or fund an account. Existing OAuth clients and other installed connections are unchanged.
+
+Use `tools/list` to inspect the current server schema before a call. Expected bounded inventory: `metermcp_usage_get`. ClearGate needs an existing unexpired free grant; AgentScore needs an existing activity owned by the originating key; ActionCheck needs an owner policy. Do not create a paid prerequisite for a test.
+
+Configuration and JSON checks are complete. Native Cursor installation and authenticated execution of this exact package remain unverified; marketplace acceptance is separate. See `readiness.json`.
 
 This package contains only public client configuration, setup instructions, documentation, and an icon. It does not contain a backend engine or database. The MIT license in LICENSE applies only to the contents distributed in this package. It does not license the Klisten server, hosted API implementation, databases, private code, or other materials outside this package. Access to hosted services remains subject to their applicable terms and authorization.
 

@@ -1,7 +1,7 @@
 {
   "name": "klisten-cleargate",
-  "version": "0.1.1",
-  "description": "ClearGate tools and setup workflow.",
+  "version": "0.1.2",
+  "description": "Check an existing signed free content grant against a supplied intent. No grant creation, content fetch, payment or execution.",
   "author": {
     "name": "Klisten Inc",
     "email": "klisteninc@gmail.com",
@@ -16,5 +16,19 @@
     "mcp",
     "client-config"
   ],
-  "logo": "assets/icon.png"
+  "logo": "assets/icon.png",
+  "mcpServers": "./mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "KLISTEN_API_KEY": {
+        "type": "string",
+        "title": "Scoped Klisten API key",
+        "description": "Existing user-owned key with content:check. Set through Cursor Configure; never put the secret in source or chat."
+      }
+    },
+    "required": [
+      "KLISTEN_API_KEY"
+    ]
+  }
 }
